@@ -157,6 +157,22 @@
       "official": false
     },
     {
+      "slug": "f-xyz",
+      "name": "f.xyz",
+      "description": "The Operating System for Autonomous Trading",
+      "url": "https://f.xyz/",
+      "twitter": "",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/f-xyz_logo.png",
+      "categories": [
+        "Agents",
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
       "slug": "growthepie-2",
       "name": "Growthepie",
       "description": "",
@@ -609,5 +625,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-05T18:02:18.981Z"
+  "generatedAt": "2026-06-05T18:41:20.477Z"
 }

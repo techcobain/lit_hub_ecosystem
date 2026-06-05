@@ -1,0 +1,12 @@
+{
+  "name": "Defillama",
+  "description": "",
+  "url": "https://defillama.com/protocol/lighter",
+  "twitter": "",
+  "logo": "/logos/defillama_logo.ico",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

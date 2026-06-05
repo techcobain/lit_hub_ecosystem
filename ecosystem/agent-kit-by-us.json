@@ -1,0 +1,12 @@
+{
+  "name": "Lighter's Agent Kit",
+  "description": "Agent Skill to let AI Agents trade on Lighter. Contribute to elliottech/lighter-agent-kit development by creating an…",
+  "url": "https://github.com/elliottech/lighter-agent-kit",
+  "twitter": "",
+  "logo": "/logos/agent-kit-by-us_logo.svg",
+  "categories": [
+    "Developers"
+  ],
+  "status": "Live",
+  "official": true
+}

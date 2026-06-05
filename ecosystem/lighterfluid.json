@@ -1,0 +1,13 @@
+{
+  "name": "LighterFluid",
+  "description": "Professional perpetual futures trading terminal on Lighter DEX. Advanced charting, one-click trading, copy trading…",
+  "url": "https://lighterfluid.xyz",
+  "twitter": "",
+  "logo": "/logos/lighterfluid_logo.png",
+  "categories": [
+    "Bots",
+    "Copytrade"
+  ],
+  "status": "Live",
+  "official": false
+}

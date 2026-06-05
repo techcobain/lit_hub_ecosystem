@@ -1,0 +1,15 @@
+{
+  "name": "Minara AI",
+  "description": "Your personal AI agent for trading stocks, commodities, crypto, pre-IPO equity.",
+  "url": "https://minara.ai/",
+  "twitter": "https://x.com/minara",
+  "discord": "https://discord.com/invite/minaraai",
+  "telegram": "",
+  "logo": "/logos/minara-ai_logo.png",
+  "categories": [
+    "Agents",
+    "Bots"
+  ],
+  "status": "Live",
+  "official": false
+}

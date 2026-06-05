@@ -1,0 +1,12 @@
+{
+  "name": "Brightside",
+  "description": "The Only Perp App You Need",
+  "url": "https://brightside.gg",
+  "twitter": "",
+  "logo": "/logos/brightside_logo.png",
+  "categories": [
+    "Apps"
+  ],
+  "status": "Live",
+  "official": false
+}

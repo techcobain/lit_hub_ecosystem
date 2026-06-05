@@ -1,0 +1,13 @@
+{
+  "name": "Rust SDK by lobstergrindset",
+  "description": "Public Rust SDK for Lighter",
+  "url": "https://github.com/lobstergrindset/lighter-rust",
+  "twitter": "",
+  "discord": "",
+  "logo": "/logos/rust-sdk-by-will-lily_logo.svg",
+  "categories": [
+    "Developers"
+  ],
+  "status": "Live",
+  "official": false
+}

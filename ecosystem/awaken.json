@@ -1,0 +1,12 @@
+{
+  "name": "Awaken",
+  "description": "Crypto Tax Software for Crypto Natives",
+  "url": "https://awaken.tax/",
+  "twitter": "",
+  "logo": "/logos/awaken_logo.ico",
+  "categories": [
+    "Taxes"
+  ],
+  "status": "Live",
+  "official": false
+}

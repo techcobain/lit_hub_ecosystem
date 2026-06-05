@@ -1,0 +1,13 @@
+{
+  "name": "Telegram Wallet",
+  "description": "Official self-custodial crypto wallet integrated directly into Telegram",
+  "url": "https://t.me/wallet",
+  "twitter": "@wallet_tg",
+  "discord": "",
+  "logo": "/logos/telegram-wallet_logo.png",
+  "categories": [
+    "Bots"
+  ],
+  "status": "Live",
+  "official": false
+}

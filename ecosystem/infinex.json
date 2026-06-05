@@ -1,0 +1,12 @@
+{
+  "name": "Infinex",
+  "description": "Meet a new kind of wallet",
+  "url": "https://infinex.xyz",
+  "twitter": "",
+  "logo": "/logos/infinex_logo.svg",
+  "categories": [
+    "Apps"
+  ],
+  "status": "Live",
+  "official": false
+}

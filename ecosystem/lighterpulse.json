@@ -1,0 +1,12 @@
+{
+  "name": "Lighterpulse",
+  "description": "Comprehensive analytics platform for Lighter.xyz featuring real-time trading stats, funding rate comparisons, exchange…",
+  "url": "https://lighterpulse.xyz",
+  "twitter": "",
+  "logo": "/logos/lighterpulse_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

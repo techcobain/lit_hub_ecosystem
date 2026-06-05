@@ -1,0 +1,12 @@
+{
+  "name": "Otomato",
+  "description": "Real-time Onchain alerts for your positions. Health factor, rate spikes, depegs, governance. Monitors Aave, Morpho…",
+  "url": "https://otomato.xyz",
+  "twitter": "",
+  "logo": "/logos/otomato_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

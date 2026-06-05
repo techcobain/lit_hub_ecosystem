@@ -1,0 +1,12 @@
+{
+  "name": "Lightalytics",
+  "description": "Traders’ positions, Lighter.xyz growth and stats, revenue projections, premium users, open interest and funding rates…",
+  "url": "https://lightalytics.com/",
+  "twitter": "",
+  "logo": "/logos/lightalytics_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

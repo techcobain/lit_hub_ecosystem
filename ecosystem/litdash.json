@@ -1,0 +1,12 @@
+{
+  "name": "Litdash",
+  "description": "Real-time LIT staking analytics — TVL, leaderboard, stake changes, and unstaking queue.",
+  "url": "https://litdash.xyz/",
+  "twitter": "",
+  "logo": "/logos/litdash_logo.svg",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Delphi Digital",
+  "description": "Real-time analytics for top traders on Lighter perp DEX",
+  "url": "https://lighter-research.vercel.app/",
+  "twitter": "",
+  "logo": "/logos/delphi-digital_logo.ico",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Coingecko",
+  "description": "",
+  "url": "https://www.coingecko.com/en/coins/lighter",
+  "twitter": "",
+  "logo": "/logos/coingecko_logo.ico",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

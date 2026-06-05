@@ -1,0 +1,12 @@
+{
+  "name": "Prism bot",
+  "description": "Track traders, funding rates, new listings, and milestones.",
+  "url": "https://t.me/lighter_notification_bot",
+  "twitter": "https://x.com/StayRoamer",
+  "logo": "/logos/prism-bot_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

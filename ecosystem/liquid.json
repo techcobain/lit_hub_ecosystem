@@ -1,0 +1,12 @@
+{
+  "name": "Liquid",
+  "description": "Your trading super app. Trade from anywhere and multiply your returns by up to 200x.",
+  "url": "https://www.liquid.trade/",
+  "twitter": "",
+  "logo": "/logos/liquid_logo.ico",
+  "categories": [
+    "Apps"
+  ],
+  "status": "Live",
+  "official": false
+}

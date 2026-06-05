@@ -1,0 +1,12 @@
+{
+  "name": "Rabby",
+  "description": "The game-changing wallet for Ethereum and all EVM chains",
+  "url": "https://rabby.io/",
+  "twitter": "",
+  "logo": "/logos/rabby_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Robonet",
+  "description": "Deploy Quants at Scale",
+  "url": "https://robonet.finance/",
+  "twitter": "",
+  "logo": "/logos/robonet_logo.ico",
+  "categories": [
+    "Agents"
+  ],
+  "status": "Live",
+  "official": false
+}

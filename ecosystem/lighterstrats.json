@@ -1,0 +1,12 @@
+{
+  "name": "LighterStrats",
+  "description": "AI-powered trading strategies on Lighter. Describe your idea, backtest it, deploy it.",
+  "url": "https://lighterstrats.ai/",
+  "twitter": "",
+  "logo": "/logos/lighterstrats_logo.png",
+  "categories": [
+    "Agents"
+  ],
+  "status": "Live",
+  "official": false
+}

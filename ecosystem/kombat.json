@@ -1,0 +1,12 @@
+{
+  "name": "Kombat",
+  "description": "Kombat is a non-custodial, multi-DEX execution terminal for onchain equities and crypto: perps, pairs, routing…",
+  "url": "https://kombat.trade/",
+  "twitter": "",
+  "logo": "/logos/kombat_logo.svg",
+  "categories": [
+    "Apps"
+  ],
+  "status": "Live",
+  "official": false
+}

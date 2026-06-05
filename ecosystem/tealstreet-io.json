@@ -1,0 +1,14 @@
+{
+  "name": "Tealstreet.io",
+  "description": "All-in-one trading terminal for crypto.",
+  "url": "https://www.tealstreet.io/",
+  "twitter": "https://x.com/tealstreet",
+  "discord": "https://discord.gg/ZD8yWbTxju",
+  "telegram": "",
+  "logo": "/logos/tealstreet-io_logo.png",
+  "categories": [
+    "Terminal"
+  ],
+  "status": "Live",
+  "official": false
+}

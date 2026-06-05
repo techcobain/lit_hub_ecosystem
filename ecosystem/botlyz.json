@@ -1,0 +1,12 @@
+{
+  "name": "Botlyz",
+  "description": "Botlyz automates your crypto trading 24/7 via Telegram. Your funds, your control.",
+  "url": "https://botlyz.com",
+  "twitter": "",
+  "logo": "/logos/botlyz_logo.jpg",
+  "categories": [
+    "Bots"
+  ],
+  "status": "Live",
+  "official": false
+}

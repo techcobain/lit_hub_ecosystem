@@ -1,0 +1,12 @@
+{
+  "name": "CoinAnk",
+  "description": "CoinAnk is a cryptocurrency futures trading & information platform,where you can find the BTC Liquidations…",
+  "url": "https://coinank.com/",
+  "twitter": "",
+  "logo": "/logos/coinank_logo.ico",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

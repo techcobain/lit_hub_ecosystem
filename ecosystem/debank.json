@@ -1,0 +1,12 @@
+{
+  "name": "DeBank",
+  "description": "Your go-to portfolio tracker for Ethereum and EVM",
+  "url": "https://debank.com/",
+  "twitter": "",
+  "logo": "/logos/debank_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

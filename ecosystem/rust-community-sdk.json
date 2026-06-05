@@ -1,0 +1,12 @@
+{
+  "name": "Rust Community SDK",
+  "description": "Community built Native RUST-SDK for Lighter exchange. - smartcrypto0/lighter-rust",
+  "url": "https://github.com/smartcrypto0/lighter-rust",
+  "twitter": "",
+  "logo": "/logos/rust-community-sdk_logo.svg",
+  "categories": [
+    "Developers"
+  ],
+  "status": "Live",
+  "official": false
+}

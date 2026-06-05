@@ -1,0 +1,12 @@
+{
+  "name": "TradeStream",
+  "description": "TradeStream - The trading journal designed to increase your profits",
+  "url": "https://tradestream.xyz/",
+  "twitter": "",
+  "logo": "/logos/tradestream_logo.ico",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

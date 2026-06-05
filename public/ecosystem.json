@@ -1,0 +1,613 @@
+{
+  "projects": [
+    {
+      "slug": "agent-kit-by-us",
+      "name": "Lighter's Agent Kit",
+      "description": "Agent Skill to let AI Agents trade on Lighter. Contribute to elliottech/lighter-agent-kit development by creating an…",
+      "url": "https://github.com/elliottech/lighter-agent-kit",
+      "twitter": "",
+      "logo": "/logos/agent-kit-by-us_logo.svg",
+      "categories": [
+        "Developers"
+      ],
+      "status": "Live",
+      "official": true
+    },
+    {
+      "slug": "artemis",
+      "name": "Artemis",
+      "description": "Metrics that matter for digital assets and stablecoins. All in one place.",
+      "url": "https://classic.artemis.ai/asset/lighter",
+      "twitter": "",
+      "logo": "/logos/artemis_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "awaken",
+      "name": "Awaken",
+      "description": "Crypto Tax Software for Crypto Natives",
+      "url": "https://awaken.tax/",
+      "twitter": "",
+      "logo": "/logos/awaken_logo.ico",
+      "categories": [
+        "Taxes"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "botlyz",
+      "name": "Botlyz",
+      "description": "Botlyz automates your crypto trading 24/7 via Telegram. Your funds, your control.",
+      "url": "https://botlyz.com",
+      "twitter": "",
+      "logo": "/logos/botlyz_logo.jpg",
+      "categories": [
+        "Bots"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "brightside",
+      "name": "Brightside",
+      "description": "The Only Perp App You Need",
+      "url": "https://brightside.gg",
+      "twitter": "",
+      "logo": "/logos/brightside_logo.png",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "ccxt",
+      "name": "CCXT",
+      "description": "",
+      "url": "https://ccxt.com/",
+      "twitter": "",
+      "logo": "",
+      "categories": [
+        "Developers"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "coinank",
+      "name": "CoinAnk",
+      "description": "CoinAnk is a cryptocurrency futures trading & information platform,where you can find the BTC Liquidations…",
+      "url": "https://coinank.com/",
+      "twitter": "",
+      "logo": "/logos/coinank_logo.ico",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "coingecko",
+      "name": "Coingecko",
+      "description": "",
+      "url": "https://www.coingecko.com/en/coins/lighter",
+      "twitter": "",
+      "logo": "/logos/coingecko_logo.ico",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "coinmaketcap",
+      "name": "CoinmaketCap",
+      "description": "The live Lighter price today is $0.9157 USD with a 24-hour trading volume of $30,517,245.37 USD. We update our LIT to…",
+      "url": "https://coinmarketcap.com/currencies/lighter/",
+      "twitter": "",
+      "logo": "/logos/coinmaketcap_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "debank",
+      "name": "DeBank",
+      "description": "Your go-to portfolio tracker for Ethereum and EVM",
+      "url": "https://debank.com/",
+      "twitter": "",
+      "logo": "/logos/debank_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "defillama",
+      "name": "Defillama",
+      "description": "",
+      "url": "https://defillama.com/protocol/lighter",
+      "twitter": "",
+      "logo": "/logos/defillama_logo.ico",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "delphi-digital",
+      "name": "Delphi Digital",
+      "description": "Real-time analytics for top traders on Lighter perp DEX",
+      "url": "https://lighter-research.vercel.app/",
+      "twitter": "",
+      "logo": "/logos/delphi-digital_logo.ico",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "growthepie-2",
+      "name": "Growthepie",
+      "description": "",
+      "url": "https://growthepie.up.railway.app/",
+      "twitter": "",
+      "logo": "",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "growthepie",
+      "name": "Growthepie",
+      "description": "The open analytics platform for the Ethereum ecosystem. Tracking Ethereum Mainnet, Layer 2s, and onchain applications…",
+      "url": "https://www.growthepie.com/",
+      "twitter": "",
+      "logo": "/logos/growthepie_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "hawk-trade",
+      "name": "Hawk Trade",
+      "description": "Unmatched execution speeds—trade crypto, forex, and commodities with up to 150x leverage. No KYC, instant access for…",
+      "url": "https://hawk.trade/",
+      "twitter": "",
+      "logo": "/logos/hawk-trade_logo.png",
+      "categories": [
+        "Bots"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "hypurrquant-cli",
+      "name": "Hypurrquant CLI",
+      "description": "",
+      "url": "https://x.com/goo9801/status/2030949122006814759?s=46",
+      "twitter": "",
+      "logo": "/logos/hypurrquant-cli_logo.svg",
+      "categories": [
+        "Developers"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "infinex",
+      "name": "Infinex",
+      "description": "Meet a new kind of wallet",
+      "url": "https://infinex.xyz",
+      "twitter": "",
+      "logo": "/logos/infinex_logo.svg",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "kombat",
+      "name": "Kombat",
+      "description": "Kombat is a non-custodial, multi-DEX execution terminal for onchain equities and crypto: perps, pairs, routing…",
+      "url": "https://kombat.trade/",
+      "twitter": "",
+      "logo": "/logos/kombat_logo.svg",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "lightalytics",
+      "name": "Lightalytics",
+      "description": "Traders’ positions, Lighter.xyz growth and stats, revenue projections, premium users, open interest and funding rates…",
+      "url": "https://lightalytics.com/",
+      "twitter": "",
+      "logo": "/logos/lightalytics_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "lighterfluid",
+      "name": "LighterFluid",
+      "description": "Professional perpetual futures trading terminal on Lighter DEX. Advanced charting, one-click trading, copy trading…",
+      "url": "https://lighterfluid.xyz",
+      "twitter": "",
+      "logo": "/logos/lighterfluid_logo.png",
+      "categories": [
+        "Bots",
+        "Copytrade"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "lighterlytics",
+      "name": "Lighterlytics",
+      "description": "",
+      "url": "https://lighterlytics.com/",
+      "twitter": "",
+      "logo": "",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "lighterpulse",
+      "name": "Lighterpulse",
+      "description": "Comprehensive analytics platform for Lighter.xyz featuring real-time trading stats, funding rate comparisons, exchange…",
+      "url": "https://lighterpulse.xyz",
+      "twitter": "",
+      "logo": "/logos/lighterpulse_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "lighterstatsx",
+      "name": "LighterStatsX",
+      "description": "",
+      "url": "https://www.lighterstatsx.xyz/",
+      "twitter": "",
+      "logo": "/logos/lighterstatsx_logo.svg",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "lighterstrats",
+      "name": "LighterStrats",
+      "description": "AI-powered trading strategies on Lighter. Describe your idea, backtest it, deploy it.",
+      "url": "https://lighterstrats.ai/",
+      "twitter": "",
+      "logo": "/logos/lighterstrats_logo.png",
+      "categories": [
+        "Agents"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "liquid",
+      "name": "Liquid",
+      "description": "Your trading super app. Trade from anywhere and multiply your returns by up to 200x.",
+      "url": "https://www.liquid.trade/",
+      "twitter": "",
+      "logo": "/logos/liquid_logo.ico",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "litdash",
+      "name": "Litdash",
+      "description": "Real-time LIT staking analytics — TVL, leaderboard, stake changes, and unstaking queue.",
+      "url": "https://litdash.xyz/",
+      "twitter": "",
+      "logo": "/logos/litdash_logo.svg",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "litscan",
+      "name": "LitScan",
+      "description": "",
+      "url": "https://litscan.xyz",
+      "twitter": "",
+      "logo": "",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "minara-ai",
+      "name": "Minara AI",
+      "description": "Your personal AI agent for trading stocks, commodities, crypto, pre-IPO equity.",
+      "url": "https://minara.ai/",
+      "twitter": "https://x.com/minara",
+      "discord": "https://discord.com/invite/minaraai",
+      "telegram": "",
+      "logo": "/logos/minara-ai_logo.png",
+      "categories": [
+        "Agents",
+        "Bots"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "miracle",
+      "name": "Miracle",
+      "description": "An all in one financial platform for trading",
+      "url": "https://www.miracletrade.com/",
+      "twitter": "",
+      "logo": "/logos/miracle_logo.ico",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "mozi-finance",
+      "name": "Mozi Finance",
+      "description": "Trade on Hyperliquid, Aster and Lighter from one dashboard - unified balance.",
+      "url": "https://mozi.finance/",
+      "twitter": "",
+      "logo": "/logos/mozi-finance_logo.ico",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "nomina",
+      "name": "Nomina",
+      "description": "Nomina is the first unified trading platform for perpetual futures DEXs. Automate strategies, scale volume, and go all…",
+      "url": "https://www.nomina.io/",
+      "twitter": "",
+      "logo": "/logos/nomina_logo.png",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "origami-tech",
+      "name": "Origami.tech",
+      "description": "Build and run automated crypto trading strategies across CEXes and DEXes with a low-code, non-custodial platform…",
+      "url": "https://origami.tech/",
+      "twitter": "",
+      "logo": "/logos/origami-tech_logo.svg",
+      "categories": [
+        "Terminal"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "otomato",
+      "name": "Otomato",
+      "description": "Real-time Onchain alerts for your positions. Health factor, rate spikes, depegs, governance. Monitors Aave, Morpho…",
+      "url": "https://otomato.xyz",
+      "twitter": "",
+      "logo": "/logos/otomato_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "prism-bot",
+      "name": "Prism bot",
+      "description": "Track traders, funding rates, new listings, and milestones.",
+      "url": "https://t.me/lighter_notification_bot",
+      "twitter": "https://x.com/StayRoamer",
+      "logo": "/logos/prism-bot_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "pulsetrader",
+      "name": "PulseTrader",
+      "description": "Trade crypto with instant execution and advanced strategies.",
+      "url": "https://pulsetrader.xyz/",
+      "twitter": "",
+      "logo": "/logos/pulsetrader_logo.png",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "rabby",
+      "name": "Rabby",
+      "description": "The game-changing wallet for Ethereum and all EVM chains",
+      "url": "https://rabby.io/",
+      "twitter": "",
+      "logo": "/logos/rabby_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "robonet",
+      "name": "Robonet",
+      "description": "Deploy Quants at Scale",
+      "url": "https://robonet.finance/",
+      "twitter": "",
+      "logo": "/logos/robonet_logo.ico",
+      "categories": [
+        "Agents"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "rust-community-sdk",
+      "name": "Rust Community SDK",
+      "description": "Community built Native RUST-SDK for Lighter exchange. - smartcrypto0/lighter-rust",
+      "url": "https://github.com/smartcrypto0/lighter-rust",
+      "twitter": "",
+      "logo": "/logos/rust-community-sdk_logo.svg",
+      "categories": [
+        "Developers"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "rust-sdk-by-will-lily",
+      "name": "Rust SDK by lobstergrindset",
+      "description": "Public Rust SDK for Lighter",
+      "url": "https://github.com/lobstergrindset/lighter-rust",
+      "twitter": "",
+      "discord": "",
+      "logo": "/logos/rust-sdk-by-will-lily_logo.svg",
+      "categories": [
+        "Developers"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "rust-sdk-by-yeule0",
+      "name": "Rust SDK by yeule0",
+      "description": "Native Rust cryptographic signer for the Lighter DEX protocol",
+      "url": "https://github.com/yeule0/lighter-rs",
+      "twitter": "",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/rust-sdk-by-yeule0_logo.svg",
+      "categories": [
+        "Developers"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "tealstreet-io",
+      "name": "Tealstreet.io",
+      "description": "All-in-one trading terminal for crypto.",
+      "url": "https://www.tealstreet.io/",
+      "twitter": "https://x.com/tealstreet",
+      "discord": "https://discord.gg/ZD8yWbTxju",
+      "telegram": "",
+      "logo": "/logos/tealstreet-io_logo.png",
+      "categories": [
+        "Terminal"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "telegram-wallet",
+      "name": "Telegram Wallet",
+      "description": "Official self-custodial crypto wallet integrated directly into Telegram",
+      "url": "https://t.me/wallet",
+      "twitter": "@wallet_tg",
+      "discord": "",
+      "logo": "/logos/telegram-wallet_logo.png",
+      "categories": [
+        "Bots"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "tokenomics",
+      "name": "Tokenomics",
+      "description": "Lighter tokenomics breakdown: LIT token allocation, vesting schedules, supply, emissions, unlocks, utility, and…",
+      "url": "https://app.tokenomics.com/tokenomics/lighter",
+      "twitter": "",
+      "logo": "/logos/tokenomics_logo.ico",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "tradestream",
+      "name": "TradeStream",
+      "description": "TradeStream - The trading journal designed to increase your profits",
+      "url": "https://tradestream.xyz/",
+      "twitter": "",
+      "logo": "/logos/tradestream_logo.ico",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "typescript-community-sdk",
+      "name": "Typescript Community SDK",
+      "description": "Community built TS-SDK for Lighter exchange. . Contribute to smartcrypto0/lighter-ts development by creating an…",
+      "url": "https://github.com/smartcrypto0/lighter-ts",
+      "twitter": "",
+      "logo": "/logos/typescript-community-sdk_logo.svg",
+      "categories": [
+        "Developers"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
+      "slug": "vooi",
+      "name": "Vooi",
+      "description": "Trade crypto and RWA perps with one balance, zero gas, and no bridges. VOOI V2 brings CEX-grade UX to decentralized…",
+      "url": "https://vooi.io/",
+      "twitter": "",
+      "logo": "/logos/vooi_logo.png",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    }
+  ],
+  "generatedAt": "2026-06-05T17:57:54.266Z"
+}

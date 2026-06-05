@@ -1,0 +1,12 @@
+{
+  "name": "Origami.tech",
+  "description": "Build and run automated crypto trading strategies across CEXes and DEXes with a low-code, non-custodial platform…",
+  "url": "https://origami.tech/",
+  "twitter": "",
+  "logo": "/logos/origami-tech_logo.svg",
+  "categories": [
+    "Terminal"
+  ],
+  "status": "Live",
+  "official": false
+}

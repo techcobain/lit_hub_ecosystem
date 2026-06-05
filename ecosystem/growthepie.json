@@ -1,0 +1,12 @@
+{
+  "name": "Growthepie",
+  "description": "The open analytics platform for the Ethereum ecosystem. Tracking Ethereum Mainnet, Layer 2s, and onchain applications…",
+  "url": "https://www.growthepie.com/",
+  "twitter": "",
+  "logo": "/logos/growthepie_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

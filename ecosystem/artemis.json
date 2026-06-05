@@ -1,0 +1,12 @@
+{
+  "name": "Artemis",
+  "description": "Metrics that matter for digital assets and stablecoins. All in one place.",
+  "url": "https://classic.artemis.ai/asset/lighter",
+  "twitter": "",
+  "logo": "/logos/artemis_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

@@ -1,8 +1,10 @@
 {
   "name": "LitScan",
-  "description": "",
-  "url": "https://litscan.xyz",
+  "description": "Lighter Analytics",
+  "url": "https://litscan.io",
   "twitter": "",
+  "discord": "",
+  "telegram": "",
   "logo": "",
   "categories": [
     "Data"

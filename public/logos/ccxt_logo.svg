@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="CCXT">
   <rect width="512" height="512" fill="#fff"/>
-  <g fill="#4c5278">
-    <path d="M91 91h124v62h-62v62h62v62H91z"/>
-    <path d="M297 91h124v62h-62v62h62v62H297z"/>
-    <path d="M91 359h62v62H91z"/>
-    <path d="M153 297h62v62h-62z"/>
-    <path d="M91 235h62v62H91z"/>
-    <path d="M215 235h62v62h-62z"/>
-    <path d="M215 359h62v62h-62z"/>
-    <path d="M297 235h124v62h-31v124h-62V297h-31z"/>
+  <g fill="#4b5178">
+    <path d="M91 91h93v31h-62v62h62v31H91z"/>
+    <path d="M216 91h93v31h-62v62h62v31h-93z"/>
+    <path d="M91 247h31v31H91z"/>
+    <path d="M153 247h31v31h-31z"/>
+    <path d="M122 278h31v31h-31z"/>
+    <path d="M91 309h31v31H91z"/>
+    <path d="M153 309h31v31h-31z"/>
+    <path d="M216 247h93v31h-31v93h-31v-93h-31z"/>
   </g>
 </svg>

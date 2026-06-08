@@ -373,9 +373,11 @@
     {
       "slug": "litscan",
       "name": "LitScan",
-      "description": "",
-      "url": "https://litscan.xyz",
+      "description": "Lighter Analytics",
+      "url": "https://litscan.io",
       "twitter": "",
+      "discord": "",
+      "telegram": "",
       "logo": "",
       "categories": [
         "Data"
@@ -640,5 +642,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-08T17:31:12.577Z"
+  "generatedAt": "2026-06-08T21:33:18.376Z"
 }

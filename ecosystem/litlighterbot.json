@@ -1,0 +1,14 @@
+{
+  "name": "LitLighterBot",
+  "description": "All Lighter operations through your telegram bot. Post lighter charts without adding bot to group.",
+  "url": "",
+  "twitter": "",
+  "discord": "",
+  "telegram": "@LitLighterBot",
+  "logo": "/logos/litlighterbot_logo.jpg",
+  "categories": [
+    "Bots"
+  ],
+  "status": "Live",
+  "official": false
+}

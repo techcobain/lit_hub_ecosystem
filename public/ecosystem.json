@@ -443,6 +443,22 @@
       "official": false
     },
     {
+      "slug": "myliquidbot",
+      "name": "MyLiquidBot",
+      "description": "Trading bots platform",
+      "url": "https://myliquidbot.com",
+      "twitter": "https://x.com/Myliquidbot",
+      "discord": "https://discord.gg/pEup6PtJz",
+      "telegram": "https://t.me/Myliquidbotsupport",
+      "logo": "/logos/myliquidbot_logo.jpg",
+      "categories": [
+        "Bots",
+        "Copytrade"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
       "slug": "nomina",
       "name": "Nomina",
       "description": "Nomina is the first unified trading platform for perpetual futures DEXs. Automate strategies, scale volume, and go all…",
@@ -657,5 +673,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-09T09:38:21.285Z"
+  "generatedAt": "2026-06-09T11:53:24.690Z"
 }

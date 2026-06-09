@@ -371,6 +371,21 @@
       "official": false
     },
     {
+      "slug": "litlighterbot",
+      "name": "LitLighterBot",
+      "description": "All Lighter operations through your telegram bot. Post lighter charts without adding bot to group.",
+      "url": "",
+      "twitter": "",
+      "discord": "",
+      "telegram": "@LitLighterBot",
+      "logo": "/logos/litlighterbot_logo.jpg",
+      "categories": [
+        "Bots"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
       "slug": "litscan",
       "name": "LitScan",
       "description": "Lighter Analytics",
@@ -378,7 +393,7 @@
       "twitter": "",
       "discord": "",
       "telegram": "",
-      "logo": "/logos/litscan_logo.jpg",
+      "logo": "",
       "categories": [
         "Data"
       ],
@@ -642,5 +657,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-08T21:33:18.376Z"
+  "generatedAt": "2026-06-09T08:55:24.739Z"
 }

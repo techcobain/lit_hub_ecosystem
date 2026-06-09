@@ -1,0 +1,15 @@
+{
+  "name": "MyLiquidBot",
+  "description": "Trading bots platform",
+  "url": "https://myliquidbot.com",
+  "twitter": "https://x.com/Myliquidbot",
+  "discord": "https://discord.gg/pEup6PtJz",
+  "telegram": "https://t.me/Myliquidbotsupport",
+  "logo": "/logos/myliquidbot_logo.jpg",
+  "categories": [
+    "Bots",
+    "Copytrade"
+  ],
+  "status": "Live",
+  "official": false
+}

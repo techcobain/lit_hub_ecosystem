@@ -2,18 +2,18 @@
 
 Public ecosystem data for [Lit Hub](https://www.lit-hub.org).
 
-This repository is the source for project listings and requests for protocol shown on Lit Hub. Each project is stored as a JSON file in `ecosystem/`, RFPs are stored in `rfps/`, logos live in `public/logos/`, and generated indexes in `public/` are consumed by the website.
+This repository is the source for project listings and Request a Protocol entries shown on Lit Hub. Each project is stored as a JSON file in `ecosystem/`, protocol requests are stored in `rfps/`, logos live in `public/logos/`, and generated indexes in `public/` are consumed by the website.
 
 ## Repository Structure
 
 ```txt
 ecosystem/<slug>.json          Project listing data
-rfps/<slug>.json               Request for Protocol data
+rfps/<slug>.json               Request a Protocol data
 public/logos/<slug>_logo.<ext> Logo assets
 public/ecosystem.json          Generated project index
-public/rfps.json               Generated RFP index
+public/rfps.json               Generated protocol request index
 scripts/build-ecosystem.mjs    Index builder
-scripts/build-rfps.mjs         RFP index builder
+scripts/build-rfps.mjs         Protocol request index builder
 .github/workflows/build-ecosystem.yml
 ```
 
@@ -65,9 +65,9 @@ Open a pull request that removes the project JSON file from `ecosystem/`.
 
 If the project has a logo that is no longer used by any other listing, remove the related file from `public/logos/` in the same pull request.
 
-## Add An RFP
+## Add A Request a Protocol Entry
 
-RFPs are community requests for things people want builders to create.
+Request a Protocol entries are community requests for things people want builders to create.
 
 1. Create a new JSON file in `rfps/`.
    - Use a lowercase slug with hyphens, for example `portfolio-pnl-dashboard.json`.
@@ -101,13 +101,13 @@ If the submitter does not want their contact to be public, use:
 "contact": null
 ```
 
-Do not add private submitter contact details to public RFP files.
+Do not add private submitter contact details to public protocol request files.
 
-## Edit Or Remove An RFP
+## Edit Or Remove A Request a Protocol Entry
 
-To edit an RFP, change the relevant file in `rfps/` and open a pull request.
+To edit a protocol request, change the relevant file in `rfps/` and open a pull request.
 
-To remove an RFP, open a pull request that removes the RFP JSON file from `rfps/`.
+To remove a protocol request, open a pull request that removes the relevant JSON file from `rfps/`.
 
 ## Logo Guidelines
 
@@ -164,7 +164,7 @@ public/ecosystem.json
 public/rfps.json
 ```
 
-Those files are generated from all project and RFP JSON files.
+Those files are generated from all project and protocol request JSON files.
 
 After changes are merged into `main`, the GitHub Action in `.github/workflows/build-ecosystem.yml` runs:
 

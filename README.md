@@ -2,18 +2,18 @@
 
 Public ecosystem data for [Lit Hub](https://www.lit-hub.org).
 
-This repository is the source for project listings and Request a Protocol entries shown on Lit Hub. Each project is stored as a JSON file in `ecosystem/`, protocol requests are stored in `rfps/`, logos live in `public/logos/`, and generated indexes in `public/` are consumed by the website.
+This repository is the source for project listings and Request a Protocol entries shown on Lit Hub. Each project is stored as a JSON file in `ecosystem/`, protocol requests are stored in `request-a-protocol/`, logos live in `public/logos/`, and generated indexes in `public/` are consumed by the website.
 
 ## Repository Structure
 
 ```txt
 ecosystem/<slug>.json          Project listing data
-rfps/<slug>.json               Request a Protocol data
+request-a-protocol/<slug>.json               Request a Protocol data
 public/logos/<slug>_logo.<ext> Logo assets
 public/ecosystem.json          Generated project index
-public/rfps.json               Generated protocol request index
+public/request-a-protocol.json               Generated protocol request index
 scripts/build-ecosystem.mjs    Index builder
-scripts/build-rfps.mjs         Protocol request index builder
+scripts/build-request-a-protocol.mjs         Protocol request index builder
 .github/workflows/build-ecosystem.yml
 ```
 
@@ -69,7 +69,7 @@ If the project has a logo that is no longer used by any other listing, remove th
 
 Request a Protocol entries are community requests for things people want builders to create.
 
-1. Create a new JSON file in `rfps/`.
+1. Create a new JSON file in `request-a-protocol/`.
    - Use a lowercase slug with hyphens, for example `portfolio-pnl-dashboard.json`.
    - The slug is taken from the filename.
 2. Fill out the title, summary, description, category, status, and creation date.
@@ -105,9 +105,9 @@ Do not add private submitter contact details to public protocol request files.
 
 ## Edit Or Remove A Request a Protocol Entry
 
-To edit a protocol request, change the relevant file in `rfps/` and open a pull request.
+To edit a protocol request, change the relevant file in `request-a-protocol/` and open a pull request.
 
-To remove a protocol request, open a pull request that removes the relevant JSON file from `rfps/`.
+To remove a protocol request, open a pull request that removes the relevant JSON file from `request-a-protocol/`.
 
 ## Logo Guidelines
 
@@ -161,7 +161,7 @@ The website does not fetch every source file individually. It fetches generated 
 
 ```txt
 public/ecosystem.json
-public/rfps.json
+public/request-a-protocol.json
 ```
 
 Those files are generated from all project and protocol request JSON files.
@@ -170,16 +170,16 @@ After changes are merged into `main`, the GitHub Action in `.github/workflows/bu
 
 ```bash
 node scripts/build-ecosystem.mjs
-node scripts/build-rfps.mjs
+node scripts/build-request-a-protocol.mjs
 ```
 
-If `public/ecosystem.json` or `public/rfps.json` changes, the action commits the regenerated index back to `main`.
+If `public/ecosystem.json` or `public/request-a-protocol.json` changes, the action commits the regenerated index back to `main`.
 
 You can also regenerate it locally before opening a pull request:
 
 ```bash
 node scripts/build-ecosystem.mjs
-node scripts/build-rfps.mjs
+node scripts/build-request-a-protocol.mjs
 ```
 
 Then include the generated file in `public/` in your commit if it changed.

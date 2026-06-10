@@ -6,9 +6,9 @@ on:
       - main
     paths:
       - "ecosystem/**"
-      - "rfps/**"
+      - "request-a-protocol/**"
       - "scripts/build-ecosystem.mjs"
-      - "scripts/build-rfps.mjs"
+      - "scripts/build-request-a-protocol.mjs"
       - ".github/workflows/build-ecosystem.yml"
   workflow_dispatch:
 
@@ -24,14 +24,14 @@ jobs:
         with:
           node-version: 24
       - run: node scripts/build-ecosystem.mjs
-      - run: node scripts/build-rfps.mjs
+      - run: node scripts/build-request-a-protocol.mjs
       - name: Commit generated index
         run: |
-          if git diff --quiet -- public/ecosystem.json public/rfps.json; then
+          if git diff --quiet -- public/ecosystem.json public/request-a-protocol.json; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/ecosystem.json public/rfps.json
+          git add public/ecosystem.json public/request-a-protocol.json
           git commit -m "Build generated indexes"
           git push

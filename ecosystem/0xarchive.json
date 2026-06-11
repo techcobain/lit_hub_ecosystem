@@ -1,0 +1,14 @@
+{
+  "name": "0xArchive",
+  "description": "Live & historical API for tick-level orderbooks, trades, liquidations, candles, analytics & more with instant exports.",
+  "url": "https://www.0xarchive.io/",
+  "twitter": "https://x.com/0xArchiveIO",
+  "discord": "",
+  "telegram": "https://t.me/archivedotio",
+  "logo": "/logos/0xarchive_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

@@ -7,8 +7,7 @@
   "telegram": "https://t.me/archivedotio",
   "logo": "/logos/0xarchive_logo.png",
   "categories": [
-    "Data",
-    "Agents"
+    "Data"
   ],
   "status": "Live",
   "official": false

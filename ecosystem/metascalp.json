@@ -1,0 +1,15 @@
+{
+  "name": "Metascalp",
+  "description": "Pro trading terminal for 20+ exchanges, with real-time order-book depth and clusters",
+  "url": "https://app.metascalp.io/",
+  "twitter": "https://x.com/metascalp",
+  "discord": "",
+  "telegram": "@metascalp_io",
+  "logo": "/logos/metascalp_logo.svg",
+  "categories": [
+    "Terminal",
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

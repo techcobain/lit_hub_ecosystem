@@ -55,6 +55,21 @@
       "official": false
     },
     {
+      "slug": "blockworks",
+      "name": "Blockworks",
+      "description": "Lighter Analytics",
+      "url": "https://blockworks.com/analytics/lighter",
+      "twitter": "@blockworks",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/blockworks_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
       "slug": "botlyz",
       "name": "Botlyz",
       "description": "Botlyz automates your crypto trading 24/7 via Telegram. Your funds, your control.",
@@ -720,5 +735,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-15T16:49:06.002Z"
+  "generatedAt": "2026-06-16T09:22:08.515Z"
 }

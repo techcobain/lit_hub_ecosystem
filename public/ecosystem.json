@@ -518,6 +518,22 @@
       "official": false
     },
     {
+      "slug": "octav",
+      "name": "Octav",
+      "description": "Portfolio Intelligence for Digital Assets. Track all your positions, including lighter, in one place.",
+      "url": "https://octav.fi/",
+      "twitter": "https://x.com/OctavFi",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/octav_logo.png",
+      "categories": [
+        "Data",
+        "Apps"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
       "slug": "origami-tech",
       "name": "Origami.tech",
       "description": "Build and run automated crypto trading strategies across CEXes and DEXes with a low-code, non-custodial platform…",
@@ -735,5 +751,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-16T09:22:08.515Z"
+  "generatedAt": "2026-06-16T09:22:59.058Z"
 }

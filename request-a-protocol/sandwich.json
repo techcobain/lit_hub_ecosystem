@@ -1,0 +1,16 @@
+{
+  "title": "Sandwich",
+  "summary": "Trading terminal",
+  "description": "Trade crypto and monitor your portfolio across multiple exchanges without sharing your private data.\n",
+  "category": "Terminal",
+  "status": "Open",
+  "createdAt": "2026-06-16",
+  "links": [
+    "https://x.com/SandwichTrading",
+    "https://www.sandwichtrading.com/"
+  ],
+  "contact": {
+    "channel": "telegram",
+    "handle": "@Elisha33"
+  }
+}

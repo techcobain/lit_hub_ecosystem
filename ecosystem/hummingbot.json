@@ -1,0 +1,15 @@
+{
+  "name": "Hummingbot",
+  "description": "Algorithmic trading accessible to everyone, not just hedge funds or professional trading firms",
+  "url": "https://hummingbot.org/",
+  "twitter": "@_hummingbot",
+  "discord": "https://discord.gg/hummingbot",
+  "telegram": "",
+  "logo": "/logos/hummingbot_logo.png",
+  "categories": [
+    "Bots",
+    "Agents"
+  ],
+  "status": "Live",
+  "official": false
+}

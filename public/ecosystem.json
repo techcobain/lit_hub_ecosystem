@@ -296,6 +296,21 @@
       "official": false
     },
     {
+      "slug": "li-trade",
+      "name": "li.trade",
+      "description": "trade anything on Lighter from telegram",
+      "url": "https://lidottrade.xyz/",
+      "twitter": "https://x.com/lidottrade",
+      "discord": "",
+      "telegram": "t.me/lidottrade_bot",
+      "logo": "/logos/li-trade_logo.png",
+      "categories": [
+        "Bots"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
       "slug": "lightalytics",
       "name": "Lightalytics",
       "description": "Traders’ positions, Lighter.xyz growth and stats, revenue projections, premium users, open interest and funding rates…",
@@ -765,5 +780,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-17T05:38:35.471Z"
+  "generatedAt": "2026-06-17T11:03:58.284Z"
 }

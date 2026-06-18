@@ -72,12 +72,15 @@
     {
       "slug": "botlyz",
       "name": "Botlyz",
-      "description": "Botlyz automates your crypto trading 24/7 via Telegram. Your funds, your control.",
+      "description": "Build & run your own trading strategies on Lighter with or without AI. You stay in control.",
       "url": "https://botlyz.com",
       "twitter": "",
+      "discord": "",
+      "telegram": "",
       "logo": "/logos/botlyz_logo.jpg",
       "categories": [
-        "Bots"
+        "Bots",
+        "Agents"
       ],
       "status": "Live",
       "official": false
@@ -796,5 +799,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-17T15:42:29.774Z"
+  "generatedAt": "2026-06-18T09:01:36.764Z"
 }

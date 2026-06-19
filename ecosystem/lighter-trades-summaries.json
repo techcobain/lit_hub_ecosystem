@@ -1,0 +1,14 @@
+{
+  "name": "Lighter Trades - Summaries",
+  "description": "TG Bot - Summaries related with Lighter",
+  "url": "https://t.me/LighterDailySummaries",
+  "twitter": "",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/lighter-trades-summaries_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "official": false
+}

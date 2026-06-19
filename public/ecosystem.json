@@ -358,6 +358,21 @@
       "official": false
     },
     {
+      "slug": "lighter-trades-summaries",
+      "name": "Lighter Trades - Summaries",
+      "description": "TG Bot - Summaries related with Lighter",
+      "url": "https://t.me/LighterDailySummaries",
+      "twitter": "",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/lighter-trades-summaries_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
       "slug": "lighterfluid",
       "name": "LighterFluid",
       "description": "Professional perpetual futures trading terminal on Lighter DEX. Advanced charting, one-click trading, copy trading…",
@@ -799,5 +814,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-18T17:35:34.483Z"
+  "generatedAt": "2026-06-19T16:28:16.211Z"
 }

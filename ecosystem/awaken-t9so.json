@@ -1,0 +1,14 @@
+{
+  "name": "Awaken",
+  "description": "Crypto taxes for Lighter + all things crypto.",
+  "url": "https://awaken.tax",
+  "twitter": "x.com/awakentax",
+  "discord": "",
+  "telegram": "@andrew_duca",
+  "logo": "/logos/awaken-t9so_logo.png",
+  "categories": [
+    "Taxes"
+  ],
+  "status": "Live",
+  "official": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Lighthouse",
+  "description": "Copy top traders. Earn by sharing your trades. ",
+  "url": "https://lighthouse.cv",
+  "twitter": "@lighthousecv",
+  "discord": "https://discord.gg/f6XUgCZhRQ",
+  "telegram": "",
+  "logo": "/logos/lighthouse_logo.png",
+  "categories": [
+    "Apps",
+    "Copytrade"
+  ],
+  "status": "Live",
+  "official": false
+}

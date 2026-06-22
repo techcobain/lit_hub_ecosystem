@@ -439,6 +439,22 @@
       "official": false
     },
     {
+      "slug": "lighthouse",
+      "name": "Lighthouse",
+      "description": "Copy top traders. Earn by sharing your trades. ",
+      "url": "https://lighthouse.cv",
+      "twitter": "@lighthousecv",
+      "discord": "https://discord.gg/f6XUgCZhRQ",
+      "telegram": "",
+      "logo": "/logos/lighthouse_logo.png",
+      "categories": [
+        "Apps",
+        "Copytrade"
+      ],
+      "status": "Live",
+      "official": false
+    },
+    {
       "slug": "liquid",
       "name": "Liquid",
       "description": "Your trading super app. Trade from anywhere and multiply your returns by up to 200x.",
@@ -814,5 +830,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-19T16:28:16.211Z"
+  "generatedAt": "2026-06-22T10:16:50.006Z"
 }

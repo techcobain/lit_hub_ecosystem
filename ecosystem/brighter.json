@@ -1,0 +1,16 @@
+{
+  "name": "Brighter",
+  "description": "Yield Engine across the Lighter ecosystem.",
+  "url": "https://brighter.money/",
+  "twitter": "@Brighter_money",
+  "discord": "https://discord.gg/brightermoney",
+  "telegram": "t.me/brighter_money",
+  "logo": "/logos/brighter_logo.jpg",
+  "categories": [
+    "Apps",
+    "Yield"
+  ],
+  "status": "Live",
+  "createdAt": "2026-06-26",
+  "official": false
+}

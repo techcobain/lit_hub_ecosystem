@@ -341,6 +341,23 @@
       "official": false
     },
     {
+      "slug": "jesse",
+      "name": "Jesse",
+      "description": "open-source algo trading bot",
+      "url": "https://jesse.trade",
+      "twitter": "",
+      "discord": "https://jesse.trade/discord",
+      "telegram": "https://t.me/jesse_trade",
+      "logo": "/logos/jesse_logo.svg",
+      "categories": [
+        "Bots",
+        "Agents"
+      ],
+      "status": "Live",
+      "createdAt": "2026-06-29",
+      "official": false
+    },
+    {
       "slug": "kombat",
       "name": "Kombat",
       "description": "Kombat is a non-custodial, multi-DEX execution terminal for onchain equities and crypto: perps, pairs, routing…",
@@ -907,5 +924,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-28T09:15:26.349Z"
+  "generatedAt": "2026-06-29T13:00:06.727Z"
 }

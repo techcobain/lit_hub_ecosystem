@@ -1,0 +1,16 @@
+{
+  "name": "Jesse",
+  "description": "open-source algo trading bot",
+  "url": "https://jesse.trade",
+  "twitter": "",
+  "discord": "https://jesse.trade/discord",
+  "telegram": "https://t.me/jesse_trade",
+  "logo": "/logos/jesse_logo.svg",
+  "categories": [
+    "Bots",
+    "Agents"
+  ],
+  "status": "Live",
+  "createdAt": "2026-06-29",
+  "official": false
+}

@@ -7,8 +7,7 @@
   "telegram": "https://t.me/ritmex_official",
   "logo": "/logos/ritmex-orderbook_logo.jpg",
   "categories": [
-    "Data",
-    "Terminal"
+    "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-29",

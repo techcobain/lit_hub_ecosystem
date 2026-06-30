@@ -778,6 +778,22 @@
       "official": false
     },
     {
+      "slug": "ritmex-orderbook",
+      "name": "RitMEX Orderbook",
+      "description": "Real time order book comparison Lighter vs other trading platforms",
+      "url": "https://orderbook.ritmex.one/",
+      "twitter": "@ritmex_crypto",
+      "discord": "",
+      "telegram": "https://t.me/ritmex_official",
+      "logo": "/logos/ritmex-orderbook_logo.jpg",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "createdAt": "2026-06-29",
+      "official": false
+    },
+    {
       "slug": "robonet",
       "name": "Robonet",
       "description": "Deploy Quants at Scale",
@@ -941,5 +957,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-30T13:16:39.470Z"
+  "generatedAt": "2026-06-30T13:31:31.947Z"
 }

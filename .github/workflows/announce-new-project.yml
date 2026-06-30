@@ -1,0 +1,80 @@
+# Posts to X (Twitter) whenever a project file changes in ecosystem/:
+#   - a NEW ecosystem/*.json file  -> announce the new project
+#   - a MODIFIED file with new jobs -> announce each newly added job opening
+# Fires on merge to main (i.e. after a submission PR is accepted).
+#
+# Requires repo secrets (Settings -> Secrets and variables -> Actions):
+#   X_API_KEY,  X_API_SECRET           (app consumer key/secret)
+#   X_ACCESS_TOKEN, X_ACCESS_SECRET    (the posting account's OAuth 1.0a tokens)
+# Optional:
+#   SITE_URL  -> defaults to https://lit-hub.org
+
+name: Announce new project on X
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ecosystem/**"
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Manually announce a single slug (filename without .json)"
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history so the job announcer can read each file's previous
+          # version (git show ${BEFORE_SHA}:<file>) even on multi-commit pushes.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Detect changed projects
+        id: detect
+        run: |
+          if [ -n "${{ github.event.inputs.slug }}" ]; then
+            echo "added=ecosystem/${{ github.event.inputs.slug }}.json" >> "$GITHUB_OUTPUT"
+            echo "modified=" >> "$GITHUB_OUTPUT"
+          else
+            ADDED=$(git diff --name-only --diff-filter=A ${{ github.event.before }} ${{ github.sha }} -- 'ecosystem/*.json' | tr '\n' ' ')
+            MODIFIED=$(git diff --name-only --diff-filter=M ${{ github.event.before }} ${{ github.sha }} -- 'ecosystem/*.json' | tr '\n' ' ')
+            echo "added=$ADDED" >> "$GITHUB_OUTPUT"
+            echo "modified=$MODIFIED" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install deps
+        if: steps.detect.outputs.added != '' || steps.detect.outputs.modified != ''
+        run: npm install twitter-api-v2@1
+
+      - name: Announce new projects
+        if: steps.detect.outputs.added != ''
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+          NEW_FILES: ${{ steps.detect.outputs.added }}
+        run: node scripts/announce-new-project.mjs
+
+      - name: Announce new job openings
+        if: steps.detect.outputs.modified != ''
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+          MODIFIED_FILES: ${{ steps.detect.outputs.modified }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: node scripts/announce-new-job.mjs

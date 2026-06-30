@@ -238,6 +238,23 @@
       "official": false
     },
     {
+      "slug": "grider",
+      "name": "GRIDer",
+      "description": "Automated, non-custodial Grid Trading bot for Lighter. Connect your wallet, run grids 24/7, no KYC.",
+      "url": "https://grider.xyz",
+      "twitter": "@griderxyz",
+      "discord": "https://discord.gg/zVnw2tPbmZ",
+      "telegram": "",
+      "logo": "/logos/grider_logo.png",
+      "categories": [
+        "Bots",
+        "Yield"
+      ],
+      "status": "Live",
+      "createdAt": "2026-06-29",
+      "official": false
+    },
+    {
       "slug": "growthepie-2",
       "name": "Growthepie",
       "description": "",
@@ -924,5 +941,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-06-29T17:03:48.906Z"
+  "generatedAt": "2026-06-30T13:16:39.470Z"
 }

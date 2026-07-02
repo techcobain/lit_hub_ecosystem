@@ -1,0 +1,15 @@
+{
+  "name": "Robinhood",
+  "description": "Robinhood Wallet now offers native in-app perps & spot trading powered by Lighter, enabling users to trade crypto & RWAs",
+  "url": "https://robinhoodchain.lighter.xyz/",
+  "twitter": "@RobinhoodApp",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/robinhood_logo.png",
+  "categories": [
+    "Apps"
+  ],
+  "status": "Live",
+  "createdAt": "2026-07-02",
+  "official": false
+}

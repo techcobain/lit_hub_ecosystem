@@ -319,7 +319,7 @@
       "description": "",
       "url": "https://x.com/goo9801/status/2030949122006814759?s=46",
       "twitter": "",
-      "logo": "/logos/hypurrquant-cli_logo.svg",
+      "logo": "/logos/gh_white.webp",
       "categories": [
         "Developers"
       ],
@@ -829,7 +829,7 @@
       "description": "Community built Native RUST-SDK for Lighter exchange. - smartcrypto0/lighter-rust",
       "url": "https://github.com/smartcrypto0/lighter-rust",
       "twitter": "",
-      "logo": "/logos/rust-community-sdk_logo.svg",
+      "logo": "/logos/gh_white.webp",
       "categories": [
         "Developers"
       ],
@@ -844,7 +844,7 @@
       "url": "https://github.com/lobstergrindset/lighter-rust",
       "twitter": "",
       "discord": "",
-      "logo": "/logos/rust-sdk-by-will-lily_logo.svg",
+      "logo": "/logos/gh_white.webp",
       "categories": [
         "Developers"
       ],
@@ -860,7 +860,7 @@
       "twitter": "",
       "discord": "",
       "telegram": "",
-      "logo": "/logos/rust-sdk-by-yeule0_logo.svg",
+      "logo": "/logos/gh_white.webp",
       "categories": [
         "Developers"
       ],
@@ -933,7 +933,7 @@
       "description": "Community built TS-SDK for Lighter exchange. . Contribute to smartcrypto0/lighter-ts development by creating an…",
       "url": "https://github.com/smartcrypto0/lighter-ts",
       "twitter": "",
-      "logo": "/logos/typescript-community-sdk_logo.svg",
+      "logo": "/logos/gh_white.webp",
       "categories": [
         "Developers"
       ],
@@ -973,5 +973,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-02T14:08:00.590Z"
+  "generatedAt": "2026-07-02T14:11:27.150Z"
 }

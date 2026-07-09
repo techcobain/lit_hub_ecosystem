@@ -1,0 +1,16 @@
+{
+  "name": "HyprEarn",
+  "description": "The AI Trading Desk for Perps",
+  "url": "https://hyprearn.com/",
+  "twitter": "https://x.com/HyprEarn",
+  "discord": "",
+  "telegram": "@hyprearnofficial",
+  "logo": "/logos/hyprearn_logo.jpg",
+  "categories": [
+    "Agents",
+    "Apps"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-07-09",
+  "official": false
+}

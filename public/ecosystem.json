@@ -238,6 +238,23 @@
       "official": false
     },
     {
+      "slug": "fey",
+      "name": "FEY",
+      "description": "A personal trading agent that helps you research, monitor, and execute at the speed of thought.",
+      "url": "https://fey.trade",
+      "twitter": "@feytrade",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/fey_logo.png",
+      "categories": [
+        "Agents",
+        "Apps"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-07-09",
+      "official": false
+    },
+    {
       "slug": "grider",
       "name": "GRIDer",
       "description": "Automated, non-custodial Grid Trading bot for Lighter. Connect your wallet, run grids 24/7, no KYC.",
@@ -990,5 +1007,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-10T14:54:19.953Z"
+  "generatedAt": "2026-07-10T14:54:38.253Z"
 }

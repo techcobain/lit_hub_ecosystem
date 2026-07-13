@@ -1,0 +1,15 @@
+{
+  "name": "Arrow Finance",
+  "description": "Trade, earn, borrow, launch, and manage your assets safely on Arrow Finance.",
+  "url": "https://arrowfinance.io",
+  "twitter": "@arrowfinanceio",
+  "discord": "",
+  "telegram": "t.me/arrowfinanceio",
+  "logo": "/logos/arrow-finance_logo.svg",
+  "categories": [
+    "Lending"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-07-11",
+  "official": false
+}

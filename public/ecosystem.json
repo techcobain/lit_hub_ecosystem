@@ -31,6 +31,22 @@
       "official": true
     },
     {
+      "slug": "arrow-finance",
+      "name": "Arrow Finance",
+      "description": "Trade, earn, borrow, launch, and manage your assets safely on Arrow Finance.",
+      "url": "https://arrowfinance.io",
+      "twitter": "@arrowfinanceio",
+      "discord": "",
+      "telegram": "t.me/arrowfinanceio",
+      "logo": "/logos/arrow-finance_logo.svg",
+      "categories": [
+        "Lending"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-07-11",
+      "official": false
+    },
+    {
       "slug": "artemis",
       "name": "Artemis",
       "description": "Metrics that matter for digital assets and stablecoins. All in one place.",
@@ -1007,5 +1023,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-10T14:54:38.253Z"
+  "generatedAt": "2026-07-13T17:50:34.259Z"
 }

@@ -61,6 +61,26 @@
       "official": false
     },
     {
+      "slug": "atoma",
+      "name": "ATOMA",
+      "description": "Delta-neutral yield on RWA perps. Funding rate arbitrage and cross-exchange spread trading on Lighter and trade.xyz",
+      "url": "https://atoma.fi/",
+      "twitter": "@atoma_fi",
+      "discord": "https://discord.gg/atoma",
+      "telegram": "",
+      "logo": "/logos/atoma_logo.png",
+      "categories": [
+        "Apps",
+        "Yield"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-07-13",
+      "official": false,
+      "builderDiscords": [
+        "tonycrypto.atoma"
+      ]
+    },
+    {
       "slug": "awaken",
       "name": "Awaken",
       "description": "Crypto Tax Software for Crypto Natives",
@@ -1023,5 +1043,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-13T17:51:05.742Z"
+  "generatedAt": "2026-07-14T11:42:24.109Z"
 }

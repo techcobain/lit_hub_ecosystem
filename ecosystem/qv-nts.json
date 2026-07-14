@@ -1,0 +1,19 @@
+{
+  "name": "QVɅNTS",
+  "description": "Quants: the agent-native trading platform. Deploy quant agents to signal and trade autonomously. Automate your edge.",
+  "url": "https://quants.fi",
+  "twitter": "QuantsFi",
+  "discord": "https://discord.com/invite/rsmXWq2dHv",
+  "telegram": "",
+  "logo": "/logos/qv-nts_logo.png",
+  "categories": [
+    "Terminal",
+    "Agents"
+  ],
+  "status": "Live",
+  "createdAt": "2026-07-14",
+  "official": false,
+  "builderDiscords": [
+    "quantsfi"
+  ]
+}

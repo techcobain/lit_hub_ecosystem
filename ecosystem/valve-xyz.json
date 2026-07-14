@@ -1,0 +1,19 @@
+{
+  "name": "Valve xyz",
+  "description": "RAG evaluation framework primitive focused on turning complex on-chain data into something clear and actionable",
+  "url": "",
+  "twitter": "@valvexyz",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/valve-xyz_logo.jpg",
+  "categories": [
+    "Data",
+    "Terminal"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-07-14",
+  "official": false,
+  "builderDiscords": [
+    "hdoq."
+  ]
+}

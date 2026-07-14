@@ -834,6 +834,26 @@
       "official": false
     },
     {
+      "slug": "qv-nts",
+      "name": "QVɅNTS",
+      "description": "Quants: the agent-native trading platform. Deploy quant agents to signal and trade autonomously. Automate your edge.",
+      "url": "https://quants.fi",
+      "twitter": "QuantsFi",
+      "discord": "https://discord.com/invite/rsmXWq2dHv",
+      "telegram": "",
+      "logo": "/logos/qv-nts_logo.png",
+      "categories": [
+        "Terminal",
+        "Agents"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-14",
+      "official": false,
+      "builderDiscords": [
+        "quantsfi"
+      ]
+    },
+    {
       "slug": "rabby",
       "name": "Rabby",
       "description": "The game-changing wallet for Ethereum and all EVM chains",
@@ -1043,5 +1063,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-14T11:42:24.109Z"
+  "generatedAt": "2026-07-14T18:39:05.350Z"
 }

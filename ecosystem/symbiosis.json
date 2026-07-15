@@ -1,0 +1,16 @@
+{
+  "name": "Symbiosis ",
+  "description": "Bridge to Lighter from any token on over 60 chains ",
+  "url": "https://app.symbiosis.finance/swap?amountIn=1&chainIn=Ethereum&chainOut=Lighter&tokenIn=ETH&tokenOut=USDC",
+  "twitter": "https://x.com/symbiosis_fi",
+  "discord": "https://discord.com/invite/ymbRx6ADvR",
+  "telegram": "@symbiosis_finance",
+  "logo": "/logos/symbiosis_logo.png",
+  "categories": [
+    "Bridge",
+    "Apps"
+  ],
+  "status": "Live",
+  "createdAt": "2026-07-15",
+  "official": false
+}

@@ -975,6 +975,23 @@
       "official": false
     },
     {
+      "slug": "symbiosis",
+      "name": "Symbiosis ",
+      "description": "Bridge to Lighter from any token on over 60 chains ",
+      "url": "https://app.symbiosis.finance/swap?amountIn=1&chainIn=Ethereum&chainOut=Lighter&tokenIn=ETH&tokenOut=USDC",
+      "twitter": "https://x.com/symbiosis_fi",
+      "discord": "https://discord.com/invite/ymbRx6ADvR",
+      "telegram": "@symbiosis_finance",
+      "logo": "/logos/symbiosis_logo.png",
+      "categories": [
+        "Bridge",
+        "Apps"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-15",
+      "official": false
+    },
+    {
       "slug": "tealstreet-io",
       "name": "Tealstreet.io",
       "description": "All-in-one trading terminal for crypto.",
@@ -1079,5 +1096,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-15T09:28:50.674Z"
+  "generatedAt": "2026-07-15T09:29:07.036Z"
 }

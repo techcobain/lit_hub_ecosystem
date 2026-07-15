@@ -959,6 +959,22 @@
       "official": false
     },
     {
+      "slug": "sandwich-trading",
+      "name": "Sandwich Trading",
+      "description": "Multi-exchange crypto trading platform with advanced execution and portfolio management.",
+      "url": "https://www.sandwichtrading.com/",
+      "twitter": "https://x.com/SandwichTrading",
+      "discord": "",
+      "telegram": "@sandwichsupport",
+      "logo": "/logos/sandwich-trading_logo.png",
+      "categories": [
+        "Terminal"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-15",
+      "official": false
+    },
+    {
       "slug": "tealstreet-io",
       "name": "Tealstreet.io",
       "description": "All-in-one trading terminal for crypto.",
@@ -1063,5 +1079,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-14T18:39:05.350Z"
+  "generatedAt": "2026-07-15T09:28:50.674Z"
 }

@@ -1,0 +1,15 @@
+{
+  "name": "Sandwich Trading",
+  "description": "Multi-exchange crypto trading platform with advanced execution and portfolio management.",
+  "url": "https://www.sandwichtrading.com/",
+  "twitter": "https://x.com/SandwichTrading",
+  "discord": "",
+  "telegram": "@sandwichsupport",
+  "logo": "/logos/sandwich-trading_logo.png",
+  "categories": [
+    "Terminal"
+  ],
+  "status": "Live",
+  "createdAt": "2026-07-15",
+  "official": false
+}

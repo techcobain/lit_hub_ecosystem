@@ -312,6 +312,26 @@
       "official": false
     },
     {
+      "slug": "fuego",
+      "name": "Fuego",
+      "description": "Identity layer for Lighter traders.  Built by Lighter OGs and Amigos",
+      "url": "https://fuegofederation.com/",
+      "twitter": "https://x.com/fuegonft",
+      "discord": "https://discord.com/invite/fuegofederation",
+      "telegram": "@satoshiheist",
+      "logo": "/logos/fuego_logo.jpg",
+      "categories": [
+        "NFT",
+        "Data"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-07-20",
+      "official": false,
+      "builderDiscords": [
+        "professorsatoshi"
+      ]
+    },
+    {
       "slug": "grider",
       "name": "GRIDer",
       "description": "Automated, non-custodial Grid Trading bot for Lighter. Connect your wallet, run grids 24/7, no KYC.",
@@ -1117,5 +1137,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-20T12:29:10.886Z"
+  "generatedAt": "2026-07-20T13:22:21.028Z"
 }

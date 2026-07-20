@@ -215,6 +215,27 @@
       "official": false
     },
     {
+      "slug": "cpu-capital-processing-units",
+      "name": "CPU (Capital Processing Units)",
+      "description": "Providing infrastructure for 100% collateralized decentralized indexes through CPUs (Capital Processing Units)",
+      "url": "https://www.cpu.capital/",
+      "twitter": "cpuprotocol",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/cpu-capital-processing-units_logo.jpg",
+      "categories": [
+        "Apps",
+        "Developers"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-07-20",
+      "official": false,
+      "builderDiscords": [
+        "stevenbravo",
+        "ggolfchain"
+      ]
+    },
+    {
       "slug": "debank",
       "name": "DeBank",
       "description": "Your go-to portfolio tracker for Ethereum and EVM",
@@ -1096,5 +1117,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-15T09:29:07.036Z"
+  "generatedAt": "2026-07-20T12:29:10.886Z"
 }

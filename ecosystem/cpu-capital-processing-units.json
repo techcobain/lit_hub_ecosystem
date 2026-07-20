@@ -1,0 +1,20 @@
+{
+  "name": "CPU (Capital Processing Units)",
+  "description": "Providing infrastructure for 100% collateralized decentralized indexes through CPUs (Capital Processing Units)",
+  "url": "https://www.cpu.capital/",
+  "twitter": "cpuprotocol",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/cpu-capital-processing-units_logo.jpg",
+  "categories": [
+    "Apps",
+    "Developers"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-07-20",
+  "official": false,
+  "builderDiscords": [
+    "stevenbravo",
+    "ggolfchain"
+  ]
+}

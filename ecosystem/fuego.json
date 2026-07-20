@@ -1,0 +1,19 @@
+{
+  "name": "Fuego",
+  "description": "Identity layer for Lighter traders.  Built by Lighter OGs and Amigos",
+  "url": "https://fuegofederation.com/",
+  "twitter": "https://x.com/fuegonft",
+  "discord": "https://discord.com/invite/fuegofederation",
+  "telegram": "@satoshiheist",
+  "logo": "/logos/fuego_logo.jpg",
+  "categories": [
+    "NFT",
+    "Data"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-07-20",
+  "official": false,
+  "builderDiscords": [
+    "professorsatoshi"
+  ]
+}

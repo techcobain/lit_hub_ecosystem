@@ -408,6 +408,25 @@
       "official": false
     },
     {
+      "slug": "hyperhood",
+      "name": "Hyperhood",
+      "description": "Onchain Spot and Leverage trading on Robinhood Chain.",
+      "url": "https://www.hyperhood.org/",
+      "twitter": "@hyperhoodfun",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/hyperhood_logo.png",
+      "categories": [
+        "Terminal"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-21",
+      "official": false,
+      "builderDiscords": [
+        "sneak9s"
+      ]
+    },
+    {
       "slug": "hyprearn",
       "name": "HyprEarn",
       "description": "The AI Trading Desk for Perps",
@@ -1137,5 +1156,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-21T15:03:02.032Z"
+  "generatedAt": "2026-07-21T15:05:26.394Z"
 }

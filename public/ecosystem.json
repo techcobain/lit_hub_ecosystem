@@ -377,6 +377,26 @@
       "official": false
     },
     {
+      "slug": "gubots",
+      "name": "GUBOTS",
+      "description": "Algorithmic trading bots on Lighter: AutoPilot strategies, configurable grids and DCA, plus AI-powered bots.",
+      "url": "https://gubots.app",
+      "twitter": "",
+      "discord": "",
+      "telegram": "https://t.me/gubotsofficial",
+      "logo": "/logos/gubots_logo.png",
+      "categories": [
+        "Agents",
+        "Bots"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-22",
+      "official": false,
+      "builderDiscords": [
+        "pgs1988"
+      ]
+    },
+    {
       "slug": "hawk-trade",
       "name": "Hawk Trade",
       "description": "Unmatched execution speeds—trade crypto, forex, and commodities with up to 150x leverage. No KYC, instant access for…",
@@ -1156,5 +1176,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-21T15:05:26.394Z"
+  "generatedAt": "2026-07-22T17:55:44.728Z"
 }

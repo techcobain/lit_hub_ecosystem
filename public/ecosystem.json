@@ -1055,6 +1055,26 @@
       "official": false
     },
     {
+      "slug": "solvana-ai",
+      "name": "Solvana AI ",
+      "description": "One Interface. Any Chain. AI intent engine automating smart routing for spot, perps, and advanced limit order",
+      "url": "https://solvana.ai",
+      "twitter": "https://x.com/solvana_ai",
+      "discord": "http://discord.gg/gVfSHuymKM",
+      "telegram": "https://t.me/solvana_ai",
+      "logo": "/logos/solvana-ai_logo.jpg",
+      "categories": [
+        "Agents",
+        "Bots"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-07-21",
+      "official": false,
+      "builderDiscords": [
+        "saurabhkartik"
+      ]
+    },
+    {
       "slug": "symbiosis",
       "name": "Symbiosis ",
       "description": "Bridge to Lighter from any token on over 60 chains ",
@@ -1176,5 +1196,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-22T17:55:44.728Z"
+  "generatedAt": "2026-07-22T17:56:02.111Z"
 }

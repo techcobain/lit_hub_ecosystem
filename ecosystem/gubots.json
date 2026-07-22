@@ -1,0 +1,19 @@
+{
+  "name": "GUBOTS",
+  "description": "Algorithmic trading bots on Lighter: AutoPilot strategies, configurable grids and DCA, plus AI-powered bots.",
+  "url": "https://gubots.app",
+  "twitter": "",
+  "discord": "",
+  "telegram": "https://t.me/gubotsofficial",
+  "logo": "/logos/gubots_logo.png",
+  "categories": [
+    "Agents",
+    "Bots"
+  ],
+  "status": "Live",
+  "createdAt": "2026-07-22",
+  "official": false,
+  "builderDiscords": [
+    "pgs1988"
+  ]
+}

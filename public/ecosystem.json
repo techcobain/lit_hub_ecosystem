@@ -828,6 +828,26 @@
       "official": false
     },
     {
+      "slug": "nocturn",
+      "name": "Nocturn ",
+      "description": "Mobile defi gateway for Robinhood and Arbitrum",
+      "url": "https://nocturn.gg",
+      "twitter": "https://x.com/Nocturn_GG",
+      "discord": "NA",
+      "telegram": "https://x.com/Nocturn_GG",
+      "logo": "/logos/nocturn_logo.jpg",
+      "categories": [
+        "Terminal",
+        "Apps"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-22",
+      "official": false,
+      "builderDiscords": [
+        "majyea"
+      ]
+    },
+    {
       "slug": "nomina",
       "name": "Nomina",
       "description": "Nomina is the first unified trading platform for perpetual futures DEXs. Automate strategies, scale volume, and go all…",
@@ -1216,5 +1236,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-22T18:29:38.629Z"
+  "generatedAt": "2026-07-22T19:02:20.360Z"
 }

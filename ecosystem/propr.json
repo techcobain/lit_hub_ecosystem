@@ -1,0 +1,19 @@
+{
+  "name": "Propr",
+  "description": "The onchain prop firm. Prove your skill and get funded up to $300k. Keep 80%, paid out on demand in USDC.",
+  "url": "https://www.propr.xyz",
+  "twitter": "@proprxyz",
+  "discord": "https://discord.com/invite/propr",
+  "telegram": "",
+  "logo": "/logos/propr_logo.png",
+  "categories": [
+    "Terminal"
+  ],
+  "status": "Live",
+  "createdAt": "2026-07-22",
+  "official": false,
+  "builderDiscords": [
+    "connorkirsten",
+    "louxborg"
+  ]
+}

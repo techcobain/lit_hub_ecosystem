@@ -1,0 +1,18 @@
+{
+  "name": "PerpDexData",
+  "description": "Tracking the Lighter Protocol ($LIT) and PerpDex Metrics",
+  "url": "https://perpdexdata.com/markets",
+  "twitter": "https://x.com/PerpDexData",
+  "discord": ".",
+  "telegram": ".",
+  "logo": "/logos/perpdexdata_logo.jpg",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "createdAt": "2026-07-24",
+  "official": false,
+  "builderDiscords": [
+    "@PerpDexData"
+  ]
+}

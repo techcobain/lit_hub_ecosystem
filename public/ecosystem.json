@@ -238,7 +238,7 @@
     {
       "slug": "cryexc",
       "name": "Cryexc",
-      "description": "Free orderflow terminal with footprint, liquidation heatmaps, DOM, TPO, CVD and 20+ views, plus execution on Lighter.",
+      "description": "Free orderflow terminal with footprint, heatmaps, DOM, TPO, CVD and execution on Lighter.",
       "url": "https://cryexc.josedonato.com",
       "twitter": "https://x.com/josedonato__",
       "discord": "",
@@ -1253,5 +1253,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-27T17:43:05.382Z"
+  "generatedAt": "2026-07-27T17:50:23.967Z"
 }

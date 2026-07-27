@@ -236,6 +236,23 @@
       ]
     },
     {
+      "slug": "cryexc",
+      "name": "Cryexc",
+      "description": "Free orderflow terminal with footprint, liquidation heatmaps, DOM, TPO, CVD and 20+ views, plus execution on Lighter.",
+      "url": "https://cryexc.josedonato.com",
+      "twitter": "https://x.com/josedonato__",
+      "discord": "",
+      "telegram": "https://t.me/cryexc_alerts",
+      "logo": "/logos/cryexc_logo.png",
+      "categories": [
+        "Terminal",
+        "Data"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-27",
+      "official": false
+    },
+    {
       "slug": "debank",
       "name": "DeBank",
       "description": "Your go-to portfolio tracker for Ethereum and EVM",
@@ -1236,5 +1253,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-22T19:02:20.360Z"
+  "generatedAt": "2026-07-27T17:43:05.382Z"
 }

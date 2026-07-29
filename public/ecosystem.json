@@ -618,6 +618,25 @@
       "official": false
     },
     {
+      "slug": "lighterdata",
+      "name": "LighterData",
+      "description": "In-depth analytics & more",
+      "url": "https://lighterdata.io/markets",
+      "twitter": "https://x.com/LighterData",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/lighterdata_logo.jpg",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-24",
+      "official": false,
+      "builderDiscords": [
+        "@PerpDexData"
+      ]
+    },
+    {
       "slug": "lighterfluid",
       "name": "LighterFluid",
       "description": "Professional perpetual futures trading terminal on Lighter DEX. Advanced charting, one-click trading, copy trading…",
@@ -1253,5 +1272,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-27T17:50:23.967Z"
+  "generatedAt": "2026-07-29T12:46:32.090Z"
 }

@@ -1,11 +1,11 @@
 {
-  "name": "PerpDexData",
-  "description": "Tracking the Lighter Protocol ($LIT) and PerpDex Metrics",
-  "url": "https://perpdexdata.com/markets",
-  "twitter": "https://x.com/PerpDexData",
-  "discord": ".",
-  "telegram": ".",
-  "logo": "/logos/perpdexdata_logo.jpg",
+  "name": "LighterData",
+  "description": "In-depth analytics & more",
+  "url": "https://lighterdata.io/markets",
+  "twitter": "https://x.com/LighterData",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/lighterdata_logo.jpg",
   "categories": [
     "Data"
   ],

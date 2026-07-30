@@ -785,6 +785,25 @@
       "official": false
     },
     {
+      "slug": "lunchdotfun",
+      "name": "Lunchdotfun",
+      "description": "Instantly launch memecoins in the Robinhood universe, with one click, for free.",
+      "url": "https://lunch.fun",
+      "twitter": "@lunchdotfun",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/lunchdotfun_logo.jpg",
+      "categories": [
+        "Developers"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-30",
+      "official": false,
+      "builderDiscords": [
+        "fitzycrypto"
+      ]
+    },
+    {
       "slug": "metascalp",
       "name": "Metascalp",
       "description": "Pro trading terminal for 20+ exchanges, with real-time order-book depth and clusters",
@@ -1272,5 +1291,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-29T12:46:32.090Z"
+  "generatedAt": "2026-07-30T15:12:15.747Z"
 }

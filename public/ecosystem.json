@@ -1260,6 +1260,27 @@
       "official": false
     },
     {
+      "slug": "verus",
+      "name": "Verus",
+      "description": "Perp DEX Aggregator - Providing the best execution for every perp trade.",
+      "url": "https://verusapp.io/",
+      "twitter": "https://x.com/tradeverus",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/verus_logo.png",
+      "categories": [
+        "Apps",
+        "Terminal"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-30",
+      "official": false,
+      "builderDiscords": [
+        "nalnoc",
+        "mot_io"
+      ]
+    },
+    {
       "slug": "vooi",
       "name": "Vooi",
       "description": "Trade crypto and RWA perps with one balance, zero gas, and no bridges. VOOI V2 brings CEX-grade UX to decentralized…",
@@ -1291,5 +1312,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-07-30T15:12:15.747Z"
+  "generatedAt": "2026-08-01T13:35:45.681Z"
 }

@@ -1,0 +1,20 @@
+{
+  "name": "Verus",
+  "description": "Perp DEX Aggregator - Providing the best execution for every perp trade.",
+  "url": "https://verusapp.io/",
+  "twitter": "https://x.com/tradeverus",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/verus_logo.png",
+  "categories": [
+    "Apps",
+    "Terminal"
+  ],
+  "status": "Live",
+  "createdAt": "2026-07-30",
+  "official": false,
+  "builderDiscords": [
+    "nalnoc",
+    "mot_io"
+  ]
+}

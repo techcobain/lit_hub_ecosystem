@@ -1,0 +1,19 @@
+{
+  "name": "DegenAI",
+  "description": "An AI trading terminal where you describe a strategy in plain English and it runs, watches, and executes it for you.",
+  "url": "https://degenai.dev/",
+  "twitter": "DegenAI_0x",
+  "discord": "",
+  "telegram": "https://t.me/DegenAIVirtuals",
+  "logo": "/logos/degenai_logo.png",
+  "categories": [
+    "Terminal",
+    "Agents"
+  ],
+  "status": "Live",
+  "createdAt": "2026-08-06",
+  "official": false,
+  "builderDiscords": [
+    "dab1rd"
+  ]
+}

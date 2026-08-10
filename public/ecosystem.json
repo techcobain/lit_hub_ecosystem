@@ -95,6 +95,26 @@
       "official": false
     },
     {
+      "slug": "bleeep",
+      "name": "BLEEEP",
+      "description": "Provable trading on Lighter.",
+      "url": "https://www.bleeep.xyz",
+      "twitter": "@bleeep_xyz",
+      "discord": "https://discord.gg/XS5v5EYbV",
+      "telegram": "",
+      "logo": "/logos/bleeep_logo.png",
+      "categories": [
+        "Agents",
+        "Terminal"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-07",
+      "official": false,
+      "builderDiscords": [
+        "Ashton | BLEEEP | Never DM First"
+      ]
+    },
+    {
       "slug": "blockworks",
       "name": "Blockworks",
       "description": "Lighter Analytics",
@@ -1332,5 +1352,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-10T07:50:50.804Z"
+  "generatedAt": "2026-08-10T16:50:45.200Z"
 }

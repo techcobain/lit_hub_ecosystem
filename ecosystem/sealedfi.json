@@ -1,0 +1,16 @@
+{
+  "name": "SealedFi",
+  "description": "Buy and hold real graded cards onchain, with no public trail linking them to you.",
+  "url": "https://www.sealedfi.com",
+  "twitter": "@sealedfi",
+  "discord": "",
+  "telegram": "t.me/sealedfi",
+  "logo": "/logos/sealedfi_logo.jpg",
+  "categories": [
+    "NFT",
+    "Apps"
+  ],
+  "status": "Live",
+  "createdAt": "2026-08-11",
+  "official": false
+}

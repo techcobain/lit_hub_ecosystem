@@ -31,6 +31,22 @@
       "official": true
     },
     {
+      "slug": "agentiq",
+      "name": "Agentiq",
+      "description": "Infrastructure for building and maintaining real blockchain apps & AI agents ",
+      "url": "https://agentiq.build",
+      "twitter": "https://x.com/agentiqai",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/agentiq_logo.jpg",
+      "categories": [
+        "Agents"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-12",
+      "official": false
+    },
+    {
       "slug": "arrow-finance",
       "name": "Arrow Finance",
       "description": "Trade, earn, borrow, launch, and manage your assets safely on Arrow Finance.",
@@ -1352,5 +1368,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-10T16:50:45.200Z"
+  "generatedAt": "2026-08-12T19:22:22.541Z"
 }

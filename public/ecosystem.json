@@ -397,7 +397,7 @@
         "NFT",
         "Data"
       ],
-      "status": "Not Live",
+      "status": "Live",
       "createdAt": "2026-07-20",
       "official": false,
       "builderDiscords": [
@@ -1368,5 +1368,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-12T19:22:22.541Z"
+  "generatedAt": "2026-08-12T19:23:52.670Z"
 }

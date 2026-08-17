@@ -31,22 +31,6 @@
       "official": true
     },
     {
-      "slug": "agentiq",
-      "name": "Agentiq",
-      "description": "Infrastructure for building and maintaining real blockchain apps & AI agents ",
-      "url": "https://agentiq.build",
-      "twitter": "https://x.com/agentiqai",
-      "discord": "",
-      "telegram": "",
-      "logo": "/logos/agentiq_logo.jpg",
-      "categories": [
-        "Agents"
-      ],
-      "status": "Live",
-      "createdAt": "2026-08-12",
-      "official": false
-    },
-    {
       "slug": "arrow-finance",
       "name": "Arrow Finance",
       "description": "Trade, earn, borrow, launch, and manage your assets safely on Arrow Finance.",
@@ -403,6 +387,23 @@
       "builderDiscords": [
         "professorsatoshi"
       ]
+    },
+    {
+      "slug": "go-perps",
+      "name": "Go Perps",
+      "description": "Trade upto 40x on stocks & crypto, access to whale alerts, top PnL traders, 1000+ markets. On-chain & self-custodial.",
+      "url": "https://goperps.xyz/",
+      "twitter": "https://x.com/GoPerpsXYZ",
+      "discord": "",
+      "telegram": "https://t.me/goperpsxyz",
+      "logo": "/logos/go-perps_logo.png",
+      "categories": [
+        "Terminal",
+        "Agents"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-14",
+      "official": false
     },
     {
       "slug": "grider",
@@ -1368,5 +1369,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-12T19:23:52.670Z"
+  "generatedAt": "2026-08-17T10:59:47.422Z"
 }

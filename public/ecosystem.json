@@ -1032,6 +1032,26 @@
       "official": false
     },
     {
+      "slug": "project-vex",
+      "name": "Project:VEX",
+      "description": "Local first, self custodial AI agent runtime for secure, autonomous on chain finance.",
+      "url": "https://www.projectvex.ai/",
+      "twitter": "@ProjectVEXai",
+      "discord": "https://discord.gg/projectvexai",
+      "telegram": "",
+      "logo": "/logos/project-vex_logo.jpg",
+      "categories": [
+        "Agents",
+        "Terminal"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-18",
+      "official": false,
+      "builderDiscords": [
+        "likemikeyzz"
+      ]
+    },
+    {
       "slug": "propr",
       "name": "Propr",
       "description": "The onchain prop firm. Prove your skill and get funded up to $300k. Keep 80%, paid out on demand in USDC.",
@@ -1389,5 +1409,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-19T10:42:18.109Z"
+  "generatedAt": "2026-08-19T10:42:39.080Z"
 }

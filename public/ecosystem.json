@@ -613,6 +613,25 @@
       "official": false
     },
     {
+      "slug": "lev7",
+      "name": "LEV7",
+      "description": "Trade the MAG7 together with leverage",
+      "url": "https://lev7.finance",
+      "twitter": "@lev7finance",
+      "discord": "",
+      "telegram": "@lev7finance",
+      "logo": "/logos/lev7_logo.svg",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-08-19",
+      "official": false,
+      "builderDiscords": [
+        "hllev7_45349"
+      ]
+    },
+    {
       "slug": "li-trade",
       "name": "li.trade",
       "description": "trade anything on Lighter from telegram",
@@ -1409,5 +1428,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-19T10:42:39.080Z"
+  "generatedAt": "2026-08-19T10:43:07.983Z"
 }

@@ -1323,6 +1323,22 @@
       ]
     },
     {
+      "slug": "tapesurf",
+      "name": "TapeSurf",
+      "description": "Aggregated orderbook heatmaps, depth and trade flow across 10+ exchanges on one board you build.",
+      "url": "https://tapesurf.com/",
+      "twitter": "https://x.com/TapeSurfApp",
+      "discord": "",
+      "telegram": "https://t.me/tapesurf",
+      "logo": "/logos/tapesurf_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-20",
+      "official": false
+    },
+    {
       "slug": "tealstreet-io",
       "name": "Tealstreet.io",
       "description": "All-in-one trading terminal for crypto.",
@@ -1448,5 +1464,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-20T17:36:05.276Z"
+  "generatedAt": "2026-08-20T17:42:30.129Z"
 }

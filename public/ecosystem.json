@@ -335,6 +335,26 @@
       "official": false
     },
     {
+      "slug": "dex-pulse",
+      "name": "Dex Pulse",
+      "description": "A cross-DEX portfolio and analytics platform built specifically for perpetual traders.",
+      "url": "https://www.dexpulse.live/",
+      "twitter": "@dexpulselive",
+      "discord": "-",
+      "telegram": "-",
+      "logo": "/logos/dex-pulse_logo.png",
+      "categories": [
+        "Apps",
+        "Data"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-20",
+      "official": false,
+      "builderDiscords": [
+        "@yyvvoo"
+      ]
+    },
+    {
       "slug": "f-xyz",
       "name": "f.xyz",
       "description": "The Operating System for Autonomous Trading",
@@ -1428,5 +1448,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-19T10:43:07.983Z"
+  "generatedAt": "2026-08-20T17:36:05.276Z"
 }

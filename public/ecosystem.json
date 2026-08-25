@@ -1057,6 +1057,24 @@
       "official": false
     },
     {
+      "slug": "pear-protocol",
+      "name": "Pear Protocol ",
+      "description": "The home of long-short trading 🍐",
+      "url": "https://app.pear.garden/trade/lighter/LIT:50-ETH:50",
+      "twitter": "@pear_protocol",
+      "discord": "https://discord.gg/RKNRDVeFwG",
+      "telegram": "",
+      "integratorAccountIndex": 728059,
+      "logo": "/logos/pear-protocol_logo.jpg",
+      "categories": [
+        "Terminal",
+        "Agents"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-25",
+      "official": false
+    },
+    {
       "slug": "prism-bot",
       "name": "Prism bot",
       "description": "Track traders, funding rates, new listings, and milestones.",
@@ -1464,5 +1482,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-22T13:53:28.208Z"
+  "generatedAt": "2026-08-25T19:28:44.542Z"
 }

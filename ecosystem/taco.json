@@ -1,0 +1,19 @@
+{
+  "name": "Taco",
+  "description": "AI trading for RWA, crypto & predictions. Run 24/7 AI agents, trade and predict with an AI copilot.",
+  "url": "https://taco.trade",
+  "twitter": "@TacoTradeX",
+  "discord": "https://discord.gg/G6xt6dkG3y",
+  "telegram": "t.me/tacotrade_x",
+  "logo": "/logos/taco_logo.png",
+  "categories": [
+    "Agents",
+    "Terminal"
+  ],
+  "status": "Live",
+  "createdAt": "2026-08-19",
+  "official": false,
+  "builderDiscords": [
+    "@voidbusher"
+  ]
+}

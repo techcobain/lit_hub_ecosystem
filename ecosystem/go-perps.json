@@ -1,0 +1,16 @@
+{
+  "name": "Go Perps",
+  "description": "Trade upto 40x on stocks & crypto, access to whale alerts, top PnL traders, 1000+ markets. On-chain & self-custodial.",
+  "url": "https://goperps.xyz/",
+  "twitter": "https://x.com/GoPerpsXYZ",
+  "discord": "",
+  "telegram": "https://t.me/goperpsxyz",
+  "logo": "/logos/go-perps_logo.png",
+  "categories": [
+    "Terminal",
+    "Agents"
+  ],
+  "status": "Live",
+  "createdAt": "2026-08-14",
+  "official": false
+}

@@ -96,6 +96,26 @@
       "official": false
     },
     {
+      "slug": "bleeep",
+      "name": "BLEEEP",
+      "description": "Provable trading on Lighter.",
+      "url": "https://www.bleeep.xyz",
+      "twitter": "@bleeep_xyz",
+      "discord": "https://discord.gg/XS5v5EYbV",
+      "telegram": "",
+      "logo": "/logos/bleeep_logo.png",
+      "categories": [
+        "Agents",
+        "Terminal"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-07",
+      "official": false,
+      "builderDiscords": [
+        "Ashton | BLEEEP | Never DM First"
+      ]
+    },
+    {
       "slug": "blockworks",
       "name": "Blockworks",
       "description": "Lighter Analytics",
@@ -239,6 +259,23 @@
       ]
     },
     {
+      "slug": "cryexc",
+      "name": "Cryexc",
+      "description": "Free orderflow terminal with footprint, heatmaps, DOM, TPO, CVD and execution on Lighter.",
+      "url": "https://cryexc.josedonato.com",
+      "twitter": "https://x.com/josedonato__",
+      "discord": "",
+      "telegram": "https://t.me/cryexc_alerts",
+      "logo": "/logos/cryexc_logo.png",
+      "categories": [
+        "Terminal",
+        "Data"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-27",
+      "official": false
+    },
+    {
       "slug": "debank",
       "name": "DeBank",
       "description": "Your go-to portfolio tracker for Ethereum and EVM",
@@ -267,6 +304,26 @@
       "official": false
     },
     {
+      "slug": "degenai",
+      "name": "DegenAI",
+      "description": "An AI trading terminal where you describe a strategy in plain English and it runs, watches, and executes it for you.",
+      "url": "https://degenai.dev/",
+      "twitter": "DegenAI_0x",
+      "discord": "",
+      "telegram": "https://t.me/DegenAIVirtuals",
+      "logo": "/logos/degenai_logo.png",
+      "categories": [
+        "Terminal",
+        "Agents"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-06",
+      "official": false,
+      "builderDiscords": [
+        "dab1rd"
+      ]
+    },
+    {
       "slug": "delphi-digital",
       "name": "Delphi Digital",
       "description": "Real-time analytics for top traders on Lighter perp DEX",
@@ -279,6 +336,26 @@
       "status": "Live",
       "createdAt": "2026-06-05",
       "official": false
+    },
+    {
+      "slug": "dex-pulse",
+      "name": "Dex Pulse",
+      "description": "A cross-DEX portfolio and analytics platform built specifically for perpetual traders.",
+      "url": "https://www.dexpulse.live/",
+      "twitter": "@dexpulselive",
+      "discord": "-",
+      "telegram": "-",
+      "logo": "/logos/dex-pulse_logo.png",
+      "categories": [
+        "Apps",
+        "Data"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-20",
+      "official": false,
+      "builderDiscords": [
+        "@yyvvoo"
+      ]
     },
     {
       "slug": "f-xyz",
@@ -327,12 +404,29 @@
         "NFT",
         "Data"
       ],
-      "status": "Not Live",
+      "status": "Live",
       "createdAt": "2026-07-20",
       "official": false,
       "builderDiscords": [
         "professorsatoshi"
       ]
+    },
+    {
+      "slug": "go-perps",
+      "name": "Go Perps",
+      "description": "Trade upto 40x on stocks & crypto, access to whale alerts, top PnL traders, 1000+ markets. On-chain & self-custodial.",
+      "url": "https://goperps.xyz/",
+      "twitter": "https://x.com/GoPerpsXYZ",
+      "discord": "",
+      "telegram": "https://t.me/goperpsxyz",
+      "logo": "/logos/go-perps_logo.png",
+      "categories": [
+        "Terminal",
+        "Agents"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-14",
+      "official": false
     },
     {
       "slug": "grider",
@@ -546,6 +640,25 @@
       "createdAt": "2026-06-05",
       "official": false,
       "integrator_account_index": "158010"
+    },
+    {
+      "slug": "lev7",
+      "name": "LEV7",
+      "description": "Trade the MAG7 together with leverage",
+      "url": "https://lev7.finance",
+      "twitter": "@lev7finance",
+      "discord": "",
+      "telegram": "@lev7finance",
+      "logo": "/logos/lev7_logo.svg",
+      "categories": [
+        "Apps"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-08-19",
+      "official": false,
+      "builderDiscords": [
+        "hllev7_45349"
+      ]
     },
     {
       "slug": "li-trade",
@@ -782,6 +895,25 @@
       "official": false
     },
     {
+      "slug": "lunchdotfun",
+      "name": "Lunchdotfun",
+      "description": "Instantly launch memecoins in the Robinhood universe, with one click, for free.",
+      "url": "https://lunch.fun",
+      "twitter": "@lunchdotfun",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/lunchdotfun_logo.jpg",
+      "categories": [
+        "Developers"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-30",
+      "official": false,
+      "builderDiscords": [
+        "fitzycrypto"
+      ]
+    },
+    {
       "slug": "metascalp",
       "name": "Metascalp",
       "description": "Pro trading terminal for 20+ exchanges, with real-time order-book depth and clusters",
@@ -947,6 +1079,24 @@
       "official": false
     },
     {
+      "slug": "pear-protocol",
+      "name": "Pear Protocol ",
+      "description": "The home of long-short trading 🍐",
+      "url": "https://app.pear.garden/trade/lighter/LIT:50-ETH:50",
+      "twitter": "@pear_protocol",
+      "discord": "https://discord.gg/RKNRDVeFwG",
+      "telegram": "",
+      "integratorAccountIndex": 728059,
+      "logo": "/logos/pear-protocol_logo.jpg",
+      "categories": [
+        "Terminal",
+        "Agents"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-25",
+      "official": false
+    },
+    {
       "slug": "prism-bot",
       "name": "Prism bot",
       "description": "Track traders, funding rates, new listings, and milestones.",
@@ -959,6 +1109,26 @@
       "status": "Live",
       "createdAt": "2026-06-05",
       "official": false
+    },
+    {
+      "slug": "project-vex",
+      "name": "Project:VEX",
+      "description": "Local first, self custodial AI agent runtime for secure, autonomous on chain finance.",
+      "url": "https://www.projectvex.ai/",
+      "twitter": "@ProjectVEXai",
+      "discord": "https://discord.gg/projectvexai",
+      "telegram": "",
+      "logo": "/logos/project-vex_logo.jpg",
+      "categories": [
+        "Agents",
+        "Terminal"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-18",
+      "official": false,
+      "builderDiscords": [
+        "likemikeyzz"
+      ]
     },
     {
       "slug": "propr",
@@ -1175,6 +1345,42 @@
       "official": false
     },
     {
+      "slug": "taco",
+      "name": "Taco",
+      "description": "AI trading for RWA, crypto & predictions. Run 24/7 AI agents, trade and predict with an AI copilot.",
+      "url": "https://taco.trade",
+      "twitter": "@TacoTradeX",
+      "discord": "https://discord.gg/G6xt6dkG3y",
+      "telegram": "t.me/tacotrade_x",
+      "logo": "/logos/taco_logo.png",
+      "categories": [
+        "Agents",
+        "Terminal"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-19",
+      "official": false,
+      "builderDiscords": [
+        "@voidbusher"
+      ]
+    },
+    {
+      "slug": "tapesurf",
+      "name": "TapeSurf",
+      "description": "Aggregated orderbook heatmaps, depth and trade flow across 10+ exchanges on one board you build.",
+      "url": "https://tapesurf.com/",
+      "twitter": "https://x.com/TapeSurfApp",
+      "discord": "",
+      "telegram": "https://t.me/tapesurf",
+      "logo": "/logos/tapesurf_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "createdAt": "2026-08-20",
+      "official": false
+    },
+    {
       "slug": "tealstreet-io",
       "name": "Tealstreet.io",
       "description": "All-in-one trading terminal for crypto.",
@@ -1250,6 +1456,27 @@
       "official": false
     },
     {
+      "slug": "verus",
+      "name": "Verus",
+      "description": "Perp DEX Aggregator - Providing the best execution for every perp trade.",
+      "url": "https://verusapp.io/",
+      "twitter": "https://x.com/tradeverus",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/verus_logo.png",
+      "categories": [
+        "Apps",
+        "Terminal"
+      ],
+      "status": "Live",
+      "createdAt": "2026-07-30",
+      "official": false,
+      "builderDiscords": [
+        "nalnoc",
+        "mot_io"
+      ]
+    },
+    {
       "slug": "vooi",
       "name": "Vooi",
       "description": "Trade crypto and RWA perps with one balance, zero gas, and no bridges. VOOI V2 brings CEX-grade UX to decentralized…",
@@ -1267,7 +1494,7 @@
     {
       "slug": "wick",
       "name": "Wick",
-      "description": "The hub for staking, trading, and yield on Lighter EVM.",
+      "description": "The home of real world finance.",
       "url": "https://www.wick.xyz/",
       "twitter": "https://x.com/wick_xyz",
       "discord": "https://discord.gg/wickxyz",
@@ -1282,5 +1509,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-29T01:04:20.131Z"
+  "generatedAt": "2026-08-25T19:28:44.542Z"
 }

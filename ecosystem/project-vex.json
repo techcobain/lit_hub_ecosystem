@@ -1,0 +1,19 @@
+{
+  "name": "Project:VEX",
+  "description": "Local first, self custodial AI agent runtime for secure, autonomous on chain finance.",
+  "url": "https://www.projectvex.ai/",
+  "twitter": "@ProjectVEXai",
+  "discord": "https://discord.gg/projectvexai",
+  "telegram": "",
+  "logo": "/logos/project-vex_logo.jpg",
+  "categories": [
+    "Agents",
+    "Terminal"
+  ],
+  "status": "Live",
+  "createdAt": "2026-08-18",
+  "official": false,
+  "builderDiscords": [
+    "likemikeyzz"
+  ]
+}

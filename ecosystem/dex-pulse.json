@@ -1,0 +1,19 @@
+{
+  "name": "Dex Pulse",
+  "description": "A cross-DEX portfolio and analytics platform built specifically for perpetual traders.",
+  "url": "https://www.dexpulse.live/",
+  "twitter": "@dexpulselive",
+  "discord": "-",
+  "telegram": "-",
+  "logo": "/logos/dex-pulse_logo.png",
+  "categories": [
+    "Apps",
+    "Data"
+  ],
+  "status": "Live",
+  "createdAt": "2026-08-20",
+  "official": false,
+  "builderDiscords": [
+    "@yyvvoo"
+  ]
+}

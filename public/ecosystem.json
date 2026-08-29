@@ -78,7 +78,8 @@
       "official": false,
       "builderDiscords": [
         "tonycrypto.atoma"
-      ]
+      ],
+      "integrator_account_index": "383032"
     },
     {
       "slug": "awaken",
@@ -145,7 +146,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "712276"
     },
     {
       "slug": "brighter",
@@ -190,7 +192,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "718718"
     },
     {
       "slug": "coinank",
@@ -440,7 +443,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-29",
-      "official": false
+      "official": false,
+      "integrator_account_index": "731058"
     },
     {
       "slug": "growthepie-2",
@@ -555,7 +559,8 @@
       ],
       "status": "Not Live",
       "createdAt": "2026-07-09",
-      "official": false
+      "official": false,
+      "integrator_account_index": "733818"
     },
     {
       "slug": "hypurrquant-cli",
@@ -583,7 +588,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "719006"
     },
     {
       "slug": "insilico-terminal",
@@ -599,7 +605,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-08",
-      "official": false
+      "official": false,
+      "integrator_account_index": "721785"
     },
     {
       "slug": "jesse",
@@ -616,7 +623,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-29",
-      "official": false
+      "official": false,
+      "integrator_account_index": "724890"
     },
     {
       "slug": "kombat",
@@ -630,7 +638,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "158010"
     },
     {
       "slug": "lev7",
@@ -745,7 +754,11 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": [
+        "677644",
+        "281474976558010"
+      ]
     },
     {
       "slug": "lighterlytics",
@@ -832,7 +845,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "735594"
     },
     {
       "slug": "litdash",
@@ -914,7 +928,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-15",
-      "official": false
+      "official": false,
+      "integrator_account_index": "725564"
     },
     {
       "slug": "minara-ai",
@@ -931,7 +946,11 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": [
+        "724857",
+        "724927"
+      ]
     },
     {
       "slug": "miracle",
@@ -976,7 +995,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-09",
-      "official": false
+      "official": false,
+      "integrator_account_index": "722954"
     },
     {
       "slug": "nocturn",
@@ -996,7 +1016,8 @@
       "official": false,
       "builderDiscords": [
         "majyea"
-      ]
+      ],
+      "integrator_account_index": "734792"
     },
     {
       "slug": "nomina",
@@ -1040,7 +1061,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "720463"
     },
     {
       "slug": "otomato",
@@ -1220,7 +1242,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "723630"
     },
     {
       "slug": "rust-community-sdk",
@@ -1281,7 +1304,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-07-15",
-      "official": false
+      "official": false,
+      "integrator_account_index": "732858"
     },
     {
       "slug": "solvana-ai",
@@ -1370,7 +1394,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "158385"
     },
     {
       "slug": "telegram-wallet",
@@ -1385,7 +1410,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "281474976617487"
     },
     {
       "slug": "tokenomics",
@@ -1462,7 +1488,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "integrator_account_index": "132230"
     },
     {
       "slug": "wick",

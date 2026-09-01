@@ -1,0 +1,15 @@
+{
+  "name": "Lighthouse",
+  "description": "Manage all digital assets in one system.",
+  "url": "https://lighthouse.one/",
+  "twitter": "https://x.com/LighthouseOne_",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/lighthouse-ylld_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "createdAt": "2026-09-01",
+  "official": false
+}

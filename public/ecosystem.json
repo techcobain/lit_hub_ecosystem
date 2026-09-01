@@ -817,6 +817,22 @@
       "official": false
     },
     {
+      "slug": "lighthouse-ylld",
+      "name": "Lighthouse",
+      "description": "Manage all digital assets in one system.",
+      "url": "https://lighthouse.one/",
+      "twitter": "https://x.com/LighthouseOne_",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/lighthouse-ylld_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "status": "Live",
+      "createdAt": "2026-09-01",
+      "official": false
+    },
+    {
       "slug": "lighthouse",
       "name": "Lighthouse",
       "description": "Copy top traders. Earn by sharing your trades. ",
@@ -1509,5 +1525,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-09-01T13:48:11.435Z"
+  "generatedAt": "2026-09-01T17:16:50.605Z"
 }

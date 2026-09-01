@@ -653,7 +653,7 @@
       "categories": [
         "Apps"
       ],
-      "status": "Not Live",
+      "status": "Live",
       "createdAt": "2026-08-19",
       "official": false,
       "builderDiscords": [
@@ -1509,5 +1509,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-08-29T01:18:21.131Z"
+  "generatedAt": "2026-09-01T13:48:11.435Z"
 }

@@ -1,0 +1,20 @@
+{
+  "name": "Hyperank",
+  "description": "Trader analytics and copy trading for Lighter Robinhood, powered by signals from Hyperliquid, Lighter and more.",
+  "url": "https://hyperank.io",
+  "twitter": "@hypeRankio",
+  "discord": "",
+  "telegram": "",
+  "integratorAccountIndex": 14621,
+  "logo": "/logos/hyperank_logo.png",
+  "categories": [
+    "Copytrade",
+    "Data"
+  ],
+  "status": "Live",
+  "createdAt": "2026-09-02",
+  "official": false,
+  "builderDiscords": [
+    "cpredecessor"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Prism",
+  "description": "All-in-one Trading Platform on Robinhood. Perpetual Trades are built using Lighter.",
+  "url": "https://www.prismfinance.net/leverage",
+  "twitter": "https://x.com/TradeOnPrism",
+  "discord": "",
+  "telegram": "",
+  "integratorAccountIndex": 790,
+  "logo": "/logos/prism_logo.png",
+  "categories": [
+    "Terminal",
+    "Data"
+  ],
+  "status": "Live",
+  "createdAt": "2026-09-07",
+  "official": false,
+  "builderDiscords": [
+    "visionsXBT"
+  ]
+}

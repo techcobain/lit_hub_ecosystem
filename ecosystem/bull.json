@@ -1,0 +1,16 @@
+{
+  "name": "BULL",
+  "description": "Non-custodial perp terminal for Lighter and Hyperliquid. Control split-order direction and pace with a two-thumb pad.",
+  "url": "https://bullterminal.app/?lang=en-US",
+  "twitter": "",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/bull_logo.png",
+  "categories": [
+    "Terminal",
+    "Apps"
+  ],
+  "status": "Live",
+  "createdAt": "2026-09-07",
+  "official": false
+}

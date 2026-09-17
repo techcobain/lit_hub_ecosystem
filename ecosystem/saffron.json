@@ -1,10 +1,10 @@
 {
   "name": "Saffron",
-  "description": "The most flexible yield engine. 𐁉",
+  "description": "Saffron is a DeFi native yield exchange system built on Uniswap concentrated liquidity pools.",
   "url": "https://saffron.finance/",
   "twitter": "https://x.com/Saffron",
   "discord": "https://discord.com/invite/pDXpXKY",
-  "telegram": "",
+  "telegram": "https://t.me/saffronfinance",
   "logo": "/logos/saffron_logo.jpg",
   "categories": [
     "Yield",
@@ -17,5 +17,14 @@
   "status": "Live",
   "createdAt": "2026-09-17",
   "official": false,
-  "longDescription": "Saffron is a fixed yield layer built on top of Uniswap concentrated liquidity pools. Saffron matches liquidity providers who want fixed yield with traders willing to buy future yield."
+  "longDescription": "Saffron is a new DeFi primitive for fixed yield, built on Uniswap, and backed by Coinbase, Dragonfly, and Multicoin. Saffron vaults split LP earnings into fixed and variable yield. Saffron vaults are the underlying fixed yield foundation that many DeFi applications are built upon. \n\nLiquidity providers get a fixed return regardless of trading volume. No setup time, no DAO votes, no governance token locks, and no bribes required. For token projects, this yield opportunity adds onchain utility for the token, and upfront LP fees create consistent returns.\n\nFor individual LPs, fixed upfront yield transforms path-dependent LP risk into a set of predictable outcomes, and unlocks new capital efficient hedging strategies.",
+  "demoUrl": "https://saffron.finance/",
+  "team": [
+    {
+      "name": "Psykeeper",
+      "role": "Founder",
+      "avatar": "",
+      "twitter": "https://x.com/psykeeper"
+    }
+  ]
 }

@@ -1,0 +1,16 @@
+{
+  "name": "Kerf Finance",
+  "description": "Liquidity you can trade. Trades that earn. Hedged, tradable, yield-bearing LP positions on Robinhood Chain.",
+  "url": "https://kerf.finance/",
+  "twitter": "https://x.com/UseKerf",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/kerf-finance_logo.jpg",
+  "categories": [
+    "Terminal",
+    "Apps"
+  ],
+  "status": "Live",
+  "createdAt": "2026-09-11",
+  "official": false
+}

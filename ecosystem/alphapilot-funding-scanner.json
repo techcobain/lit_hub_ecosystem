@@ -1,0 +1,15 @@
+{
+  "name": "AlphaPilot Funding Scanner",
+  "description": "Compare Lighter funding rates across venues, with estimated trading fees and fee break-even time.",
+  "url": "https://www.alphapilot.tech/tools/funding-rate-arbitrage-scanner",
+  "twitter": "https://x.com/AlphaPilotHQ",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/alphapilot-funding-scanner_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "status": "Live",
+  "createdAt": "2026-09-16",
+  "official": false
+}

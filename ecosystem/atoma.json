@@ -16,5 +16,6 @@
   "builderDiscords": [
     "tonycrypto.atoma"
   ],
-  "integrator_account_index": "383032"
+  "integrator_account_index": "383032",
+  "robinhood_integrator_account_index": "1226"
 }

@@ -5,7 +5,6 @@
   "twitter": "@pear_protocol",
   "discord": "https://discord.gg/RKNRDVeFwG",
   "telegram": "",
-  "integratorAccountIndex": 728059,
   "logo": "/logos/pear-protocol_logo.jpg",
   "categories": [
     "Terminal",
@@ -13,5 +12,6 @@
   ],
   "status": "Live",
   "createdAt": "2026-08-25",
-  "official": false
+  "official": false,
+  "integrator_account_index": "728059"
 }

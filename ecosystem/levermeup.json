@@ -1,0 +1,25 @@
+{
+  "name": "leverMeUp",
+  "description": "Leverage enabler on lighter. Upto 1000x on lighter books. ",
+  "url": "https://levermeup.com",
+  "twitter": "@leverMeUpHQ",
+  "discord": "",
+  "telegram": "t.me/leverMeUP",
+  "logo": "/logos/levermeup_logo.jpg",
+  "categories": [
+    "Apps",
+    "Bots"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 742302,
+  "status": "Live",
+  "createdAt": "2026-09-17",
+  "official": false,
+  "builderDiscords": [
+    "parabolicdev"
+  ],
+  "longDescription": "leverMeUp is leverage layer built on lighter. You can buy/sell crypto, RWAs with upto 1000x leverage. \n\nThis product is built for leverage lovers. Degens who want maximum exposure with minimum wager. \n\nProduct is a pass through for lighter. Every trade degen takes gets hedged on lighter. Increased traction on leverMeUp directly translates to increased volume on lighter. ",
+  "demoUrl": "https://levermeup.com"
+}

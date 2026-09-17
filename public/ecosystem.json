@@ -1433,6 +1433,28 @@
       "official": false
     },
     {
+      "slug": "saffron",
+      "name": "Saffron",
+      "description": "The most flexible yield engine. 𐁉",
+      "url": "https://saffron.finance/",
+      "twitter": "https://x.com/Saffron",
+      "discord": "https://discord.com/invite/pDXpXKY",
+      "telegram": "",
+      "logo": "/logos/saffron_logo.jpg",
+      "categories": [
+        "Yield",
+        "Apps"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 744272,
+      "status": "Live",
+      "createdAt": "2026-09-17",
+      "official": false,
+      "longDescription": "Saffron is a fixed yield layer built on top of Uniswap concentrated liquidity pools. Saffron matches liquidity providers who want fixed yield with traders willing to buy future yield."
+    },
+    {
       "slug": "sandwich-trading",
       "name": "Sandwich Trading",
       "description": "Multi-exchange crypto trading platform with advanced execution and portfolio management.",
@@ -1653,5 +1675,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-09-17T18:12:21.407Z"
+  "generatedAt": "2026-09-17T18:16:38.468Z"
 }

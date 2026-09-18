@@ -1679,9 +1679,9 @@
     {
       "slug": "vooi",
       "name": "Vooi",
-      "description": "Trade crypto and RWA perps with one balance, zero gas, and no bridges. VOOI V2 brings CEX-grade UX to decentralized…",
+      "description": "Multi-venue trading terminal to trade and arbitrage Lighter perps in pre-built, delta-neutral strategies",
       "url": "https://vooi.io/",
-      "twitter": "",
+      "twitter": "https://x.com/vooi_io",
       "logo": "/logos/vooi_logo.png",
       "categories": [
         "Apps"
@@ -1689,8 +1689,23 @@
       "status": "Live",
       "createdAt": "2026-06-05",
       "official": false,
-      "integrator_account_index": "132230",
-      "robinhood_integrator_account_index": "1578"
+      "integrator_account_index": 132230,
+      "robinhood_integrator_account_index": 1578,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "VOOI, backed with $2B+ cumulative volume on Lighter, is a perpetual trading terminal, aggregating markets across biggests CEXs and DEXs, building tools for algo-trading, price and funding arbitrage. ",
+      "demoUrl": "https://ultra.vooi.io/arbitrage-desk?exchanges=lighter",
+      "team": [
+        {
+          "name": "Will",
+          "role": "CEO & Co-Founder",
+          "avatar": "",
+          "twitter": "@ixwillap"
+        }
+      ]
     },
     {
       "slug": "wick",
@@ -1710,5 +1725,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-09-17T20:14:50.525Z"
+  "generatedAt": "2026-09-18T09:49:40.139Z"
 }

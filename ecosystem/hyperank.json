@@ -5,7 +5,6 @@
   "twitter": "@hypeRankio",
   "discord": "",
   "telegram": "",
-  "integratorAccountIndex": 14621,
   "logo": "/logos/hyperank_logo.png",
   "categories": [
     "Copytrade",
@@ -16,5 +15,6 @@
   "official": false,
   "builderDiscords": [
     "cpredecessor"
-  ]
+  ],
+  "robinhood_integrator_account_index": "14621"
 }

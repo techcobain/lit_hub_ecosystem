@@ -5,7 +5,6 @@
   "twitter": "@TradeOnPrism",
   "discord": "",
   "telegram": "",
-  "integratorAccountIndex": 779,
   "logo": "/logos/prism-finance_logo.png",
   "categories": [
     "Terminal",
@@ -16,5 +15,6 @@
   "official": false,
   "builderDiscords": [
     "visionsXBT"
-  ]
+  ],
+  "robinhood_integrator_account_index": "779"
 }

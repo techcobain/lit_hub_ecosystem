@@ -571,7 +571,6 @@
       "twitter": "@hypeRankio",
       "discord": "",
       "telegram": "",
-      "integratorAccountIndex": 14621,
       "logo": "/logos/hyperank_logo.png",
       "categories": [
         "Copytrade",
@@ -582,7 +581,8 @@
       "official": false,
       "builderDiscords": [
         "cpredecessor"
-      ]
+      ],
+      "robinhood_integrator_account_index": "14621"
     },
     {
       "slug": "hyperhood",
@@ -1169,7 +1169,7 @@
       "instances": [
         "Lighter Core"
       ],
-      "integrator_account_index": 747915,
+      "integrator_account_index": "747915",
       "status": "Live",
       "createdAt": "2026-09-17",
       "official": false,
@@ -1263,7 +1263,6 @@
       "twitter": "@TradeOnPrism",
       "discord": "",
       "telegram": "",
-      "integratorAccountIndex": 779,
       "logo": "/logos/prism-finance_logo.png",
       "categories": [
         "Terminal",
@@ -1274,7 +1273,8 @@
       "official": false,
       "builderDiscords": [
         "visionsXBT"
-      ]
+      ],
+      "robinhood_integrator_account_index": "779"
     },
     {
       "slug": "project-vex",
@@ -1725,5 +1725,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-09-20T11:42:34.307Z"
+  "generatedAt": "2026-09-20T12:10:20.143Z"
 }

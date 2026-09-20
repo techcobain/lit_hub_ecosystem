@@ -1,0 +1,23 @@
+{
+  "name": "Wicklen",
+  "description": "Trading automation, strategy development, analytics, and advanced execution built for Lighter.",
+  "url": "https://wicklen.trade",
+  "twitter": "",
+  "discord": "https://discord.com/invite/Ty5fs6pjTS",
+  "telegram": "",
+  "logo": "/logos/wicklen_logo.png",
+  "categories": [
+    "Terminal",
+    "Bots"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-09-20",
+  "official": false,
+  "builderDiscords": [
+    "wicklendev"
+  ],
+  "longDescription": "Wicklen is a trading automation, analytics, and execution platform built specifically for Lighter mainnet perpetuals.\n\nWicklen combines strategy development and backtesting, automated trading bots, a robust full-featured trading terminal, advanced execution tools, account and bot analytics, and configurable risk monitoring.\n\nAutomated strategies include Grid, market making, DCA, Pairs, signal/webhook trading, and additional strategy bots. Users can connect multiple Lighter wallets and subaccounts while funds remain entirely in their Lighter accounts.\n\nAnalytics provide trade-level results derived from Lighter fills, performance by bot and market, drawdown, and live exposure. Guardian provides configurable risk monitoring and protective actions, while Crowd Radar and Hype Radar provide additional market research tools.\n\nWicklen is preparing to enter public beta."
+}

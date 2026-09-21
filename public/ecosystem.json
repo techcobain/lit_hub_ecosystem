@@ -310,7 +310,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-07-27",
-      "official": false
+      "official": false,
+      "integrator_account_index": "712390"
     },
     {
       "slug": "debank",
@@ -1725,5 +1726,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-09-20T12:10:20.143Z"
+  "generatedAt": "2026-09-21T10:16:08.212Z"
 }

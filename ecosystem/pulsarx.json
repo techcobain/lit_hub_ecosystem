@@ -1,0 +1,26 @@
+{
+  "name": "Pulsarx",
+  "description": "Institutional execution infrastructure for on-chain markets — non-custodial, chain-agnostic, margin-native.",
+  "url": "https://www.pulsarx.io/",
+  "twitter": "https://www.pulsarx.io/",
+  "discord": "",
+  "telegram": "https://t.me/pulsarx_io",
+  "logo": "/logos/pulsarx_logo.png",
+  "categories": [
+    "Agents",
+    "Apps"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 728755,
+  "status": "Live",
+  "createdAt": "2026-09-20",
+  "official": false,
+  "integrator_account_index": "728755",
+  "builderDiscords": [
+    "abhishek035822"
+  ],
+  "longDescription": "1. PulsarX is non-custodial, chain-agnostic execution infrastructure for institutional trading firms and tokenised asset holders, with an in-built advanced algorithmic trading layer.\n\n2. The problem. In traditional markets a desk gets one account, one margin view and credit against its collateral. On-chain none of it exists — every venue is a separate integration, collateral sits idle, and most solutions ask a regulated firm to hand over custody.\n\n3. One account, every venue. Clients connect once and reach every supported venue across every connected chain, with depth aggregated into a single unified book and orders routed on all-in cost.\n\n4. Advanced order types. An in-built execution layer — participation, TWAP, VWAP, implementation shortfall — with pre-trade slicing against live book conditions. Institutional algo execution without a desk building it.\n\n5. Cross-venue margin. Collateral moves between venues in real time, so a position held across two venues is treated as one book rather than two unrelated ones. Two market makers live on it; Derive has publicly supported it.\n\n6. Credit against collateral. A $100M per-client pledging facility with Anchorage Digital at 80% LTV, turning idle collateral into working margin while the client keeps the underlying exposure.\n\n7. Unified risk dashboard. Net position, collateral and margin health across every connected venue in one view — the reporting layer a risk committee requires before approving a mandate.\n\n8. Non-custodial by construction. Clients trade from Safe accounts they own. Permissions are scoped on-chain to whitelisted contracts and function selectors, with no configuration allowing transfer to an external address, revocable at any time and verifiable from the deployed account.\n\n9. Live and revenue-generating. In production on Arbitrum mainnet and BNB Chain across six venue integrations, earning 2 bps on executed notional plus tiered subscriptions at 60% gross margin. No spread, no principal position — we never take the other side of a client trade.\n\n10. Partnerships. Anchorage Digital and Arch Lending, Derive Protocol, Maple Finance, RWA.xyz, Secret Network, Bayut, Bitwise Asset Management — each takes time to build, and each makes the next institution easier to onboard.",
+  "demoUrl": "https://drive.google.com/file/d/1JX-gIZ2OlZjGuyj7ma2OQikaR1Eo1N84/view?usp=drivesdk"
+}

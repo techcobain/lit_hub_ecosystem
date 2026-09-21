@@ -1,0 +1,16 @@
+{
+  "name": "metamono",
+  "description": "The programmable investment layer",
+  "url": "https://metamono.xyz",
+  "twitter": "metamonoapp",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/metamono_logo.png",
+  "categories": [
+    "Apps",
+    "Copytrade"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-09-09",
+  "official": false
+}

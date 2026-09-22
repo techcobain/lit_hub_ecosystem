@@ -1,0 +1,32 @@
+{
+  "name": "Trindor",
+  "description": "Automated BTC trading on Lighter from Telegram — a tested strategy on your own wallet, told as an oil-company game.",
+  "url": "https://t.me/trindor_official",
+  "twitter": "",
+  "discord": "",
+  "telegram": "@trindor_official",
+  "logo": "/logos/trindor_logo.png",
+  "categories": [
+    "Bots",
+    "Copytrade"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Live",
+  "createdAt": "2026-09-22",
+  "official": false,
+  "builderDiscords": [
+    "produmanni"
+  ],
+  "longDescription": "Trindor is a Telegram trading bot built exclusively for Lighter. It runs one rule-based strategy on BTC perpetuals 24/7 — on a wallet that stays yours.\n\nHOW IT TRADES\nTrindor scans the BTC 1h chart for a confirmed price impulse. Once confirmed, it draws a Fibonacci grid over the move and places three LONG limit orders at the 0.382 / 0.5 / 0.618 retracements. If price extends, the grid stretches and orders are re-placed automatically. The whole position exits with one adaptive take-profit, and an exchange-side stop-loss protects every leg from the first fill. No manual clicks, no emotions, no missed setups at 4 a.m.\n\nWHY IT'S DIFFERENT\n• Your money, your keys — our algorithm. Every user gets their own Lighter wallet. The key that can withdraw is handed to the user once and deleted on our side the moment the wallet goes live. We can place and close trades — we cannot move funds, and neither can anyone who breaks into our server.\n• Risk-first sizing. Each order risks a fixed 0.33% of the account; size = risk ÷ distance to stop. Max ~1% per setup. No martingale.\n• Safety rails: /stop kill switch cancels everything instantly, a daily loss limit on every wallet, sanity checks before each order, idempotent order IDs and a full audit log.\n• Research, not vibes. The strategy is backtested on 7 years of BTC history. 2,000+ filter ideas were tested against an out-of-sample holdout — only a handful made it to production. Live execution was audited order by order: 947 orders, zero execution errors.\n• Good for Lighter's book: entries are resting limit orders, so Trindor adds liquidity instead of only taking it.\n\nTRINDOR OIL CO. — THE LORE\nTrading feeds are dry and stressful, so Trindor tells the story as an oil company you own. An impulse is a deposit, each limit order is a well, profit is extracted in barrels at live WTI — with real dollars always shown next to it. Every closed trade becomes a story from the field (85 hand-written events: gushers, blowouts, tax audits, a penguin driller) with a PnL card, XP and a company level in /company. The game never hides the numbers: every lore word maps to a real market event, and the technical breakdown is one tap away. Prefer it plain? /game_off switches to classic mode.\n\nTHE DRILLER'S HANDBOOK — A TRADING WIKI IN DISGUISE\nAfter every trade, Trindor sends a short Handbook article: what the phenomenon means in the oil business, then the real market concept behind it — stop-losses, liquidity, leverage, drawdowns, funding. 60 articles across 9 topics and 12 illustrated scenes, rotated so users learn something new with each trade. A trading bot that doubles as an on-ramp into perps — and into Lighter.\n\nWHO IT'S FOR\nPeople who want systematic BTC exposure on Lighter without staring at charts all day, and newcomers who find perp DEXs intimidating. Onboarding happens entirely in Telegram: invite code, wallet, deposit, done.\n\nWHAT'S NEXT\n• Web app: live positions, trade journal, equity curve and your oil company in the browser.\n• X account + community hub: transparent weekly reports straight from the journal, Handbook threads, lore drops.\n• Community: open chats, a leaderboard of oil companies, seasonal events.\n• Business model: a fee on profits only (no profit — no fee) and trades routed through a Lighter integrator account, so Trindor's growth becomes Lighter's volume.\n• From invite-only to open access, and more Lighter markets once each clears the same research bar as BTC.\n\nTrindor has been trading live on Lighter mainnet since mid-2026. Every trade is on-chain and in the journal.",
+  "demoUrl": "https://t.me/Trindorbot",
+  "team": [
+    {
+      "name": "produmanni (Aleksandr)",
+      "role": "founder, CEO",
+      "avatar": "",
+      "twitter": "@produmanniXBT (x/twiiter)"
+    }
+  ]
+}

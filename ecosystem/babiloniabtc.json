@@ -1,0 +1,30 @@
+{
+  "name": "BabiloniaBTC",
+  "description": "BabiloniaBTC is a community-driven Web3 ecosystem combining automated Spot trading",
+  "url": "https://www.babiloniabtc.es",
+  "twitter": "@BabiloniaBTC",
+  "discord": "",
+  "telegram": "@BabiloniaBTC",
+  "logo": "/logos/babiloniabtc_logo.png",
+  "categories": [
+    "Apps",
+    "Bots"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 743039,
+  "status": "Live",
+  "createdAt": "2026-09-22",
+  "official": false,
+  "longDescription": "BabiloniaBTC is a community-driven Web3 ecosystem built around real utility, collaboration, and automated trading.\n\nOur ecosystem combines the BAB utility token, competitive games, crypto and sports predictions, and an automated trading bot designed to take advantage of market price fluctuations.\n\nOur main integration with Lighter allows users to automate their trading strategies while maintaining control of their funds in their own connected accounts.\n\nBabilonia Trading Bot operates according to predefined trading parameters, automatically identifying entry and exit opportunities and providing users with real-time visibility into their trading activity, open positions, and performance.\n\nBy integrating Lighter, we aim to take advantage of its trading infrastructure and competitive fee structure to make automated trading more accessible and efficient for our community.\n\nBabiloniaBTC is not just a trading bot. It is a growing ecosystem where developers, traders, and Web3 enthusiasts can contribute ideas, test new features, and participate in building the platform.\n\nOur goal is to create a transparent, community-powered environment where technology and collaboration drive continuous development.\n\nThe money never sleeps.",
+  "demoUrl": "https://www.babiloniabtc.es",
+  "team": [
+    {
+      "name": "Raidel Reyes",
+      "role": "Founder & Lead Developer",
+      "avatar": "",
+      "twitter": "@raidel_reyes"
+    }
+  ]
+}

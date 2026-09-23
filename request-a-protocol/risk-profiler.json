@@ -1,0 +1,10 @@
+{
+  "title": "Risk Profiler",
+  "summary": "Track account risk metrics",
+  "description": "Track Account Wide Liquidation Levels and events.\n- Include Resting book orders into liquidation events. (Black Swan, Flash Crash, Long Tails) Especially useful for cross margin accounts using ETH based margin.\n\nShow correlation/diversification of positions for efficient portfolio positioning. (Crypto typically moves with bitcoin, stocks and commodities move differently, some move in categories)\n\nHighlight Macro/REgulatory upcoming events that could act as volatility catalysts. \n\nTrack large funding events (ie. Oil funding rates went up to 800% annually over the weekend during Iran crisis)\n- Track funding drag. (Imagine being heavy in Oil longs and not realizing the funding rate is bleeding your position out after letting it sit for 24 hours)\n\nTrack liquidity and order book depth slippage for exiting large positions.\n",
+  "category": "Apps",
+  "status": "Open",
+  "createdAt": "2026-09-23",
+  "links": [],
+  "contact": null
+}

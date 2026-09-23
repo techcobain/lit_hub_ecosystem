@@ -795,6 +795,27 @@
       "official": false
     },
     {
+      "slug": "lighter-stats",
+      "name": "Lighter Stats",
+      "description": "On-chain analytics for Lighter traders: volume, fees, hourly funding, and net PnL across multiple wallets.",
+      "url": "https://lighter-stats.com",
+      "twitter": "@ohmybuild",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/lighter-stats_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "instances": [
+        "Lighter Robinhood"
+      ],
+      "status": "Live",
+      "createdAt": "2026-09-22",
+      "official": false,
+      "longDescription": "Lighter Stats is an on-chain analytics tool for Lighter traders and points farmers. It reconstructs trading activity across multiple wallets and shows the true cost and result of that activity: volume, fees, hourly funding, and net PnL.\nUsers paste one or more Lighter wallets (plain addresses, labels, explorer links, or spreadsheet columns). The product replays every fill, fee, and hourly funding payment from the chain, per wallet and per week, then checks the result against the balance reported by Lighter. The goal is simple: make the farm readable down to the last cent of funding, instead of leaving traders with only exchange-level totals.\nFor each wallet it returns:\n•  starting and ending weekly balance\n•  maker and taker volume\n•  fees per fill at the actual rate\n•  funding paid or received, per market, on the hourly settlement cycle\n•  net PnL after fees and funding\n•  net result per $1k of volume, so traders can see what that volume actually cost or earned\nIt also shows live market context (prices and hourly funding across Lighter markets) and an exchange-wide 24h snapshot, so personal wallet stats sit next to overall activity. No wallet connection or signature is required — addresses are enough.\nLighter Stats is built for the people actually trading and farming on Lighter: multi-wallet operators, points farmers, and anyone who needs to verify that reported balances match on-chain fills, fees, and funding.",
+      "demoUrl": "https://lighter-stats.com/"
+    },
+    {
       "slug": "lighter-trades-summaries",
       "name": "Lighter Trades - Summaries",
       "description": "TG Bot - Summaries related with Lighter",
@@ -1752,5 +1773,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-09-21T10:32:39.136Z"
+  "generatedAt": "2026-09-23T09:25:48.039Z"
 }

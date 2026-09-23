@@ -1,13 +1,20 @@
 {
   "name": "Coingecko",
-  "description": "",
+  "description": "Cryptocurrency data aggregator providing market data, prices, charts, and crypto analytics",
   "url": "https://www.coingecko.com/en/coins/lighter",
-  "twitter": "",
+  "twitter": "https://x.com/coingecko",
   "logo": "/logos/coingecko_logo.ico",
   "categories": [
     "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "https://discord.com/invite/EhrkaCH",
+  "telegram": "https://t.me/coingecko",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "CoinGecko is an independent cryptocurrency data aggregator that provides cryptocurrency prices, market data, trading volume, market capitalization, historical data, and other crypto market information. It also provides APIs for developers to access cryptocurrency market and onchain data.",
+  "demoUrl": "https://www.coingecko.com/en/exchanges/lighter"
 }

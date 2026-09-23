@@ -1,0 +1,35 @@
+{
+  "name": "XYZD",
+  "description": "Low-Cost Automated Market-Making and Trading Tool for Retail Traders",
+  "url": "https://lighter.xyzd.live/",
+  "twitter": "@tradexyzd",
+  "discord": "NA",
+  "telegram": "https://t.me/+_zphxIh7cUJjYTI1",
+  "logo": "/logos/xyzd_logo.png",
+  "categories": [
+    "Bots",
+    "Copytrade"
+  ],
+  "instances": [
+    "Lighter Robinhood",
+    "Lighter Core"
+  ],
+  "integrator_account_index": 217498,
+  "robinhood_integrator_account_index": 3974,
+  "status": "Live",
+  "createdAt": "2026-09-23",
+  "official": false,
+  "builderDiscords": [
+    "kannu0093"
+  ],
+  "longDescription": "XYZD.live is building a suite of low-cost automated trading tools for retail traders across emerging crypto markets.\n\nToday, our platform offers automated market-making bots and delta-neutral trading bots, helping users automate execution, manage positions, and trade across multiple decentralized exchanges without building their own infrastructure.\n\nBut XYZD is evolving beyond individual trading bots.\n\nWe are building a broader ecosystem of automated and agentic trading applications, including:\n\nMarket-Making Bots\nDelta-Neutral Trading Bots\nCopy Trading\nAutomated Strategy Execution\nAgentic Trading Applications\nMulti-Exchange Trading Tools\n\nOur goal is to make advanced trading infrastructure that is typically complex, expensive, or built for professional traders accessible to everyday retail users.\n\nXYZD has already processed hundreds of millions of dollars in trading volume across multiple exchanges, and we continue to expand into new venues, strategies, and automated trading products.",
+  "demoUrl": "https://lighter.xyzd.live/",
+  "team": [
+    {
+      "name": "Rolluoguy",
+      "role": "Founder",
+      "avatar": "",
+      "twitter": "@rollupguy26"
+    }
+  ]
+}

@@ -201,6 +201,34 @@
       "official": false
     },
     {
+      "slug": "builder-markets",
+      "name": "Builder Markets",
+      "description": "Multi-venue merged orderbook for perps, predictions and spot.",
+      "url": "https://app.builder.markets",
+      "twitter": "@HyperDFU",
+      "discord": "",
+      "telegram": "",
+      "logo": "",
+      "categories": [
+        "Terminal",
+        "Developers"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "integrator_account_index": 0,
+      "robinhood_integrator_account_index": 0,
+      "status": "Live",
+      "createdAt": "2026-09-23",
+      "official": false,
+      "builderDiscords": [
+        "@dfurrer"
+      ],
+      "longDescription": "-",
+      "demoUrl": "https://app.builder.markets"
+    },
+    {
       "slug": "bull",
       "name": "BULL",
       "description": "Non-custodial perp terminal for Lighter and Hyperliquid. Control split-order direction and pace with a two-thumb pad.",
@@ -1773,5 +1801,5 @@
       "official": false
     }
   ],
-  "generatedAt": "2026-09-23T09:25:48.039Z"
+  "generatedAt": "2026-09-23T09:28:18.825Z"
 }

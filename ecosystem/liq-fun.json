@@ -1,0 +1,20 @@
+{
+  "name": "Liq.fun",
+  "description": "Gamified perps.",
+  "url": "https://liq.fun",
+  "twitter": "@liq_fun",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/liq-fun_logo.png",
+  "categories": [
+    "Apps"
+  ],
+  "instances": [
+    "Lighter Robinhood"
+  ],
+  "status": "Live",
+  "createdAt": "2026-09-23",
+  "official": false,
+  "longDescription": "liq.fun is an arena for flash perps, and it is about one decision: when to get out. It could be useful onboarding tool for any real perps trading.",
+  "demoUrl": "https://liq.fun"
+}

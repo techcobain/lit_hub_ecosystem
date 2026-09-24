@@ -1075,6 +1075,34 @@
       "integrator_account_index": "735079"
     },
     {
+      "slug": "m-b",
+      "name": "MöB",
+      "description": "MöB is the Prime Terminal for Onchain Finance",
+      "url": "https://mob.exchange/",
+      "twitter": "https://x.com/MOB_Exchange_",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/m-b_logo.png",
+      "categories": [
+        "Terminal",
+        "Lending"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "integrator_account_index": 735705,
+      "robinhood_integrator_account_index": 994,
+      "status": "Live",
+      "createdAt": "2026-09-24",
+      "official": false,
+      "builderDiscords": [
+        "stanleyhe"
+      ],
+      "longDescription": "MöB allows users to borrow against any combination of perp DEX equities and DeFi portfolios across chains, and execute trading strategies in one interface.\n\nUsers can manage trades across Lighter Core and Lighter Robinhood via MöB and draw credit line for their portfolios.",
+      "demoUrl": "https://app.mob.exchange/"
+    },
+    {
       "slug": "metascalp",
       "name": "Metascalp",
       "description": "Pro trading terminal for 20+ exchanges, with real-time order-book depth and clusters",
@@ -1844,5 +1872,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-24T10:45:18.897Z"
+  "generatedAt": "2026-09-24T10:46:45.326Z"
 }

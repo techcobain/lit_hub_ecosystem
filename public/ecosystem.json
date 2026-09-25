@@ -1800,6 +1800,7 @@
       "twitter": "https://x.com/vooi_io",
       "logo": "/logos/vooi_logo.png",
       "categories": [
+        "Terminal",
         "Apps"
       ],
       "status": "Live",
@@ -1877,5 +1878,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-25T11:11:47.194Z"
+  "generatedAt": "2026-09-25T12:38:32.430Z"
 }

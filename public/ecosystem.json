@@ -31,6 +31,30 @@
       "official": true
     },
     {
+      "slug": "alpha-journey",
+      "name": "Alpha Journey",
+      "description": "Trading journal focused on strategy/analytics/automation",
+      "url": "https://alphajourney.app",
+      "twitter": "@AlphaJourneyApp",
+      "discord": "https://discord.gg/UErM2wRXc",
+      "telegram": "",
+      "logo": "/logos/alpha-journey_logo.jpg",
+      "categories": [
+        "Data",
+        "Apps"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "status": "Live",
+      "createdAt": "2026-09-24",
+      "official": false,
+      "builderDiscords": [
+        "alpha_journey"
+      ],
+      "longDescription": "Alpha Journey auto-syncs your Lighter trades and turns them into a strategy-driven journal. Define your setups and risk rules, and get alerts when you drift off-plan or a strategy starts losing its edge.\n\nNot just for analyzing your edge, but for improving and finding it!"
+    },
+    {
       "slug": "arrow-finance",
       "name": "Arrow Finance",
       "description": "Trade, earn, borrow, launch, and manage your assets safely on Arrow Finance.",
@@ -1878,5 +1902,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-25T12:40:10.795Z"
+  "generatedAt": "2026-09-25T14:02:27.257Z"
 }

@@ -62,7 +62,8 @@
       "discord": "",
       "telegram": "",
       "instances": [
-        "Lighter Core"
+        "Lighter Core",
+        "Lighter Robinhood"
       ],
       "longDescription": "Artemis is an AI-powered investment research platform built for investors, analysts, portfolio managers, and financial institutions. The platform brings financial data, crypto data, alternative datasets, research tools, financial modeling, and AI analysis into one workspace.\n\nAt the center of Artemis is Artemis Analyst, an AI research assistant designed specifically for investment workflows. Users can ask investment questions in natural language and use the platform to research companies, tokens, protocols, sectors, and broader market themes. Artemis can help analyze financial statements, earnings calls, consensus estimates, SEC filings, company fundamentals, valuation metrics, and on-chain activity.\n\nThe platform covers more than 30,000 public market tickers and over 600 crypto protocols. Its datasets include equity fundamentals, crypto fundamentals, token unlocks, ETF flows, stablecoin activity, perpetual markets, prediction markets, real-world assets, and other specialized financial datasets. Artemis also provides alternative data from sources such as podcasts, Reddit, card spending, and AI usage data.\n\nUsers can build financial models, create comparable company analyses, generate charts, monitor key performance indicators, and create dashboards directly within the platform. Artemis also supports Excel and Google Sheets integrations, allowing analysts to pull live and historical data directly into existing models and workflows.\n\nResearch and analysis can be exported into formats such as Excel, CSV, PDF, and presentation slides, making Artemis suitable for both individual research and institutional investment teams.\n\nArtemis is positioned as an AI-native investment research platform that combines structured financial data with analytical tools. Instead of moving between multiple terminals, spreadsheets, blockchain dashboards, filings, and research platforms, investors can use Artemis to move from an initial investment question to data analysis, modeling, thesis development, and final research output within a single environment."
     },
@@ -1876,5 +1877,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-24T11:52:22.990Z"
+  "generatedAt": "2026-09-24T11:46:47.644Z"
 }

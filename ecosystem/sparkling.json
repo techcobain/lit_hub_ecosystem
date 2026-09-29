@@ -1,0 +1,21 @@
+{
+  "name": "Sparkling",
+  "description": "Trading app with an agent. Swaps, perps, predictions and stocks from one self-custodial balance.",
+  "url": "https://sparkl.ing/",
+  "twitter": "@SparklingAI",
+  "discord": "",
+  "telegram": "@SparklingAI",
+  "logo": "/logos/sparkling_logo.png",
+  "categories": [
+    "Agents",
+    "Apps"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-09-29",
+  "official": false,
+  "longDescription": "Sparkling: the trading app that comes with its own AI agent\n\nSparkling brings perps, prediction markets, tokenized stocks and swaps into one self-custodial app, right inside Telegram. An AI agent does the prep work: it finds the setup, fills in the details and lays out the trade. You review it and confirm. Nothing moves without you.\n\nWHY SPARKLING\nOnchain markets have never been better, but using them still means juggling wallets, bridges, venues and interfaces. Sparkling collapses all of it into one balance and one conversation. Ask the agent for a trade, get a ready-to-confirm setup, and execute in a tap.\n\nWHAT YOU CAN TRADE\nPerpetuals: Lighter perps are coming to Sparkling soon, with the agent preparing every position and you confirming it.\nPrediction markets: trade on real-world outcomes via Polymarket, including fast Up or Down markets on BTC, ETH, SOL, XRP and DOGE. Sparkling is part of the Polymarket Builders Program.\nTokenized stocks: get exposure to US equities via xStocks, right next to your crypto.\nSwaps: best execution across chains. Bebop RFQ delivers firm quotes with zero slippage and MEV protection, while LI.FI, Jupiter and NEAR Intents cover additional routes and networks.\n\nTHE AGENT\nThe agent is the core of Sparkling, not a chatbot bolted on. Tell it what you want in plain language, like \"long ETH with 3x\" or \"what's moving today\", and it prepares the trade: market, direction, size and leverage. Every field stays editable. The agent never moves funds on its own. Every action needs your confirmation.\n\nWHY LIGHTER\nLighter brings zero-fee, ZK-verified perpetuals to Ethereum, with every fill and liquidation provable onchain. For Sparkling traders that means deep liquidity, no trading fees for retail and trust-minimized execution, all from the same balance and the same agent.\n\nSELF-CUSTODIAL BY DESIGN\nEvery account gets its own wallet at sign-up, with the seed phrase exportable at any time. Your keys, your funds. Sparkling never holds user assets and never pools deposits. Wallet infrastructure is powered by Turnkey.\n\nBUILT FOR TELEGRAM\nSparkling runs natively in Telegram: no downloads, no extensions, no new app to learn. A mobile-first interface covers perps, predictions and swaps, with the agent one message away.\n\nTHE STACK\nPerps: Lighter (coming soon)\nPredictions: Polymarket\nTokenized stocks: xStocks\nSwaps: Bebop, LI.FI, Jupiter, NEAR Intents\nWallets: Turnkey\nCompute: 0G, strategic partner\n\nWHAT'S NEXT\nWeb version coming soon. Cards coming this winter. More markets and a smarter agent along the way.\n\nWHO IT'S FOR\nSeasoned perps traders who want speed and one balance for everything, and newcomers who want a simpler way into onchain markets without giving up custody.\n\nLINKS\nApp: t.me/sparkling_trade_bot\nX: x.com/SparklingAI\nTelegram channel: t.me/SparklingAI\nWebsite: sparkl.ing",
+  "demoUrl": "https://t.me/sparkling_trade_bot"
+}

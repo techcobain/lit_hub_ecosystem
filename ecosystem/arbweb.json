@@ -1,0 +1,26 @@
+{
+  "name": "ArbWeb",
+  "description": "Trading platform with a dedicated IP per user and ultra-low-latency order execution across Lighter and major exchanges.",
+  "url": "https://arbweb.pro/",
+  "twitter": "https://x.com/arbwebpro",
+  "discord": "",
+  "telegram": "https://t.me/arbweb_pro",
+  "logo": "/logos/arbweb_logo.png",
+  "categories": [
+    "Bots",
+    "Terminal"
+  ],
+  "instances": [
+    "Lighter Robinhood",
+    "Lighter Core"
+  ],
+  "integrator_account_index": 713138,
+  "robinhood_integrator_account_index": 5912,
+  "status": "Live",
+  "createdAt": "2026-09-29",
+  "official": false,
+  "builderDiscords": [
+    "webblqck"
+  ],
+  "longDescription": "ArbWeb is a trading platform for perpetual futures that runs each user's trading on its own server infrastructure in Tokyo, next to the major exchanges, with a dedicated IP address per user.\n\nWhat it does\n- Connects to 12 venues, including Lighter, Binance, Gate, Bybit, OKX, Hyperliquid and AsterDex, through native adapters written for each exchange, not a generic library.\n- Reads full order books over WebSocket and makes trading decisions on the server, close to the matching engines, so the path from market data to order is measured in milliseconds.\n- Sizes every order by the depth actually available in the book and sends both legs of a position at the same time, which keeps slippage under the user's limits.\n- Every user gets a dedicated IP address inside the server, never shared with anyone else. API keys stay encrypted and are used only on that user's node.\n\nWho it is for\nTraders who run several positions across exchanges at once and want execution speed and control that manual trading can't give: up to dozens of parallel sessions, live PnL, funding and liquidation tracking in one place.\n\nWhy it's useful on Lighter\nLighter is a supported venue: users connect their own Lighter API key and can trade Lighter against any other supported exchange from the same interface. Orders go out from the user's dedicated IP, and positions, fills and funding on Lighter are tracked together with the other leg.\n\nWe're currently rolling out a new execution engine written in Rust for the lowest possible latency: order books and decisions are processed in microseconds.\n"
+}

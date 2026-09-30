@@ -1,0 +1,38 @@
+{
+  "name": "Jumper Perps",
+  "description": "Jumper Perps lets users discover, compare, and trade perpetual markets across multiple venues in one interface.",
+  "url": "https://perps.jumper.xyz/",
+  "twitter": "@jumperapp",
+  "discord": "https://discord.com/invite/jumperapp",
+  "telegram": "@jumperapp",
+  "logo": "/logos/jumper-perps_logo.jpg",
+  "categories": [
+    "Apps",
+    "Terminal"
+  ],
+  "instances": [
+    "Lighter Core",
+    "Lighter Robinhood"
+  ],
+  "integrator_account_index": 735353,
+  "robinhood_integrator_account_index": 37499,
+  "status": "Live",
+  "createdAt": "2026-09-30",
+  "official": false,
+  "longDescription": "Jumper Perps gives users a unified interface to discover and trade perpetual markets across venues, including Lighter. It helps Lighter reach more traders by surfacing its markets, liquidity and execution alongside other venues, while making it easier for users to compare and route their trades there when it offers the best experience.",
+  "demoUrl": "https://perps.jumper.xyz/",
+  "team": [
+    {
+      "name": "Marko",
+      "role": "Founder",
+      "avatar": "",
+      "twitter": "@zord4n"
+    },
+    {
+      "name": "Octave",
+      "role": "Product",
+      "avatar": "",
+      "twitter": "@octavionotpunk"
+    }
+  ]
+}

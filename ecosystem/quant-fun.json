@@ -1,0 +1,24 @@
+{
+  "name": "Quant Fun",
+  "description": "Trading strategies terminal ",
+  "url": "https://quantfun.trade/",
+  "twitter": "@QuantfunTrade",
+  "discord": "",
+  "telegram": "t.me/quantfunhub",
+  "logo": "/logos/quant-fun_logo.png",
+  "categories": [
+    "Copytrade",
+    "Bots"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 740721,
+  "status": "Live",
+  "createdAt": "2026-09-30",
+  "official": false,
+  "builderDiscords": [
+    "0xtomeron"
+  ],
+  "longDescription": "QuantFun is a platform for building, testing, and deploying trading strategies across multiple venues, including Lighter, Hyperliquid, Polymarket, and more.\nAt its core is a strategy studio with high-quality building blocks, a powerful backtesting engine, and robust infrastructure built for fast execution. QuantFun brings the entire workflow into one place, helping users turn trading ideas into live strategies - from initial design and testing to deployment"
+}

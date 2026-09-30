@@ -1,0 +1,25 @@
+{
+  "name": "Circuit",
+  "description": "Agentic trading",
+  "url": "https://circuit.org",
+  "twitter": "@CircuitAI",
+  "discord": "n/a",
+  "telegram": "@circuitorg",
+  "logo": "/logos/circuit_logo.jpg",
+  "categories": [
+    "Agents",
+    "Bots"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 750252,
+  "status": "Live",
+  "createdAt": "2026-09-30",
+  "official": false,
+  "builderDiscords": [
+    "foobar0x"
+  ],
+  "longDescription": "Trade perps and build bots with natural language",
+  "demoUrl": "https://app.circuit.org"
+}

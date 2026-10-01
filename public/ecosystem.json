@@ -1408,6 +1408,56 @@
       "longDescription": "oka is the onchain RWA layer. Buy tokenized stocks with stablecoins, at the best all-in price, in a wallet you actually own.\n\nThe same stock exists as a dozen different tokens. xStocks, Ondo, Coinbase, Robinhood and Backpack each mint their own version, across Base, Solana, Arbitrum, BSC, Ethereum and Robinhood Chain. Each one trades in its own pool, at its own price. Buy the wrong one, and you've already lost money before the stock even moves.\n\noka scans every open listing, over 700 stocks and ETFs, nearly 3,000 listings, and fills the one that nets you the most stock once bridging, spread and gas are counted. Everything shows up as one portfolio, one balance.\n\nSigning in creates your wallet: email, Google, X or a passkey. No seed phrase, no extension. Keys stay exportable, so it's yours.\n\nThat covers the stock itself: no leverage, no way to short it. For that, there's a second layer of 98 real-world markets: equities, ETFs, indices, commodities, FX, pre-IPO, bonds, compute. Long or short, market or limit, cross or isolated, 1x to 50x."
     },
     {
+      "slug": "orderx",
+      "name": "OrderX",
+      "description": "Institutional-grade trading terminal with built-in agents for research, risk, and execution.",
+      "url": "https://orderx.com",
+      "twitter": "orderx",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/orderx_logo.jpg",
+      "categories": [
+        "Agents",
+        "Terminal"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 735638,
+      "robinhood_integrator_account_index": 735638,
+      "status": "Not Live",
+      "createdAt": "2026-10-01",
+      "official": false,
+      "longDescription": "Institutional-grade trading tools with built-in agents for research, risk, and execution. Works out of the box, across every asset class.\n\nDesigned to serve everyone from independent professional traders to hedge funds, it acts as an institutional-grade, unified interface where users can connect their existing traditional finance and crypto brokerage accounts (such as IBKR, Deribit, and Bybit). The core focus of the platform is to streamline the entire trading lifecycle, utilizing built-in artificial intelligence agents to assist with market research, real-time risk assessment, and cross-venue portfolio management without the usual manual overhead.",
+      "demoUrl": "https://app.orderx.com",
+      "team": [
+        {
+          "name": "Alexander Markl",
+          "role": "CEO, Co-Founder",
+          "avatar": "",
+          "twitter": "alex_markl"
+        },
+        {
+          "name": "Jenny Ban",
+          "role": "Co-Founder",
+          "avatar": "",
+          "twitter": "0xJennyB"
+        },
+        {
+          "name": "Aaron Meteling",
+          "role": "CTO",
+          "avatar": "",
+          "twitter": "aaron__me"
+        },
+        {
+          "name": "John Cutrone",
+          "role": "CMO",
+          "avatar": "",
+          "twitter": "NashRate"
+        }
+      ]
+    },
+    {
       "slug": "origami-tech",
       "name": "Origami.tech",
       "description": "Build and run automated crypto trading strategies across CEXes and DEXes with a low-code, non-custodial platform…",
@@ -2144,5 +2194,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-01T17:44:23.971Z"
+  "generatedAt": "2026-10-01T18:11:26.054Z"
 }

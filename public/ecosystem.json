@@ -1900,6 +1900,56 @@
       "official": false
     },
     {
+      "slug": "velocity",
+      "name": "Velocity",
+      "description": "Velocity is a premium digital asset exchange trading platform with access to 500+ trading pairs across spot and perps.",
+      "url": "https://velocity-foundation.com/",
+      "twitter": "https://x.com/VelocityTradeX",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/velocity_logo.png",
+      "categories": [
+        "Copytrade",
+        "Yield"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 730502,
+      "status": "Live",
+      "createdAt": "2026-09-29",
+      "official": false,
+      "builderDiscords": [
+        "matic031"
+      ],
+      "longDescription": "Velocity was built to reduce fragmentation in financial markets. Banks, brokers, exchanges, payment rails and chains still run as separate systems, and we're building one platform across them.\n\nOur exchange is live at velocity-exchange.com. One self-custodial account trades crypto, stocks, indices, ETFs, forex and commodities on Lighter and Hyperliquid. Users sign in with email and fund by card, so people who have never used a DEX can trade on Lighter.\n\nBeyond trading, users will soon be able to invest in partner strategies: an algorithmic BTC/ETH hedge fund, a stablecoin yield vault, and tokenized land and property (RWAs).\n\nBusinesses can offer the same rails under their own brand, operated by Velocity:\nRamp: customers buy crypto by card or bank transfer and cash out the same way.\nPayments: one checkout for card, bank or crypto, settled in crypto straight to the business's wallet.\nBridge: transfers across 18+ networks, including Solana, Base, Hyperliquid and others.",
+      "demoUrl": "https://velocity-foundation.com",
+      "hiring": true,
+      "jobs": [
+        {
+          "id": "j1",
+          "title": "Business Development Manager",
+          "type": "Contract",
+          "location": "Remote",
+          "salary": "$40k-$80k + commisions",
+          "description": "About Velocity\nVelocity is a premium digital asset exchange trading platform with access to 500+ trading pairs across spot and perpetual markets.\n\nIt is built for active traders who value high performance, deep liquidity, and a secure environment - advanced tools, competitive fees, and responsive support.\n\nYou would join a fast-paced, globally oriented team at the intersection of finance and technology.\n\nThe role\nFull-time or part-time, remote. You will identify, qualify, and close new trader partnerships, affiliate partnerships, and institutional client opportunities across digital asset and financial markets.\n\nWhat you'll do\nBuild and manage a pipeline of prospects, and run outreach end to end.\nLead discovery calls and deliver tailored platform demos.\nNegotiate commercial terms and onboard new partners and high-value clients.\nWork with product, marketing, and operations to sharpen the pitch and feed back what the market tells you.\nHelp shape go-to-market strategy from what you hear i",
+          "applyUrl": "https://velocity-foundation.com/careers/business-development-manager"
+        }
+      ],
+      "hiringContact": {
+        "channel": "email",
+        "handle": "contact@velocity-exchange.com"
+      },
+      "team": [
+        {
+          "name": "Cyrille",
+          "role": "Co-founder",
+          "avatar": "",
+          "twitter": "@cyrille_lange"
+        }
+      ]
+    },
+    {
       "slug": "verus",
       "name": "Verus",
       "description": "Perp DEX Aggregator - Providing the best execution for every perp trade.",
@@ -2006,5 +2056,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-01T12:38:44.882Z"
+  "generatedAt": "2026-10-01T14:54:26.661Z"
 }

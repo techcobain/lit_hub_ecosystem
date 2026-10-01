@@ -12,6 +12,9 @@
 // Safe preview: `DRY_RUN=true SLUG=botlyz node scripts/notify-telegram.mjs`.
 // Both channels attach the same rendered card. If the card can't be rendered,
 // Telegram still sends its text; X sends nothing.
+//
+// Posts link to the project's lit-hub page, which only exists once the site
+// has picked up the rebuilt index, so nothing is sent until that page loads.
 
 import { execFileSync } from "node:child_process";
 import { readFileSync, existsSync } from "node:fs";
@@ -96,6 +99,31 @@ export function buildMessage(slug, p) {
     .join("\n");
 }
 
+// --- Waiting for the lit-hub page ---
+
+const PAGE_CHECK_ATTEMPTS = 40; // 40 checks 15s apart: up to 10 minutes
+const PAGE_CHECK_INTERVAL_MS = 15_000;
+
+// True once the project's page answers 200, false if it never does in time.
+export async function waitForProjectPage(slug, {
+  attempts = PAGE_CHECK_ATTEMPTS, intervalMs = PAGE_CHECK_INTERVAL_MS, fetchImpl = fetch,
+  sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)),
+} = {}) {
+  const pageUrl = `${SITE_URL}/ecosystem/${encodeURIComponent(slug)}`;
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const res = await fetchImpl(pageUrl, { signal: AbortSignal.timeout(10_000) });
+      await res.body?.cancel();
+      if (res.ok) return true;
+      console.log(`${slug}: page not live yet (HTTP ${res.status}), check ${attempt}/${attempts}`);
+    } catch (err) {
+      console.log(`${slug}: page check failed (${err.message}), check ${attempt}/${attempts}`);
+    }
+    if (attempt >= attempts) return false;
+    await sleep(intervalMs);
+  }
+}
+
 // --- X ---
 
 const X_LIMIT = 280;
@@ -172,7 +200,7 @@ async function announce(slug, text, png, fetchImpl) {
 export async function runAnnouncements({
   slugs = addedSlugs(), dryRun = process.env.DRY_RUN === "true",
   telegramEnabled = TELEGRAM_ENABLED, xEnabled = X_ENABLED, credentials = X,
-  rendererFactory = createCardRenderer, fetchImpl = fetch,
+  rendererFactory = createCardRenderer, fetchImpl = fetch, waitForPage = waitForProjectPage,
   outputDir = path.join(ROOT, "output/announcements"),
 } = {}) {
   slugs = [...new Set(slugs.map(validateSlug))];
@@ -215,6 +243,14 @@ export async function runAnnouncements({
       }
       if (dryRun) {
         console.log(`preview ${slug} in ${outputDir} (nothing sent)`);
+        continue;
+      }
+      if (!(await waitForPage(slug))) {
+        failed++;
+        console.error(
+          `skip ${slug}: ${SITE_URL}/ecosystem/${slug} never loaded, so nothing was posted. ` +
+            `Once it does, run the "Announce new projects" workflow manually with slug=${slug} and dry_run off.`,
+        );
         continue;
       }
       if (telegramEnabled) {

@@ -5,7 +5,10 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { createCardRenderer, readProject, validateSlug } from "../scripts/render-announcement.mjs";
 import { postCardToX } from "../scripts/x-card.mjs";
-import { buildMessage, buildPost, runAnnouncements } from "../scripts/notify-telegram.mjs";
+import { buildMessage, buildPost, runAnnouncements, waitForProjectPage } from "../scripts/notify-telegram.mjs";
+
+// Stands in for the lit-hub page check, so publishing tests stay offline.
+const pageLive = async () => true;
 
 let renderer, temp, example;
 before(async () => {
@@ -153,7 +156,7 @@ test("Telegram uploads the same card as X, with the existing HTML caption", asyn
   const outputDir = path.join(temp, "both-channels");
   const code = await runAnnouncements({
     slugs: ["telegram-wallet"], dryRun: false, xEnabled: true, telegramEnabled: true,
-    credentials, outputDir, fetchImpl: recordingFetch(calls),
+    credentials, outputDir, waitForPage: pageLive, fetchImpl: recordingFetch(calls),
   });
   assert.equal(code, 0);
   assert.deepEqual(calls.map((c) => c.method ?? c.channel), ["sendPhoto", "x", "x"]);
@@ -173,7 +176,7 @@ test("a rejected Telegram photo still sends the text announcement", async () => 
   const calls = [];
   const code = await runAnnouncements({
     slugs: ["vooi"], dryRun: false, xEnabled: false, telegramEnabled: true,
-    credentials, outputDir: path.join(temp, "photo-rejected"),
+    credentials, outputDir: path.join(temp, "photo-rejected"), waitForPage: pageLive,
     fetchImpl: recordingFetch(calls, (method) =>
       method === "sendPhoto" ? [{ ok: false, description: "Bad Request: wrong file" }, 400] : { ok: true, result: {} }),
   });
@@ -186,7 +189,7 @@ test("when the card can't be rendered, Telegram sends text and X sends nothing",
   const calls = [];
   const code = await runAnnouncements({
     slugs: ["telegram-wallet"], dryRun: false, xEnabled: true, telegramEnabled: true,
-    credentials, outputDir: path.join(temp, "no-card"),
+    credentials, outputDir: path.join(temp, "no-card"), waitForPage: pageLive,
     rendererFactory: async () => ({
       render: async () => { throw new Error("Corrupt logo"); },
       close: async () => {},
@@ -203,7 +206,7 @@ test("full notifier renders each project and attaches its own media ID, using on
   const outputDir = path.join(temp, "notifier");
   const code = await runAnnouncements({
     slugs: ["telegram-wallet", "vooi", "telegram-wallet"], dryRun: false,
-    xEnabled: true, telegramEnabled: false, credentials, outputDir,
+    xEnabled: true, telegramEnabled: false, credentials, outputDir, waitForPage: pageLive,
     rendererFactory: async () => {
       created++;
       const instance = await createCardRenderer();
@@ -232,7 +235,7 @@ test("full notifier fails without posting when rendering fails and still closes 
   let closed = false;
   const code = await runAnnouncements({
     slugs: ["telegram-wallet"], dryRun: false, xEnabled: true, telegramEnabled: false,
-    credentials, outputDir: path.join(temp, "failure"),
+    credentials, outputDir: path.join(temp, "failure"), waitForPage: pageLive,
     rendererFactory: async () => ({
       render: async () => { throw new Error("Corrupt logo"); },
       close: async () => { closed = true; },
@@ -251,4 +254,34 @@ test("unconfigured channels and empty batches do not launch a browser or publish
   };
   assert.equal(await runAnnouncements({ ...options, slugs: ["telegram-wallet"] }), 0);
   assert.equal(await runAnnouncements({ ...options, slugs: [] }), 0);
+});
+
+test("nothing is posted for a project whose lit-hub page never loads", async () => {
+  const calls = [];
+  const code = await runAnnouncements({
+    slugs: ["vooi"], dryRun: false, xEnabled: true, telegramEnabled: true,
+    credentials, outputDir: path.join(temp, "page-missing"),
+    waitForPage: async () => false, fetchImpl: recordingFetch(calls),
+  });
+  assert.equal(code, 1);
+  assert.deepEqual(calls, []);
+});
+
+test("the page check retries until the page answers 200, and gives up after its attempts", async () => {
+  const urls = [];
+  const statuses = [404, 404, 200];
+  const sleeps = [];
+  const fetchImpl = async (url) => {
+    urls.push(url);
+    return new Response("", { status: statuses.shift() ?? 404 });
+  };
+  const sleep = async (ms) => { sleeps.push(ms); };
+  assert.equal(await waitForProjectPage("vooi", { attempts: 5, intervalMs: 7, fetchImpl, sleep }), true);
+  assert.deepEqual(urls, Array(3).fill("https://lit-hub.org/ecosystem/vooi"));
+  assert.deepEqual(sleeps, [7, 7]);
+
+  const failing = async () => { throw new Error("connection refused"); };
+  sleeps.length = 0;
+  assert.equal(await waitForProjectPage("vooi", { attempts: 3, intervalMs: 7, fetchImpl: failing, sleep }), false);
+  assert.deepEqual(sleeps, [7, 7]);
 });

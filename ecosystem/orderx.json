@@ -1,0 +1,49 @@
+{
+  "name": "OrderX",
+  "description": "Institutional-grade trading terminal with built-in agents for research, risk, and execution.",
+  "url": "https://orderx.com",
+  "twitter": "orderx",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/orderx_logo.jpg",
+  "categories": [
+    "Agents",
+    "Terminal"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 735638,
+  "robinhood_integrator_account_index": 735638,
+  "status": "Not Live",
+  "createdAt": "2026-10-01",
+  "official": false,
+  "longDescription": "Institutional-grade trading tools with built-in agents for research, risk, and execution. Works out of the box, across every asset class.\n\nDesigned to serve everyone from independent professional traders to hedge funds, it acts as an institutional-grade, unified interface where users can connect their existing traditional finance and crypto brokerage accounts (such as IBKR, Deribit, and Bybit). The core focus of the platform is to streamline the entire trading lifecycle, utilizing built-in artificial intelligence agents to assist with market research, real-time risk assessment, and cross-venue portfolio management without the usual manual overhead.",
+  "demoUrl": "https://app.orderx.com",
+  "team": [
+    {
+      "name": "Alexander Markl",
+      "role": "CEO, Co-Founder",
+      "avatar": "",
+      "twitter": "alex_markl"
+    },
+    {
+      "name": "Jenny Ban",
+      "role": "Co-Founder",
+      "avatar": "",
+      "twitter": "0xJennyB"
+    },
+    {
+      "name": "Aaron Meteling",
+      "role": "CTO",
+      "avatar": "",
+      "twitter": "aaron__me"
+    },
+    {
+      "name": "John Cutrone",
+      "role": "CMO",
+      "avatar": "",
+      "twitter": "NashRate"
+    }
+  ]
+}

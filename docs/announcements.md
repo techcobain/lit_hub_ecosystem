@@ -70,6 +70,13 @@ uncheck it only when intentionally publishing the requested slugs. Automatic
 push runs still publish newly added projects. Editing an existing listing does
 not reannounce it, and merging changes to the renderer alone sends no posts.
 
+Before posting, the notifier waits for the project's page
+(`https://lit-hub.org/ecosystem/<slug>`) to load, checking every 15 seconds for
+up to 10 minutes, since the site only lists a project once it has picked up the
+rebuilt index. If the page never loads, nothing is posted for that project and
+the run fails; once the page is live, run the workflow manually with that slug
+and `dry_run` unchecked. Dry runs don't wait.
+
 Generated cards and text are saved as workflow artifacts for 14 days, including
 cards generated before a failed upload. A separate pull-request workflow tests
 the renderer and fake X transport on Linux and saves previews without secrets.

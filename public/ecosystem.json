@@ -1409,6 +1409,29 @@
       ]
     },
     {
+      "slug": "pilled",
+      "name": "Pilled",
+      "description": "Social investing",
+      "url": "https://pilled.app",
+      "twitter": "@pilledap",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/pilled_logo.png",
+      "categories": [
+        "Apps",
+        "Copytrade"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 733247,
+      "status": "Not Live",
+      "createdAt": "2026-09-30",
+      "official": false,
+      "longDescription": "The social money app. Find your next big trade on your feed, or post a trade you feel passionate about. Earn a percentage of the fees from people trading through your posts. ",
+      "demoUrl": "https://www.pilled.app/invite/PILLED-GJKDH"
+    },
+    {
       "slug": "prism-bot",
       "name": "Prism bot",
       "description": "Track traders, funding rates, new listings, and milestones.",
@@ -2056,5 +2079,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-01T14:54:26.661Z"
+  "generatedAt": "2026-10-01T15:28:23.383Z"
 }

@@ -1850,7 +1850,7 @@
         "Agents",
         "Bots"
       ],
-      "status": "Not Live",
+      "status": "Live",
       "createdAt": "2026-07-21",
       "official": false,
       "builderDiscords": [
@@ -2208,5 +2208,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-02T11:42:54.783Z"
+  "generatedAt": "2026-10-02T12:06:52.539Z"
 }

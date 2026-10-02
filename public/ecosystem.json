@@ -1855,6 +1855,20 @@
       "official": false,
       "builderDiscords": [
         "saurabhkartik"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 92873,
+      "longDescription": "Solvana AI brings intelligent perpetual trading on Lighter through a unified execution layer. Users can trade Lighter perpetuals directly from X via tweets, or through the Solvana web app in a secure environment. Solvana’s intelligence layer understands user intent, analyzes the market, and helps execute perpetual trades on Lighter through simple natural-language commands.",
+      "demoUrl": "https://youtu.be/CBAgKDdFKto",
+      "team": [
+        {
+          "name": "Saurabh Kartik",
+          "role": "Founder",
+          "avatar": "",
+          "twitter": "Saurabhkartik07"
+        }
       ]
     },
     {
@@ -2194,5 +2208,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-01T18:11:26.054Z"
+  "generatedAt": "2026-10-02T11:42:54.783Z"
 }

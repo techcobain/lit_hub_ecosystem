@@ -16,6 +16,7 @@
   "status": "Live",
   "createdAt": "2026-10-01",
   "official": false,
+  "integrator_account_index": "281474976511159",
   "builderDiscords": [
     "wicklendev"
   ],

@@ -2069,6 +2069,31 @@
       "official": false
     },
     {
+      "slug": "wicklen",
+      "name": "Wicklen",
+      "description": "The trading and automation layer for Lighter perps: Bots, strategy building, backtesting, terminal, and risk controls.",
+      "url": "https://wicklen.trade",
+      "twitter": "@Wicklentrade",
+      "discord": "https://discord.com/invite/Ty5fs6pjTS",
+      "telegram": "https://t.me/+RoE3QNsY7dJjZTQ5",
+      "logo": "/logos/wicklen_logo.png",
+      "categories": [
+        "Bots",
+        "Terminal"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "status": "Live",
+      "createdAt": "2026-10-01",
+      "official": false,
+      "integrator_account_index": "281474976511159",
+      "builderDiscords": [
+        "wicklendev"
+      ],
+      "longDescription": "Wicklen is the trading and automation workspace built specifically\nfor Lighter perpetuals. Research markets, turn ideas into tested\nstrategies, trade manually or run bots, and follow their decisions\nand results—all in one place.\n\nTrade crypto, equity, index, FX and commodity perpetuals available on\nLighter, with a connected toolkit for manual and systematic trading:\n\n- Advanced trading terminal. Work with up to four independent charts,\n  live order books, trade tape, indicators and drawings. Manage\n  orders and TP/SL directly on the chart, with risk-based sizing,\n  Pilot Entry, Scaled Entry, TWAP and Iceberg execution.\n\n- Build and test without code. Create long and short entry, exit and\n  filter rules in Strategy Lab, including multi-timeframe logic.\n  Preview signals, backtest supported setups on stored Lighter-native\n  candles, and compare equity curves, drawdowns, trades, fees,\n  slippage and historical funding. Holdout results help you assess\n  how a strategy behaved across different parts of the test period\n  before preparing a live Strategy Bot.\n\n- Automation for your approach. Configure Grid, DCA, Market Making,\n  Pairs and custom Strategy Bots, or connect TradingView and other\n  webhook signals to saved execution and risk settings. Start from\n  editable Trend, Breakout, Pullback, Reclaim, Volatility and Mean\n  Reversion templates.\n\n- Bots you can understand. See why a bot acts or waits, inspect live\n  rule values and confirmation progress, and view its positions,\n  orders, fills and protection together. Connect reported performance\n  to Lighter-confirmed trades.\n\n- Risk controls you choose. Set multiple take-profit and stop-loss\n  levels, trailing exits and emergency safeguards. Guardian monitors\n  exposure, margin, liquidation distance and protection across\n  connected accounts, with configurable warnings, restrictions on new\n  risk and emergency reductions. Optional Liquidation Guard maintains\n  a stop on Lighter designed to trigger before estimated liquidation.\n\n- Market context that goes deeper. Bias and Activity Radar help you\n  investigate positioning, changing attention, funding, open\n  interest, liquidity and squeeze or trap conditions. Open the\n  evidence behind a reading and receive alerts for watched markets.\n\n- Analytics across your wallets. Bring manual and automated trading\n  into one view, or focus on a wallet, subaccount, market or bot.\n  Review realized and live PnL, drawdowns, win rates, fees, funding\n  and trade history to understand what is driving your results.\n\nUse Wicklen on desktop, tablet or phone, with an installable web app\nand configurable push notifications. Bots, managed orders and\nprotection monitoring continue on Wicklen’s servers when your browser\nis closed; selected critical alerts also have email backup.\n\n  Funds stay in your Lighter account. Connect through revocable Lighter\n  API credentials, encrypted at rest, with passkey and authenticator\n  security options.\n\n  Wicklen charges 0% trading-volume fees and adds no integrator trading\n  fee. Applicable Lighter fees and funding still apply."
+    },
+    {
       "slug": "xyzd",
       "name": "XYZD",
       "description": "Low-Cost Automated Market-Making and Trading Tool for Retail Traders",
@@ -2105,5 +2130,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-01T17:00:55.724Z"
+  "generatedAt": "2026-10-02T11:05:24.222Z"
 }

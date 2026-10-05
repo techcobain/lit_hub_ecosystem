@@ -2038,6 +2038,49 @@
       "official": false
     },
     {
+      "slug": "truenorth",
+      "name": "TrueNorth",
+      "description": "The World's First Agentic Brokerage",
+      "url": "https://truenorth.xyz/",
+      "twitter": "@get_truenorth",
+      "discord": "https://discord.com/invite/get-truenorth",
+      "telegram": "https://t.me/truenorthxyz/1",
+      "logo": "/logos/truenorth_logo.svg",
+      "categories": [
+        "Agents",
+        "Terminal"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "integrator_account_index": 750541,
+      "robinhood_integrator_account_index": 39019,
+      "status": "Live",
+      "createdAt": "2026-10-05",
+      "official": false,
+      "builderDiscords": [
+        "alex_truenorth",
+        "zeropnl"
+      ],
+      "longDescription": "TrueNorth is the world's first Agentic Brokerage. We are building the intelligence layer that connects traders and their agents to headless liquidity across TradFi and Crypto markets. The intelligence layer helps traders make better decisions and execute more effectively.",
+      "demoUrl": "https://app.truenorth.xyz/",
+      "team": [
+        {
+          "name": "Willy",
+          "role": "Co-Founder",
+          "avatar": "",
+          "twitter": "@WillyChuang"
+        },
+        {
+          "name": "Alex",
+          "role": "Co-Founder",
+          "avatar": "",
+          "twitter": "@moonshot6666"
+        }
+      ]
+    },
+    {
       "slug": "typescript-community-sdk",
       "name": "Typescript Community SDK",
       "description": "Community built TS-SDK for Lighter exchange. . Contribute to smartcrypto0/lighter-ts development by creating an…",
@@ -2208,5 +2251,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-02T12:06:52.539Z"
+  "generatedAt": "2026-10-05T11:32:19.022Z"
 }

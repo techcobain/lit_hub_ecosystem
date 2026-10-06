@@ -547,6 +547,28 @@
       "official": false
     },
     {
+      "slug": "folio",
+      "name": "Folio",
+      "description": "Infrastructure for tokenized equity baskets on Robinhood.",
+      "url": "https://folio.market",
+      "twitter": "@folio_market",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/folio_logo.jpg",
+      "categories": [
+        "Apps",
+        "Copytrade"
+      ],
+      "instances": [
+        "Lighter Robinhood"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-10-06",
+      "official": false,
+      "longDescription": "Folio is a social trading layer built on Robinhood Chain. Follow creators, share trades and act on ideas, all in one place. You can trade tokenized stocks on spot through Uniswap v3 and v4, trade perpetuals, or buy Folios, which are creator-built index funds you hold as a single ticker. Folio also offers leveraged stock tokens through F-Pools. For example, you can get 5× NVDA exposure that you hold like any ERC-20 token, swap into in one step and add to a basket, with no margin account needed.",
+      "demoUrl": "https://folio.market/home"
+    },
+    {
       "slug": "fuego",
       "name": "Fuego",
       "description": "Identity layer for Lighter traders.  Built by Lighter OGs and Amigos",
@@ -2276,5 +2298,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-06T10:31:47.663Z"
+  "generatedAt": "2026-10-06T11:17:15.568Z"
 }

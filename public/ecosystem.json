@@ -493,6 +493,32 @@
       "official": false
     },
     {
+      "slug": "deltapulse",
+      "name": "DeltaPulse",
+      "description": "One terminal to find, compare and execute crypto opportunities across CEXs and DEXs in one click.",
+      "url": "https://deltapulse.io/",
+      "twitter": "@deltapulse_io",
+      "discord": "",
+      "telegram": "@deltapulse_announcements",
+      "logo": "/logos/deltapulse_logo.jpg",
+      "categories": [
+        "Terminal",
+        "Data"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "status": "Live",
+      "createdAt": "2026-10-07",
+      "official": false,
+      "builderDiscords": [
+        "bartgames"
+      ],
+      "longDescription": "DeltaPulse is a crypto trading terminal and market intelligence platform for traders who work across multiple CEX and DEX venues.\n\nIt brings together market data, funding-rate opportunities, execution, portfolio tracking and swaps in one interface.\n\nDeltaPulse tracks spot and perpetual futures markets across 20+ exchanges, helping users compare funding rates, identify cross-exchange discrepancies and evaluate funding-arbitrage setups with estimated returns after fees.\n\nThe platform also includes Execute — a tool for opening both legs of a delta-neutral funding-arbitrage position in one flow. Execute currently supports Binance, Bybit and Orderly, with additional CEX and DEX venues planned as the execution layer expands.\n\nBefore a trade is opened, DeltaPulse uses live order books to calculate expected entry prices, slippage, fees, required capital and net APR. Once a position is active, the platform continues to monitor funding, P&L, hedge balance and liquidation risk.\n\nBeyond arbitrage, DeltaPulse includes an Orderly-powered perpetual trading terminal, portfolio tracking across connected exchange accounts, and cross-chain swaps powered by 0x.\n\nThe broader goal is to reduce the friction of trading across multiple venues by giving users one place to discover opportunities, compare markets, execute trades and manage positions.\n\nDeltaPulse is designed as a multi-venue trading environment, with support for additional exchanges, execution venues and market types planned over time.",
+      "demoUrl": "https://deltapulse.io/"
+    },
+    {
       "slug": "dex-pulse",
       "name": "Dex Pulse",
       "description": "A cross-DEX portfolio and analytics platform built specifically for perpetual traders.",
@@ -2339,5 +2365,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-07T11:44:07.474Z"
+  "generatedAt": "2026-10-07T15:35:34.384Z"
 }

@@ -2072,6 +2072,46 @@
       "official": false
     },
     {
+      "slug": "top-traders-desk",
+      "name": "Top Traders Desk",
+      "description": "Crypto market intelligence connecting data, capital flows and research into testable trading decisions.",
+      "url": "https://toptraders0x.com/",
+      "twitter": "https://x.com/toptraders0x",
+      "discord": "",
+      "telegram": "t.me/DaudVC",
+      "logo": "/logos/top-traders-desk_logo.jpg",
+      "categories": [
+        "Data",
+        "Terminal"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "status": "Live",
+      "createdAt": "2026-10-06",
+      "official": false,
+      "builderDiscords": [
+        "tmuslim",
+        "0xdoggie"
+      ],
+      "longDescription": "Top Traders Desk is a crypto decision portal for active self-directed traders. It connects market structure, on-chain capital flows, whale activity, indicators and research into a testable thesis with an explicit trigger and invalidation.\n\nThe live public alpha includes a customizable dashboard, screener, charts, indicators, whale and flow analysis, research and methodology. Assisted trading and strategy wallets are on the roadmap.\n\nOur next step is to connect this workflow to execution on Lighter through VOOI’s Perps API, using its Broker API for user onboarding and trading statistics. This will let users move from analysis to placing trades within the Desk. The integration is planned and is not yet live.",
+      "demoUrl": "https://toptraders0x.com/",
+      "team": [
+        {
+          "name": "Viktor",
+          "role": "Co-founder",
+          "avatar": "",
+          "twitter": "@zerothesis"
+        },
+        {
+          "name": "Anderi",
+          "role": "Co-founder",
+          "avatar": "",
+          "twitter": "@id0y7"
+        }
+      ]
+    },
+    {
       "slug": "tradestream",
       "name": "TradeStream",
       "description": "TradeStream - The trading journal designed to increase your profits",
@@ -2299,5 +2339,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-06T14:15:41.894Z"
+  "generatedAt": "2026-10-07T11:44:07.474Z"
 }

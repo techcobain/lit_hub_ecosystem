@@ -11,5 +11,6 @@
   ],
   "status": "Live",
   "createdAt": "2026-06-10",
-  "official": false
+  "official": false,
+  "acceleratePartner": true
 }

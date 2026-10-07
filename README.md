@@ -57,6 +57,8 @@ Common edits include:
 - Replacing a logo.
 - Changing status.
 
+`acceleratePartner: true` marks a confirmed Accelerate perk provider. It is separate from acceptance as an Accelerate project and should only be added after the partnership is confirmed.
+
 Keep descriptions short. They are displayed on project cards and should be easy to scan.
 
 ## Remove A Project

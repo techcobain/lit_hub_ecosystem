@@ -14,7 +14,8 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-10",
-      "official": false
+      "official": false,
+      "acceleratePartner": true
     },
     {
       "slug": "agent-kit-by-us",
@@ -2365,5 +2366,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-07T15:35:34.384Z"
+  "generatedAt": "2026-10-07T16:51:46.160Z"
 }

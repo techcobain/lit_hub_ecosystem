@@ -561,7 +561,7 @@
       "description": "A personal trading agent that helps you research, monitor, and execute at the speed of thought.",
       "url": "https://fey.trade",
       "twitter": "@feytrade",
-      "discord": "",
+      "discord": "https://discord.com/invite/feytrade",
       "telegram": "",
       "logo": "/logos/fey_logo.png",
       "categories": [
@@ -570,7 +570,24 @@
       ],
       "status": "Not Live",
       "createdAt": "2026-07-09",
-      "official": false
+      "official": false,
+      "instances": [
+        "Lighter Core"
+      ],
+      "team": [
+        {
+          "name": "Sam",
+          "role": "Co-Founder",
+          "avatar": "",
+          "twitter": "@SamScolari"
+        },
+        {
+          "name": "Wiz",
+          "role": "Co-Founder",
+          "avatar": "",
+          "twitter": "@0xWiz_"
+        }
+      ]
     },
     {
       "slug": "folio",
@@ -2365,5 +2382,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-07T15:35:34.384Z"
+  "generatedAt": "2026-10-08T21:23:51.457Z"
 }

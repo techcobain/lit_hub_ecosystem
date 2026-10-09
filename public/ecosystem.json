@@ -609,7 +609,9 @@
       "createdAt": "2026-10-06",
       "official": false,
       "longDescription": "Folio is a social trading layer built on Robinhood Chain. Follow creators, share trades and act on ideas, all in one place. You can trade tokenized stocks on spot through Uniswap v3 and v4, trade perpetuals, or buy Folios, which are creator-built index funds you hold as a single ticker. Folio also offers leveraged stock tokens through F-Pools. For example, you can get 5× NVDA exposure that you hold like any ERC-20 token, swap into in one step and add to a basket, with no margin account needed.",
-      "demoUrl": "https://folio.market/home"
+      "demoUrl": "https://folio.market/home",
+      "demoVideo": "/demos/folio-launch.mp4",
+      "demoImage": "/demos/folio-launch.jpg"
     },
     {
       "slug": "fuego",

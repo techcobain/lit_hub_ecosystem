@@ -1268,6 +1268,36 @@
       "demoUrl": "https://github.com/projectlobster/Lobster-Agent-Trader"
     },
     {
+      "slug": "long-xyz",
+      "name": "Long.xyz",
+      "description": "Play L❨∞❩NG Term Games",
+      "url": "https://app.long.xyz/",
+      "twitter": "@longdotxyz",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/long-xyz_logo.jpg",
+      "categories": [
+        "Apps",
+        "Yield"
+      ],
+      "instances": [
+        "Lighter Robinhood"
+      ],
+      "robinhood_integrator_account_index": 39182,
+      "status": "Live",
+      "createdAt": "2026-10-10",
+      "official": false,
+      "longDescription": "LONG is the leading MemeFi launchpad on Robinhood Chain, making tokenized markets valuable again.",
+      "team": [
+        {
+          "name": "Nate Benish",
+          "role": "Founder",
+          "avatar": "",
+          "twitter": "@Natan_benish"
+        }
+      ]
+    },
+    {
       "slug": "lunchdotfun",
       "name": "Lunchdotfun",
       "description": "Instantly launch memecoins in the Robinhood universe, with one click, for free.",
@@ -2384,5 +2414,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-09T17:03:55.877Z"
+  "generatedAt": "2026-10-10T11:13:34.318Z"
 }

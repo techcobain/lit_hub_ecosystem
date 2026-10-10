@@ -1,0 +1,29 @@
+{
+  "name": "Long.xyz",
+  "description": "Play L❨∞❩NG Term Games",
+  "url": "https://app.long.xyz/",
+  "twitter": "@longdotxyz",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/long-xyz_logo.jpg",
+  "categories": [
+    "Apps",
+    "Yield"
+  ],
+  "instances": [
+    "Lighter Robinhood"
+  ],
+  "robinhood_integrator_account_index": 39182,
+  "status": "Live",
+  "createdAt": "2026-10-10",
+  "official": false,
+  "longDescription": "LONG is the leading MemeFi launchpad on Robinhood Chain, making tokenized markets valuable again.",
+  "team": [
+    {
+      "name": "Nate Benish",
+      "role": "Founder",
+      "avatar": "",
+      "twitter": "@Natan_benish"
+    }
+  ]
+}

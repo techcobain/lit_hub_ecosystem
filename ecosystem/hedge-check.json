@@ -1,0 +1,25 @@
+{
+  "name": "Hedge Check",
+  "description": "RH ↔ Core hedge monitor for Lighter: paste a wallet, see both legs, delta, liquidation distance and pair funding.",
+  "url": "https://hedge-check.vercel.app",
+  "twitter": "@Saurois",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/hedge-check_logo.svg",
+  "categories": [
+    "Data",
+    "Apps"
+  ],
+  "instances": [
+    "Lighter Robinhood",
+    "Lighter Core"
+  ],
+  "status": "Live",
+  "createdAt": "2026-10-03",
+  "official": false,
+  "builderDiscords": [
+    "saurois"
+  ],
+  "longDescription": "Hedge Check is a read-only dashboard for the hedge the Lighter team keeps recommending: long on Lighter Robinhood Chain, short on Lighter Core, same wallet.\n\nPaste an L1 address and see both legs side by side for every market: delta in coins, distance to liquidation per leg, pair funding per day, and 7-day volume with maker share on each venue. Positions are flagged Hedged or Unhedged, with a plain-English note on what to fix.\n\nThe Markets tab lists every market available on both venues and ranks them by pair funding, so you can pick the cheapest hedge for the week. The pair calculator sizes both legs in coins with liquidation estimates at your leverage. A \"This week\" card tracks the team's weekly points announcements and hints.\n\nNo wallet connection, no keys, no tracking. Reads public explorer data only.\n\nBuilt by a Lighter points farmer who got tired of checking two UIs.",
+  "demoUrl": "https://hedge-check.vercel.app"
+}

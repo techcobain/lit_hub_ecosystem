@@ -1,0 +1,20 @@
+{
+  "name": "TrueHold",
+  "description": "Portfolio tracker with an AI agent that brings wallets, exchanges, DeFi and perps, including Lighter, into one view.",
+  "url": "https://www.truehold.xyz/track/lighter",
+  "twitter": "@trueholdxyz",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/truehold_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Live",
+  "createdAt": "2026-10-01",
+  "official": false,
+  "longDescription": "TrueHold is an AI-native financial and DeFi platform built around self-custody. Its portfolio tracker combines wallets, exchanges, DeFi positions, staking, perpetual futures and prediction-market positions in one view, with P&L and an AI agent that answers questions from the user's own portfolio data.\n\nOn Lighter: create a read-only token in the Lighter app and paste it into TrueHold. Positions, fills and funding are read through the token, and the Lighter book joins your total exposure next to Hyperliquid, CEX futures and your spot holdings. The token cannot trade or withdraw, and you can revoke it on Lighter at any time.\n\nWho it is for: traders who run positions across Lighter, other perp DEXs and exchanges and want one view of their exposure. TrueHold never asks for a seed phrase and never holds client funds.",
+  "demoUrl": "https://app.truehold.xyz/"
+}

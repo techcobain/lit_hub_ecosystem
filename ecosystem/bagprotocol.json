@@ -1,0 +1,24 @@
+{
+  "name": "bagprotocol",
+  "description": "On-chain strategy baskets for tokenized stocks: one-click buy and sell, every fee verifiable on-chain.",
+  "url": "https://bagprotocol.com",
+  "twitter": "@bagprotocolhq",
+  "discord": "we dont have discord channel",
+  "telegram": "@Oxdefimaster",
+  "logo": "/logos/bagprotocol_logo.png",
+  "categories": [
+    "Copytrade",
+    "Apps"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Live",
+  "createdAt": "2026-10-12",
+  "official": false,
+  "builderDiscords": [
+    "0xdefimaster"
+  ],
+  "longDescription": "BAG Protocol lets anyone build and follow on-chain strategy baskets (\"Bags\") of tokenized stocks and crypto on Robinhood Chain.\n\n- One-click buy: a whole basket is bought in a single transaction through LI.FI Composer. With MetaMask's smart account, approvals and purchase need one confirmation.\n- One-click sell: exit every position back to USDG in one transaction.\n- Non-custodial: tokens stay in your own wallet. BAG never holds user funds.\n- Creators publish strategies; versions can be registered on-chain and any Bag can be forked.\n- Fair fees: creators earn a performance fee only on profit, paid on-chain in the same transaction as the sale.\n- Transparent: the public Proof page shows verified TVL, execution success rate and fees paid, each figure linked to its on-chain transaction.\n\nLive at https://bagprotocol.com",
+  "demoUrl": "https://bagprotocol.com/"
+}

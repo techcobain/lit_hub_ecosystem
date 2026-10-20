@@ -1,39 +1,41 @@
 {
   "name": "Quote",
-  "description": "24/7 Prime Broker",
+  "description": "The 24/7 Prime Broker",
   "url": "https://quotemarkets.xyz/",
   "twitter": "@quotemarkets",
   "discord": "",
-  "telegram": "@quotemarketsxy",
+  "telegram": "@quotemarketsxyz",
   "logo": "/logos/quote_logo.png",
   "categories": [
     "Apps",
-    "Terminal"
+    "Terminal",
+    "Agents"
   ],
   "instances": [
     "Lighter Core"
   ],
-  "status": "Not Live",
+  "status": "Live",
   "createdAt": "2026-10-19",
   "official": false,
-  "longDescription": "Quote is a 24/7 Prime Broker purpose-built for hedging RWAs by a team from JPM and ETH Zurich\n",
+  "integrator_account_index": "762182"
+  "longDescription": "Quote is a 24/7 Prime Broker purpose-built for trading and hedging RWAs by a team from JPM and ETH Zurich\n",
   "hiring": true,
   "hiringContact": {
     "channel": "email",
-    "handle": "admin@catenalabs.ch"
+    "handle": "admin@quotemarkets.xyz"
   },
   "team": [
     {
       "name": "Filo",
-      "role": "Founder",
+      "role": "Co-Founder",
       "avatar": "",
       "twitter": "@petitfilo"
     },
     {
-      "name": "Noleakage",
-      "role": "Founder",
+      "name": "no leakage",
+      "role": "Co-Founder",
       "avatar": "",
-      "twitter": "noleakage"
+      "twitter": "@noleakage"
     }
   ]
 }

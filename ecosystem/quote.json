@@ -8,8 +8,7 @@
   "logo": "/logos/quote_logo.png",
   "categories": [
     "Apps",
-    "Terminal",
-    "Agents"
+    "Terminal"
   ],
   "instances": [
     "Lighter Core"

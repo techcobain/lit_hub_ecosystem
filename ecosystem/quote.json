@@ -17,8 +17,8 @@
   "status": "Live",
   "createdAt": "2026-10-19",
   "official": false,
-  "integrator_account_index": "762182"
-  "longDescription": "Quote is a 24/7 Prime Broker purpose-built for trading and hedging RWAs by a team from JPM and ETH Zurich\n",
+  "integrator_account_index": "762182",
+  "longDescription": "Quote is a 24/7 Prime Broker purpose-built for trading and hedging RWAs by a team from JPM and ETH Zurich",
   "hiring": true,
   "hiringContact": {
     "channel": "email",

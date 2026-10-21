@@ -1700,6 +1700,33 @@
       ]
     },
     {
+      "slug": "perppilot",
+      "name": "PerpPilot",
+      "description": "Institutional DeFi strategies, automated in your wallet.",
+      "url": "https://www.perppilot.io/",
+      "twitter": "",
+      "discord": "https://discord.gg/Wfpehh9Jgp",
+      "telegram": "",
+      "logo": "/logos/perppilot_logo.png",
+      "categories": [
+        "Bots"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "integrator_account_index": 724608,
+      "robinhood_integrator_account_index": 23815,
+      "status": "Live",
+      "createdAt": "2026-10-21",
+      "official": false,
+      "builderDiscords": [
+        "0xshaw_pp"
+      ],
+      "longDescription": "PerpPilot runs the strategies market makers use: it provides liquidity, captures funding rates and farms airdrop points along the way. 20 to 30% a year in any market phase, fully automated. Your capital never leaves your wallet.",
+      "demoUrl": "https://hub.perppilot.app/"
+    },
+    {
       "slug": "pilled",
       "name": "Pilled",
       "description": "Social investing",
@@ -2533,5 +2560,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-20T11:06:07.612Z"
+  "generatedAt": "2026-10-21T13:45:49.475Z"
 }

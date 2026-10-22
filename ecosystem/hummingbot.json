@@ -1,6 +1,6 @@
 {
   "name": "Hummingbot",
-  "description": "Algorithmic trading accessible to everyone, not just hedge funds or professional trading firms",
+  "description": "Open-source framework for building and running algorithmic trading bots on 50+ CEXs and DEXs, including Lighter",
   "url": "https://hummingbot.org/",
   "twitter": "@_hummingbot",
   "discord": "https://discord.gg/hummingbot",
@@ -12,5 +12,10 @@
   ],
   "status": "Live",
   "createdAt": "2026-06-17",
-  "official": false
+  "official": false,
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "Hummingbot is an open-source framework for algorithmic trading. Users build and run bots for market making, arbitrage and other strategies on centralized and decentralized exchanges. The code is free under the Apache 2.0 license and is maintained by the Hummingbot Foundation through community governance.\n\n### Features\n- **50+ connectors:** standardized connectors for CEXs and DEXs, so the same strategy can run on different spot and perp markets without changes.\n- **Strategies and scripts:** run full trading strategies or lightweight scripts.\n- **Dashboard and API:** create, backtest, deploy and manage bot instances.\n- **Open governance:** new connectors and major changes go through Hummingbot Governance Proposals.\n\n### How Hummingbot uses Lighter\n- **Spot and perp connectors:** `lighter` and `lighter_perpetual`, added in Hummingbot v2.15.0.\n- **Order management:** bots place, update and manage orders, positions and funding on Lighter, with candle data feeds for both markets.\n- **API key setup:** users create Lighter API keys and connect them from the Hummingbot client.\n- **Testnet:** both connectors support Lighter testnet for testing strategies before going live.\n- **Foundation Partner:** Lighter is listed as a Hummingbot Foundation partner exchange.",
+  "demoUrl": "https://hummingbot.org/exchanges/lighter/"
 }

@@ -16,5 +16,9 @@
   "builderDiscords": [
     "stevenbravo",
     "ggolfchain"
-  ]
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "demoUrl": "https://www.cpu.capital/landing/index.html"
 }

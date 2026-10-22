@@ -12,5 +12,9 @@
   ],
   "status": "Live",
   "createdAt": "2026-09-07",
-  "official": false
+  "official": false,
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 723961
 }

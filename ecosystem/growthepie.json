@@ -2,12 +2,39 @@
   "name": "Growthepie",
   "description": "The open analytics platform for the Ethereum ecosystem. Tracking Ethereum Mainnet, Layer 2s, and onchain applications…",
   "url": "https://www.growthepie.com/",
-  "twitter": "",
+  "twitter": "https://x.com/growthepie_eth",
   "logo": "/logos/growthepie_logo.png",
   "categories": [
     "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "growthepie is an open analytics platform for the Ethereum ecosystem. It tracks Ethereum Mainnet, Layer 2s and onchain applications side by side, so chains can be compared on the same metrics.\n\n### What you can find\n- **Fundamentals:** transactions, active addresses, fees, transaction costs, throughput, stablecoin supply and total value secured for each chain.\n- **Economics:** onchain revenue, costs and profit for each chain.\n- **Applications:** which projects drive activity and fees on each chain.\n- **Reports:** quarterly reports on Ethereum and its layers.\n\n",
+  "demoUrl": "https://www.growthepie.com/",
+  "team": [
+    {
+      "name": "Matthias Seidl",
+      "role": "Co-Founder & Data",
+      "avatar": "",
+      "twitter": "https://x.com/web3_data"
+    },
+    {
+      "name": "Tobias Schreier",
+      "role": "Co-Founder & Design",
+      "avatar": "",
+      "twitter": "https://x.com/tobschcom"
+    },
+    {
+      "name": "Ahoura Azarbin",
+      "role": "BD & Research",
+      "avatar": "",
+      "twitter": "https://x.com/ahoura_az"
+    }
+  ]
 }

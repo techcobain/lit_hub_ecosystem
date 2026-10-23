@@ -1,0 +1,23 @@
+{
+  "name": "Dextrabot",
+  "description": "Copy-trade top Lighter and Hyperliquid wallets, plus grid and DCA bots.",
+  "url": "https://dextrabot.com",
+  "twitter": "https://x.com/dextrabot",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/dextrabot_logo.jpg",
+  "categories": [
+    "Copytrade",
+    "Bots"
+  ],
+  "instances": [
+    "Lighter Core",
+    "Lighter Robinhood"
+  ],
+  "integrator_account_index": 724236,
+  "robinhood_integrator_account_index": 4079,
+  "status": "Live",
+  "createdAt": "2026-10-23",
+  "official": false,
+  "longDescription": "Dextrabot is a trading automation app for perp DEXs. Users can find and copy-trade wallets on Lighter and Hyperliquid, or run grid and DCA bots on their own account.\n\nLighter Core and Robinhood Lighter are supported venues: you connect your Lighter account and approve Dextrabot as an integrator, after which the bots place orders on Lighter for you."
+}

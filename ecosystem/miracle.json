@@ -2,12 +2,17 @@
   "name": "Miracle",
   "description": "An all in one financial platform for trading",
   "url": "https://www.miracletrade.com/",
-  "twitter": "",
+  "twitter": "https://x.com/miracletrade",
   "logo": "/logos/miracle_logo.ico",
   "categories": [
     "Apps"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ]
 }

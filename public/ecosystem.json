@@ -577,19 +577,39 @@
     {
       "slug": "f-xyz",
       "name": "f.xyz",
-      "description": "The Operating System for Autonomous Trading",
+      "description": "AI agent that turns your market views into tested trades on Hyperliquid, Lighter and other venues",
       "url": "https://f.xyz/",
-      "twitter": "",
+      "twitter": "https://x.com/fxyzai",
       "discord": "",
       "telegram": "",
-      "logo": "/logos/f-xyz_logo.png",
+      "logo": "/logos/f-xyz_logo_xqsx2n.jpg",
       "categories": [
         "Agents",
         "Apps"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 60143,
+      "longDescription": "fxyz is an AI trading agent called F. You tell F what you think is happening in the market, like \"oil stays expensive this winter\" or \"Bitcoin beats gold this year\". F picks the stocks, crypto or commodities to trade, tests the idea and runs it for you.\n\nEvery idea starts with paper money. When you're ready, F trades from your own exchange account and can never withdraw funds.\n\nBuilt by the team behind Polynomial ($9B+ traded). Backed by Archetype, Road Capital and Caballeros Capital.\n\n### Features\n- **Paper trading:** test an idea with pretend money before using real funds.\n- **One place for every venue:** trade on Hyperliquid, Lighter, Pacifica, Backpack and Binance from your own accounts.\n- **Custom tools from chat:** build bots, dashboards and order types by describing them, like a bot that buys Nvidia every time Trump says \"tariff\" or a page that grades last month's trades.\n- **Trade panel:** a direct order ticket for each venue with chart, orderbook, market, limit and executor orders.\n- **Discover:** browse public dashboards, bots and order recipes. Star, fork and run them as your own.\n- **X integration:** tag @fxyzai under any post on X and F tests the idea.\n\n### How fxyz uses Lighter\n- **Connected venue:** users connect their Lighter account with an API key and trade Lighter markets through fxyz.\n- **Strategies from chat:** strategies written in chat can run directly on Lighter.\n- **Trade panel:** a direct Lighter order ticket with chart, orderbook, market, limit and executor orders.\n- **Trade-only access:** fxyz can't withdraw, because Lighter sends withdrawals only to the account's L1 owner.\n- **Integrator fee:** fxyz is a Lighter integrator and charges up to 1 bp on perps taker trades. Maker and spot trades carry no extra fee.",
+      "demoUrl": "https://f.xyz/trade?exchange=lighter&coin=BTC",
+      "team": [
+        {
+          "name": "gautham",
+          "role": "cofounder ",
+          "avatar": "",
+          "twitter": "@gauthamzzz"
+        },
+        {
+          "name": "salman ",
+          "role": "cofounder ",
+          "avatar": "",
+          "twitter": "@0xSalmanNaseer"
+        }
+      ]
     },
     {
       "slug": "fey",
@@ -2600,5 +2620,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-23T12:38:51.058Z"
+  "generatedAt": "2026-10-23T12:39:56.774Z"
 }

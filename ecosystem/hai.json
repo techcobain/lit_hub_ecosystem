@@ -1,0 +1,20 @@
+{
+  "name": "HAI",
+  "description": "  AI copy-trading app: mirror vetted lead traders on Lighter from your own account, with realized-profit-only fees.",
+  "url": "https://hyperai.pro",
+  "twitter": "",
+  "discord": "",
+  "telegram": "t.me/mollaco",
+  "logo": "/logos/hai_logo.png",
+  "categories": [
+    "Copytrade",
+    "Apps"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-10-03",
+  "official": false,
+  "longDescription": "HAI is a mobile copy-trading app powered by AI-assisted strategies. Users connect once and automatically mirror vetted lead traders on Lighter, in real time and in proportion to their own capital. - Each user has their own dedicated Lighter account. Funds stay in that account and can be withdrawn at any time. - Lead traders' fills are followed live via the Lighter API and mirrored proportionally, including closes and TP/SL. - Users set their own risk limits (stop level) and can pause or stop copying whenever they want. - Fees are charged only on realized profit and settled daily on Arbitrum. - Deposits and withdrawals are in USDC on Arbitrum, directly from the HAI app."
+}

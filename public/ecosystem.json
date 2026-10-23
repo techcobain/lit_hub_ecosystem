@@ -305,7 +305,11 @@
       ],
       "status": "Live",
       "createdAt": "2026-09-07",
-      "official": false
+      "official": false,
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 723961
     },
     {
       "slug": "ccxt",
@@ -2647,5 +2651,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-23T12:41:39.010Z"
+  "generatedAt": "2026-10-23T12:42:01.448Z"
 }

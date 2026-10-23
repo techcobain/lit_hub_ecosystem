@@ -1240,9 +1240,9 @@
       "name": "Lightoor",
       "description": "memecoin launchpad",
       "url": "https://www.lightoor.fun/",
-      "twitter": "@lightoorfun",
+      "twitter": "https://x.com/lightoorfun",
       "discord": "",
-      "telegram": "",
+      "telegram": "https://t.me/lightoordotfun",
       "logo": "/logos/lightoor_logo.jpg",
       "categories": [
         "Apps"
@@ -1257,7 +1257,16 @@
       "builderDiscords": [
         "ajey_eth"
       ],
-      "longDescription": "lightoor is a permissionless memecoin launchpad on Robinhood Chain . Anyone can launch a coin with a 1,000,000,000 supply. Buys and sells run on a virtual constant-product curve until the coin graduates into a locked pool.\n\nLightoor is a perp-paired memecoin launchpad: each leveraged coin trades against a tokenized position backed by a Lighter perpetual market. Its backing can move with the underlying market even when the memecoin has no trades."
+      "longDescription": "lightoor is a permissionless memecoin launchpad on Robinhood Chain . Anyone can launch a coin with a 1,000,000,000 supply. Buys and sells run on a virtual constant-product curve until the coin graduates into a locked pool.\n\nLightoor is a perp-paired memecoin launchpad: each leveraged coin trades against a tokenized position backed by a Lighter perpetual market. Its backing can move with the underlying market even when the memecoin has no trades.",
+      "demoUrl": "https://www.lightoor.fun/",
+      "team": [
+        {
+          "name": "ajey.lit",
+          "role": "founder ",
+          "avatar": "",
+          "twitter": "@ajey_eth"
+        }
+      ]
     },
     {
       "slug": "liquid",
@@ -2570,5 +2579,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-22T13:50:42.884Z"
+  "generatedAt": "2026-10-23T12:35:24.010Z"
 }

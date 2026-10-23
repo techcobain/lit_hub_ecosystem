@@ -2,7 +2,7 @@
   "name": "LitScan",
   "description": "Lighter Analytics",
   "url": "https://litscan.io",
-  "twitter": "",
+  "twitter": "https://x.com/UngusTrade",
   "discord": "",
   "telegram": "",
   "logo": "",
@@ -11,5 +11,17 @@
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 727418,
+  "team": [
+    {
+      "name": "Ungus",
+      "role": "Builder",
+      "avatar": "",
+      "twitter": "@UngusTrade"
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "name": "DeepAlpha",
+  "description": "Live OB heatmap with the posibility to inspect each level of the ob",
+  "url": "https://app.deepalpha.pro/",
+  "twitter": "@bannedsleepingX",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/deepalpha_logo.webp",
+  "categories": [
+    "Apps",
+    "Data"
+  ],
+  "instances": [
+    "Lighter Core",
+    "Lighter Robinhood"
+  ],
+  "status": "Live",
+  "createdAt": "2026-10-23",
+  "official": false,
+  "builderDiscords": [
+    "bannedsleeping"
+  ],
+  "longDescription": "**DeepAlpha** is a real-time order flow terminal for Lighter. It shows not just *where* the liquidity sits, but *who* is behind it.\n\n### What it does\n- **Live order book + liquidity heatmap**: see how resting liquidity builds, moves and gets pulled over time, with price candles on top. Book history is recorded continuously, so you can scroll back hours instead of only watching the present.\n- **Level reconstruction (L4)**: click any price level and see the individual orders inside it and the Lighter account that placed each one, using Lighter's public per-order data.\n- **Wallet inspector**: open any account and see its screen as if you were looking over its shoulder: a candle chart with its open orders and position drawn on it, plus positions, open orders, trade history and margin.\n- **Track record**: full PnL and equity curve since the account's first trade, max drawdown, profit factor, win rate, volume, and a heuristic profile (market maker, algorithmic or manual; directional or neutral; size).\n\nWorks on Lighter mainnet and the Robinhood Chain deployment.\n\n### Who it's for\n- **Traders** who want to read the book beyond price and size: spot real walls vs. spoofed liquidity, and see who is quoting.\n- **Copy and research traders** looking for consistently profitable accounts and how they actually trade.\n- **Market makers and analysts** monitoring competitors' quoting and positioning.\n\n### Why it's useful on Lighter\nLighter publishes the owner of every order, something almost no other exchange does. DeepAlpha turns that raw data into something you can read at a glance: who is behind each level, how each account trades, and how the book evolved over time. Lighter does not keep order book history, so DeepAlpha records it continuously to make that history available.",
+  "demoUrl": "https://app.deepalpha.pro/"
+}

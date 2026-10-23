@@ -420,7 +420,11 @@
       "builderDiscords": [
         "stevenbravo",
         "ggolfchain"
-      ]
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "demoUrl": "https://www.cpu.capital/landing/index.html"
     },
     {
       "slug": "cream-run",
@@ -2656,5 +2660,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-23T14:46:28.082Z"
+  "generatedAt": "2026-10-23T14:46:43.886Z"
 }

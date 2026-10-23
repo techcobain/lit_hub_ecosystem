@@ -1,0 +1,22 @@
+{
+  "name": "Pocket Universe",
+  "description": "Browser extension that screens transactions for scams; adds a disclosed fee on trades placed on Lighter.",
+  "url": "https://www.pocketuniverse.app",
+  "twitter": "https://x.com/PocketUniverseZ",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/pocket-universe_logo.png",
+  "categories": [
+    "Apps"
+  ],
+  "instances": [
+    "Lighter Core",
+    "Lighter Robinhood"
+  ],
+  "integrator_account_index": 737834,
+  "robinhood_integrator_account_index": 19366,
+  "status": "Live",
+  "createdAt": "2026-10-23",
+  "official": false,
+  "longDescription": "Pocket Universe is a browser extension that simulates and checks wallet transactions before you sign them, warning about drainers, phishing sites and other scams.\n\nOn Lighter (app.lighter.xyz and the Robinhood Chain instance) the extension hooks into order signing and attaches Pocket Universe as the integrator, so orders placed through Lighter's own interface while the extension is active carry a Pocket Universe integrator fee, shown to the user in the page."
+}

@@ -1,8 +1,8 @@
 {
   "name": "Infinex",
-  "description": "Meet a new kind of wallet",
+  "description": "Crypto superapp with a unified portfolio and multi-venue perps trading on Hyperliquid and Lighter",
   "url": "https://infinex.xyz",
-  "twitter": "",
+  "twitter": "https://x.com/infinex",
   "logo": "/logos/infinex_logo.svg",
   "categories": [
     "Apps"
@@ -10,5 +10,20 @@
   "status": "Live",
   "createdAt": "2026-06-05",
   "official": false,
-  "integrator_account_index": "719006"
+  "integrator_account_index": 719006,
+  "discord": "https://discord.com/invite/infinex",
+  "telegram": "https://t.me/infinexbroadcast",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "Infinex is a crypto superapp built around a single smart-contract account: one unified portfolio, serious opsec by default, and built-in trading across multiple providers.\n\n### Infinex Pro\nInfinex Pro (formerly Infinex Perps) combines perpetual futures and spot trading in one interface for web and mobile. Perps run on Hyperliquid or Lighter, and traders can switch venues right next to the market selector without reloading the app. All positions and balances show up in one portfolio view.\n\n### How Infinex uses Lighter\n- **Native venue:** Lighter perps are available inside Infinex Pro as a trading provider alongside Hyperliquid.\n- **No separate account:** users trade Lighter markets with their existing Infinex account.\n- **Same opsec layer:** Infinex's security setup applies to Lighter trades.\n- **Unified portfolio:** Lighter positions appear next to the rest of the user's holdings.\n- **Commodities:** gives access to Lighter's commodity markets (gold, oil, palladium) alongside crypto perps.\n\n### What's next\nInfinex plans to add Lighter spot markets, plus prediction markets.",
+  "demoUrl": "https://pro.app.infinex.xyz/",
+  "team": [
+    {
+      "name": "Kain",
+      "role": "Founder",
+      "avatar": "",
+      "twitter": "kain"
+    }
+  ]
 }

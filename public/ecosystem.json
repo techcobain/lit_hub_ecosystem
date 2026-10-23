@@ -247,16 +247,22 @@
     {
       "slug": "brightside",
       "name": "Brightside",
-      "description": "The Only Perp App You Need",
+      "description": "A non-custodial mobile app to trade everything onchain with 0% fees",
       "url": "https://brightside.gg",
-      "twitter": "",
+      "twitter": "https://x.com/brightside_gg",
       "logo": "/logos/brightside_logo.png",
       "categories": [
         "Apps"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "**Status: Inactive.** The app appears to no longer be maintained. There have been no recent updates or public activity from the team.\n"
     },
     {
       "slug": "builder-markets",
@@ -2579,5 +2585,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-23T12:35:24.010Z"
+  "generatedAt": "2026-10-23T12:38:13.771Z"
 }

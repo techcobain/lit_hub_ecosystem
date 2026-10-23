@@ -2,12 +2,18 @@
   "name": "Lighter's Agent Kit",
   "description": "Agent Skill to let AI Agents trade on Lighter. Contribute to elliottech/lighter-agent-kit development by creating an…",
   "url": "https://github.com/elliottech/lighter-agent-kit",
-  "twitter": "",
+  "twitter": "https://x.com/Lighter_xyz",
   "logo": "/logos/gh_white.webp",
   "categories": [
     "Developers"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": true
+  "official": true,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "Lighter's official agent skill that lets AI coding agents such as Claude Code, Cursor, Codex and Devin trade on Lighter, including its Robinhood Chain deployment, through natural language, with paper trading available before going live."
 }

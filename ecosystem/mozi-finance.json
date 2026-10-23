@@ -2,12 +2,20 @@
   "name": "Mozi Finance",
   "description": "Trade on Hyperliquid, Aster and Lighter from one dashboard - unified balance.",
   "url": "https://mozi.finance/",
-  "twitter": "",
+  "twitter": "https://x.com/mozifinance",
   "logo": "/logos/mozi-finance_logo.ico",
   "categories": [
     "Apps"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "https://discord.gg/SuzfbnRh66",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 720269,
+  "longDescription": "**Mozi** is a non-custodial perp DEX aggregator that puts Hyperliquid, Lighter and Aster behind one account, one balance and one trading dashboard.\n\n**Features**\n- **Unified terminal:** compare live prices and order books across venues, place orders on whichever venue you pick, and manage every open position from one panel. Mozi never acts as the counterparty.\n- **Unified portfolio:** see total equity, how margin is split across venues and unrealized PnL per venue. Move USDC between your Mozi main wallet and each venue.\n- **Strategies:** a funding-rate dashboard for cross-venue funding arbitrage, plus pair trading with preset or custom long/short pairs.\n- **Markets:** 500+ symbols with up to 200x leverage (depends on the venue), plus HIP-3 RWA perps such as gold, oil, forex and stocks. Charts use TradingView.\n- **One-Ref:** a single referral link that covers every connected venue.\n\n**On Lighter**\nLighter is a built-in venue. Mozi routes orders to Lighter Core as a Lighter integrator and charges a flat 1.45 bps fee on top of the venue fees.",
+  "demoUrl": "https://app.mozi.finance"
 }

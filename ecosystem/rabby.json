@@ -2,12 +2,18 @@
   "name": "Rabby",
   "description": "The game-changing wallet for Ethereum and all EVM chains",
   "url": "https://rabby.io/",
-  "twitter": "",
+  "twitter": "https://x.com/Rabby_io",
   "logo": "/logos/rabby_logo.png",
   "categories": [
     "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "Rabby is a browser extension and mobile wallet for Ethereum and EVM chains, with pre-transaction risk checks and automatic network switching."
 }

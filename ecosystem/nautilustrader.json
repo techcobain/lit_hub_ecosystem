@@ -1,0 +1,28 @@
+{
+  "name": "NautilusTrader",
+  "description": "Open-source Rust/Python trading engine with a native Lighter adapter for market data and execution.",
+  "url": "https://nautilustrader.io",
+  "twitter": "https://x.com/NautilusTrader",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/nautilustrader_logo.png",
+  "categories": [
+    "Developers"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 723813,
+  "status": "Live",
+  "createdAt": "2026-10-23",
+  "official": false,
+  "longDescription": "NautilusTrader is an open-source, high-performance algorithmic trading platform written in Rust with a Python API, used for backtesting and live trading with the same strategy code.\n\nIt ships a native Lighter adapter covering market data and order execution on Lighter Core and the Robinhood Chain deployment. Docs: https://nautilustrader.io/docs/latest/integrations/lighter/",
+  "team": [
+    {
+      "name": "Chris Sellers",
+      "role": "Creator",
+      "avatar": "",
+      "twitter": "@cjdsellers"
+    }
+  ]
+}

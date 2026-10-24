@@ -1,0 +1,21 @@
+{
+  "name": "OpenMarket",
+  "description": "Free charting terminal with order-book heatmaps, footprints and full order flow for Lighter perps and 16,000+ markets.",
+  "url": "https://openmarket.xyz",
+  "twitter": "https://x.com/openmarket_xyz",
+  "discord": "https://discord.gg/openmarket",
+  "telegram": "",
+  "logo": "/logos/openmarket_logo.png",
+  "categories": [
+    "Terminal",
+    "Data"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Live",
+  "createdAt": "2026-10-24",
+  "official": false,
+  "longDescription": "OpenMarket (formerly Kiyotaka) is a browser and desktop charting platform that puts stocks, crypto, futures, options, forex and prediction markets on one live canvas. It streams trade-by-trade data from 29 crypto venues and offers order-book heatmaps, footprints, CVD and liquidation maps, 80+ built-in indicators, the wrun scripting language compiled to WebAssembly, and alerts to Telegram, Discord, email or webhook.\n\nLighter is supported with 208 markets, including stocks, FX and commodities, and each one gets full order flow data.",
+  "demoUrl": "https://openmarket.xyz/chart"
+}

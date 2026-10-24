@@ -1,0 +1,16 @@
+{
+  "name": "Litto",
+  "description": "Social token launchpad on LighterEVM. Create, discover and trade community coins. Devnet available.",
+  "url": "https://litto.fun",
+  "twitter": "",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/litto_logo.svg",
+  "categories": ["Apps"],
+  "status": "Not Live",
+  "createdAt": "2026-10-24",
+  "official": false,
+  "longDescription": "Litto is a social token launchpad on LighterEVM, built for people who want to create, discover and trade community coins in one place.\n\nThe app combines token creation, bonding-curve trading, charts, holder data and wallet positions. Trade-linked notes, profiles and following bring trader context into the market view. Coins that reach the graduation threshold move into Litto's own AMM.\n\nA working LighterEVM devnet application is publicly available at https://dev-test.litto.fun. Visitors can browse markets and charts without connecting a wallet; on-chain actions use devnet assets. The pilot has completed a controlled acceptance run covering coin creation, curve trading, graduation, AMM trading and fee claims.\n\nProduction launch is still upcoming. The current integration uses LighterEVM devnet contracts, without routing trades through a Lighter Core or Robinhood integrator account.",
+  "demoUrl": "https://dev-test.litto.fun",
+  "hiring": false
+}

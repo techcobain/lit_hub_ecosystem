@@ -13,7 +13,8 @@
   "discord": "",
   "telegram": "",
   "instances": [
-    "Lighter Core"
+    "Lighter Core",
+    "Lighter Robinhood"
   ],
   "longDescription": "Lighter's official agent skill that lets AI coding agents such as Claude Code, Cursor, Codex and Devin trade on Lighter, including its Robinhood Chain deployment, through natural language, with paper trading available before going live."
 }

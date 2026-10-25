@@ -2,7 +2,7 @@
   "name": "Jesse",
   "description": "open-source algo trading bot",
   "url": "https://jesse.trade",
-  "twitter": "",
+  "twitter": "https://x.com/jesse_ai_com",
   "discord": "https://jesse.trade/discord",
   "telegram": "https://t.me/jesse_trade",
   "logo": "/logos/jesse_logo.svg",
@@ -13,5 +13,8 @@
   "status": "Live",
   "createdAt": "2026-06-29",
   "official": false,
-  "integrator_account_index": "724890"
+  "integrator_account_index": 724890,
+  "instances": [
+    "Lighter Core"
+  ]
 }

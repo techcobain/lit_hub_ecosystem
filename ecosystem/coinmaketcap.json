@@ -2,12 +2,18 @@
   "name": "CoinmaketCap",
   "description": "The live Lighter price today is $0.9157 USD with a 24-hour trading volume of $30,517,245.37 USD. We update our LIT to…",
   "url": "https://coinmarketcap.com/currencies/lighter/",
-  "twitter": "",
+  "twitter": "https://x.com/CoinMarketCap",
   "logo": "/logos/coinmaketcap_logo.png",
   "categories": [
     "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "https://t.me/CoinMarketCapAnnouncements",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "CoinMarketCap is a crypto price and market-data aggregator. Its LIT page tracks Lighter's token price, market cap, trading volume and the markets where it trades."
 }

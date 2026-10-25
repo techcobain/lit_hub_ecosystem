@@ -2,12 +2,26 @@
   "name": "Defillama",
   "description": "",
   "url": "https://defillama.com/protocol/lighter",
-  "twitter": "",
+  "twitter": "https://x.com/DefiLlama",
   "logo": "/logos/defillama_logo.ico",
   "categories": [
     "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "DefiLlama is an open, transparent DeFi analytics dashboard. Its Lighter page tracks the protocol's TVL, trading volume, fees and revenue over time alongside other perp DEXs.",
+  "team": [
+    {
+      "name": "0xngmi",
+      "role": "Builder",
+      "avatar": "",
+      "twitter": "@0xngmi"
+    }
+  ]
 }

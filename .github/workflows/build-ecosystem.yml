@@ -8,6 +8,9 @@ on:
       - "ecosystem/**"
       - "request-a-protocol/**"
       - "scripts/build-ecosystem.mjs"
+      - "scripts/validate-ecosystem.mjs"
+      - "schemas/**"
+      - "package*.json"
       - "scripts/build-request-a-protocol.mjs"
       - ".github/workflows/build-ecosystem.yml"
   workflow_dispatch:
@@ -23,6 +26,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts
       - run: node scripts/build-ecosystem.mjs
       - run: node scripts/build-request-a-protocol.mjs
       - name: Commit generated index

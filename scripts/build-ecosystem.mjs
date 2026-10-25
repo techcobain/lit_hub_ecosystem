@@ -2,28 +2,19 @@
 // Aggregate ecosystem/*.json into public/ecosystem.json so the frontend gets one fetch.
 // Runs as `prebuild` so it's regenerated on every Next.js build.
 
-import { readFileSync, readdirSync, writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync } from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { readProjects } from "./validate-ecosystem.mjs";
 
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+const ROOT = fileURLToPath(new URL("../", import.meta.url));
 const SRC = path.join(ROOT, "ecosystem");
 const OUT_DIR = path.join(ROOT, "public");
 const OUT = path.join(OUT_DIR, "ecosystem.json");
 
 mkdirSync(OUT_DIR, { recursive: true });
 
-const files = readdirSync(SRC).filter((f) => f.endsWith(".json")).sort();
-const projects = [];
-const errors = [];
-
-for (const f of files) {
-  try {
-    const raw = readFileSync(path.join(SRC, f), "utf8");
-    projects.push({ slug: f.replace(/\.json$/, ""), ...JSON.parse(raw) });
-  } catch (e) {
-    errors.push(`${f}: ${e.message}`);
-  }
-}
+const { projects, errors } = readProjects(SRC);
 
 if (errors.length) {
   console.error("ecosystem build errors:");

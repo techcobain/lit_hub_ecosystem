@@ -10,5 +10,17 @@
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "team": [
+    {
+      "name": "Lily",
+      "role": "Developer",
+      "avatar": "",
+      "twitter": "@lobstermindset"
+    }
+  ]
 }

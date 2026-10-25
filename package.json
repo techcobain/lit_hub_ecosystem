@@ -7,9 +7,12 @@
   },
   "scripts": {
     "test": "node --test",
-    "preview:announcement": "node scripts/render-announcement.mjs"
+    "preview:announcement": "node scripts/render-announcement.mjs",
+    "validate:ecosystem": "node scripts/validate-ecosystem.mjs"
   },
   "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
     "playwright": "1.63.0"
   }
 }

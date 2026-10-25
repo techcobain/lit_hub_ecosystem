@@ -116,7 +116,21 @@
         "Lighter Core",
         "Lighter Robinhood"
       ],
-      "longDescription": "Artemis is an AI-powered investment research platform built for investors, analysts, portfolio managers, and financial institutions. The platform brings financial data, crypto data, alternative datasets, research tools, financial modeling, and AI analysis into one workspace.\n\nAt the center of Artemis is Artemis Analyst, an AI research assistant designed specifically for investment workflows. Users can ask investment questions in natural language and use the platform to research companies, tokens, protocols, sectors, and broader market themes. Artemis can help analyze financial statements, earnings calls, consensus estimates, SEC filings, company fundamentals, valuation metrics, and on-chain activity.\n\nThe platform covers more than 30,000 public market tickers and over 600 crypto protocols. Its datasets include equity fundamentals, crypto fundamentals, token unlocks, ETF flows, stablecoin activity, perpetual markets, prediction markets, real-world assets, and other specialized financial datasets. Artemis also provides alternative data from sources such as podcasts, Reddit, card spending, and AI usage data.\n\nUsers can build financial models, create comparable company analyses, generate charts, monitor key performance indicators, and create dashboards directly within the platform. Artemis also supports Excel and Google Sheets integrations, allowing analysts to pull live and historical data directly into existing models and workflows.\n\nResearch and analysis can be exported into formats such as Excel, CSV, PDF, and presentation slides, making Artemis suitable for both individual research and institutional investment teams.\n\nArtemis is positioned as an AI-native investment research platform that combines structured financial data with analytical tools. Instead of moving between multiple terminals, spreadsheets, blockchain dashboards, filings, and research platforms, investors can use Artemis to move from an initial investment question to data analysis, modeling, thesis development, and final research output within a single environment."
+      "longDescription": "Artemis is an AI-powered investment research platform built for investors, analysts, portfolio managers, and financial institutions. The platform brings financial data, crypto data, alternative datasets, research tools, financial modeling, and AI analysis into one workspace.\n\nAt the center of Artemis is Artemis Analyst, an AI research assistant designed specifically for investment workflows. Users can ask investment questions in natural language and use the platform to research companies, tokens, protocols, sectors, and broader market themes. Artemis can help analyze financial statements, earnings calls, consensus estimates, SEC filings, company fundamentals, valuation metrics, and on-chain activity.\n\nThe platform covers more than 30,000 public market tickers and over 600 crypto protocols. Its datasets include equity fundamentals, crypto fundamentals, token unlocks, ETF flows, stablecoin activity, perpetual markets, prediction markets, real-world assets, and other specialized financial datasets. Artemis also provides alternative data from sources such as podcasts, Reddit, card spending, and AI usage data.\n\nUsers can build financial models, create comparable company analyses, generate charts, monitor key performance indicators, and create dashboards directly within the platform. Artemis also supports Excel and Google Sheets integrations, allowing analysts to pull live and historical data directly into existing models and workflows.\n\nResearch and analysis can be exported into formats such as Excel, CSV, PDF, and presentation slides, making Artemis suitable for both individual research and institutional investment teams.\n\nArtemis is positioned as an AI-native investment research platform that combines structured financial data with analytical tools. Instead of moving between multiple terminals, spreadsheets, blockchain dashboards, filings, and research platforms, investors can use Artemis to move from an initial investment question to data analysis, modeling, thesis development, and final research output within a single environment.",
+      "team": [
+        {
+          "name": "Jon Ma",
+          "role": "Co-founder & CEO",
+          "avatar": "",
+          "twitter": ""
+        },
+        {
+          "name": "Anthony Yim",
+          "role": "Co-founder",
+          "avatar": "",
+          "twitter": "@anthonyyim"
+        }
+      ]
     },
     {
       "slug": "atoma",
@@ -145,14 +159,28 @@
       "name": "Awaken",
       "description": "Crypto Tax Software for Crypto Natives",
       "url": "https://awaken.tax/",
-      "twitter": "",
+      "twitter": "https://x.com/AwakenTax",
       "logo": "/logos/awaken_logo.ico",
       "categories": [
         "Taxes"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "Awaken is crypto tax software built for people who actually use DeFi. It imports activity from wallets, DeFi protocols, NFT marketplaces and centralized exchanges, classifies it automatically, and produces tax reports without spreadsheets.",
+      "team": [
+        {
+          "name": "Andrew Duca",
+          "role": "Founder",
+          "avatar": "",
+          "twitter": "@big_duca"
+        }
+      ]
     },
     {
       "slug": "beta-fund",
@@ -316,7 +344,7 @@
       "name": "CCXT",
       "description": "",
       "url": "https://ccxt.com/",
-      "twitter": "",
+      "twitter": "https://x.com/ccxt_official",
       "logo": "/logos/ccxt_logo.png",
       "categories": [
         "Developers"
@@ -324,7 +352,12 @@
       "status": "Live",
       "createdAt": "2026-06-05",
       "official": false,
-      "integrator_account_index": "718718"
+      "integrator_account_index": 718718,
+      "discord": "https://discord.gg/ccxt",
+      "telegram": "https://t.me/ccxt_chat",
+      "instances": [
+        "Lighter Core"
+      ]
     },
     {
       "slug": "circuit",
@@ -357,14 +390,20 @@
       "name": "CoinAnk",
       "description": "CoinAnk is a cryptocurrency futures trading & information platform,where you can find the BTC Liquidations…",
       "url": "https://coinank.com/",
-      "twitter": "",
+      "twitter": "https://x.com/CoinAnk",
       "logo": "/logos/coinank_logo.ico",
       "categories": [
         "Data"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "https://discord.gg/coinank",
+      "telegram": "https://t.me/coinankchannel",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "CoinAnk is a crypto derivatives data platform with liquidation heatmaps, open interest, funding rates, long/short ratios and order-flow charts for BTC, ETH and altcoins."
     },
     {
       "slug": "coingecko",
@@ -392,14 +431,20 @@
       "name": "CoinmaketCap",
       "description": "The live Lighter price today is $0.9157 USD with a 24-hour trading volume of $30,517,245.37 USD. We update our LIT to…",
       "url": "https://coinmarketcap.com/currencies/lighter/",
-      "twitter": "",
+      "twitter": "https://x.com/CoinMarketCap",
       "logo": "/logos/coinmaketcap_logo.png",
       "categories": [
         "Data"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "https://t.me/CoinMarketCapAnnouncements",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "CoinMarketCap is a crypto price and market-data aggregator. Its LIT page tracks Lighter's token price, market cap, trading volume and the markets where it trades."
     },
     {
       "slug": "cpu-capital-processing-units",
@@ -479,28 +524,73 @@
       "name": "DeBank",
       "description": "Your go-to portfolio tracker for Ethereum and EVM",
       "url": "https://debank.com/",
-      "twitter": "",
+      "twitter": "https://x.com/DeBankDeFi",
       "logo": "/logos/debank_logo.png",
       "categories": [
         "Data"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "DeBank is a portfolio tracker for Ethereum and EVM chains that shows wallet balances, DeFi positions and transaction history in one view."
+    },
+    {
+      "slug": "deepalpha",
+      "name": "DeepAlpha",
+      "description": "Live OB heatmap with the posibility to inspect each level of the ob",
+      "url": "https://app.deepalpha.pro/",
+      "twitter": "@bannedsleepingX",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/deepalpha_logo.webp",
+      "categories": [
+        "Data"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "status": "Live",
+      "createdAt": "2026-10-23",
+      "official": false,
+      "builderDiscords": [
+        "bannedsleeping"
+      ],
+      "longDescription": "**DeepAlpha** is a real-time order flow terminal for Lighter. It shows not just *where* the liquidity sits, but *who* is behind it.\n\n### What it does\n- **Live order book + liquidity heatmap**: see how resting liquidity builds, moves and gets pulled over time, with price candles on top. Book history is recorded continuously, so you can scroll back hours instead of only watching the present.\n- **Level reconstruction (L4)**: click any price level and see the individual orders inside it and the Lighter account that placed each one, using Lighter's public per-order data.\n- **Wallet inspector**: open any account and see its screen as if you were looking over its shoulder: a candle chart with its open orders and position drawn on it, plus positions, open orders, trade history and margin.\n- **Track record**: full PnL and equity curve since the account's first trade, max drawdown, profit factor, win rate, volume, and a heuristic profile (market maker, algorithmic or manual; directional or neutral; size).\n\nWorks on Lighter mainnet and the Robinhood Chain deployment.\n\n### Who it's for\n- **Traders** who want to read the book beyond price and size: spot real walls vs. spoofed liquidity, and see who is quoting.\n- **Copy and research traders** looking for consistently profitable accounts and how they actually trade.\n- **Market makers and analysts** monitoring competitors' quoting and positioning.\n\n### Why it's useful on Lighter\nLighter publishes the owner of every order, something almost no other exchange does. DeepAlpha turns that raw data into something you can read at a glance: who is behind each level, how each account trades, and how the book evolved over time. Lighter does not keep order book history, so DeepAlpha records it continuously to make that history available.",
+      "demoUrl": "https://app.deepalpha.pro/"
     },
     {
       "slug": "defillama",
       "name": "Defillama",
       "description": "",
       "url": "https://defillama.com/protocol/lighter",
-      "twitter": "",
+      "twitter": "https://x.com/DefiLlama",
       "logo": "/logos/defillama_logo.ico",
       "categories": [
         "Data"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "DefiLlama is an open, transparent DeFi analytics dashboard. Its Lighter page tracks the protocol's TVL, trading volume, fees and revenue over time alongside other perp DEXs.",
+      "team": [
+        {
+          "name": "0xngmi",
+          "role": "Builder",
+          "avatar": "",
+          "twitter": "@0xngmi"
+        }
+      ]
     },
     {
       "slug": "degenai",
@@ -675,7 +765,15 @@
       "longDescription": "Folio is a social trading layer built on Robinhood Chain. Follow creators, share trades and act on ideas, all in one place. You can trade tokenized stocks on spot through Uniswap v3 and v4, trade perpetuals, or buy Folios, which are creator-built index funds you hold as a single ticker. Folio also offers leveraged stock tokens through F-Pools. For example, you can get 5× NVDA exposure that you hold like any ERC-20 token, swap into in one step and add to a basket, with no margin account needed.",
       "demoUrl": "https://folio.market/home",
       "demoVideo": "/demos/folio-launch.mp4",
-      "demoImage": "/demos/folio-launch.jpg"
+      "demoImage": "/demos/folio-launch.jpg",
+      "team": [
+        {
+          "name": "Finn",
+          "role": "Builder",
+          "avatar": "",
+          "twitter": "@FinnyOverPaid"
+        }
+      ]
     },
     {
       "slug": "fuego",
@@ -813,14 +911,19 @@
       "name": "Hawk Trade",
       "description": "Unmatched execution speeds—trade crypto, forex, and commodities with up to 150x leverage. No KYC, instant access for…",
       "url": "https://hawk.trade/",
-      "twitter": "",
+      "twitter": "https://x.com/hawktradeX",
       "logo": "/logos/hawk-trade_logo.png",
       "categories": [
         "Bots"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "https://t.me/Hawk_trading_bot",
+      "instances": [
+        "Lighter Core"
+      ]
     },
     {
       "slug": "hummingbot",
@@ -970,7 +1073,7 @@
       "name": "Jesse",
       "description": "open-source algo trading bot",
       "url": "https://jesse.trade",
-      "twitter": "",
+      "twitter": "https://x.com/jesse_ai_com",
       "discord": "https://jesse.trade/discord",
       "telegram": "https://t.me/jesse_trade",
       "logo": "/logos/jesse_logo.svg",
@@ -981,7 +1084,10 @@
       "status": "Live",
       "createdAt": "2026-06-29",
       "official": false,
-      "integrator_account_index": "724890"
+      "integrator_account_index": 724890,
+      "instances": [
+        "Lighter Core"
+      ]
     },
     {
       "slug": "jumper-perps",
@@ -1147,7 +1253,15 @@
       "createdAt": "2026-09-22",
       "official": false,
       "longDescription": "Lighter Stats is an on-chain analytics tool for Lighter traders and points farmers. It reconstructs trading activity across multiple wallets and shows the true cost and result of that activity: volume, fees, hourly funding, and net PnL.\nUsers paste one or more Lighter wallets (plain addresses, labels, explorer links, or spreadsheet columns). The product replays every fill, fee, and hourly funding payment from the chain, per wallet and per week, then checks the result against the balance reported by Lighter. The goal is simple: make the farm readable down to the last cent of funding, instead of leaving traders with only exchange-level totals.\nFor each wallet it returns:\n•  starting and ending weekly balance\n•  maker and taker volume\n•  fees per fill at the actual rate\n•  funding paid or received, per market, on the hourly settlement cycle\n•  net PnL after fees and funding\n•  net result per $1k of volume, so traders can see what that volume actually cost or earned\nIt also shows live market context (prices and hourly funding across Lighter markets) and an exchange-wide 24h snapshot, so personal wallet stats sit next to overall activity. No wallet connection or signature is required — addresses are enough.\nLighter Stats is built for the people actually trading and farming on Lighter: multi-wallet operators, points farmers, and anyone who needs to verify that reported balances match on-chain fills, fees, and funding.",
-      "demoUrl": "https://lighter-stats.com/"
+      "demoUrl": "https://lighter-stats.com/",
+      "team": [
+        {
+          "name": "0xdev",
+          "role": "Developer",
+          "avatar": "",
+          "twitter": "@ohmybuild"
+        }
+      ]
     },
     {
       "slug": "lighter-trades-summaries",
@@ -1253,21 +1367,40 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "LighterPulse is an analytics site for the Lighter DEX: live markets, cross-venue funding rates, liquidations, trader leaderboards, open interest, LIT buybacks and a block explorer in one place.",
+      "team": [
+        {
+          "name": "singh",
+          "role": "Builder",
+          "avatar": "",
+          "twitter": "@singhxbt"
+        }
+      ]
     },
     {
       "slug": "lighterstatsx",
       "name": "LighterStatsX",
       "description": "",
       "url": "https://www.lighterstatsx.xyz/",
-      "twitter": "",
+      "twitter": "https://x.com/LighterLiq",
       "logo": "/logos/lighterstatsx_logo.svg",
       "categories": [
         "Data"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ]
     },
     {
       "slug": "lighterstrats",
@@ -1354,7 +1487,7 @@
       "name": "Liquid",
       "description": "Your trading super app. Trade from anywhere and multiply your returns by up to 200x.",
       "url": "https://www.liquid.trade/",
-      "twitter": "",
+      "twitter": "https://x.com/liquidtrading",
       "logo": "/logos/liquid_logo.ico",
       "categories": [
         "Apps"
@@ -1362,7 +1495,12 @@
       "status": "Live",
       "createdAt": "2026-06-05",
       "official": false,
-      "integrator_account_index": "735594"
+      "integrator_account_index": 735594,
+      "discord": "https://discord.gg/liquidtrading",
+      "telegram": "https://t.me/liquid_perps",
+      "instances": [
+        "Lighter Core"
+      ]
     },
     {
       "slug": "litdash",
@@ -1376,7 +1514,20 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "team": [
+        {
+          "name": "yeule",
+          "role": "Builder",
+          "avatar": "",
+          "twitter": "@yeule0"
+        }
+      ]
     },
     {
       "slug": "litlighterbot",
@@ -1399,7 +1550,7 @@
       "name": "LitScan",
       "description": "Lighter Analytics",
       "url": "https://litscan.io",
-      "twitter": "",
+      "twitter": "https://x.com/UngusTrade",
       "discord": "",
       "telegram": "",
       "logo": "",
@@ -1408,7 +1559,19 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 727418,
+      "team": [
+        {
+          "name": "Ungus",
+          "role": "Builder",
+          "avatar": "",
+          "twitter": "@UngusTrade"
+        }
+      ]
     },
     {
       "slug": "lobster-agent-trader",
@@ -1559,14 +1722,19 @@
       "name": "Miracle",
       "description": "An all in one financial platform for trading",
       "url": "https://www.miracletrade.com/",
-      "twitter": "",
+      "twitter": "https://x.com/miracletrade",
       "logo": "/logos/miracle_logo.ico",
       "categories": [
         "Apps"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ]
     },
     {
       "slug": "mozi-finance",
@@ -1627,14 +1795,20 @@
       "name": "Nomina",
       "description": "Nomina is the first unified trading platform for perpetual futures DEXs. Automate strategies, scale volume, and go all…",
       "url": "https://www.nomina.io/",
-      "twitter": "",
+      "twitter": "https://x.com/Nomina",
       "logo": "/logos/nomina_logo.png",
       "categories": [
         "Apps"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "https://t.me/nominaannouncements",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "Nomina is a unified trading terminal with power tools for onchain markets."
     },
     {
       "slug": "octav",
@@ -1728,7 +1902,7 @@
       "name": "Origami.tech",
       "description": "Build and run automated crypto trading strategies across CEXes and DEXes with a low-code, non-custodial platform…",
       "url": "https://origami.tech/",
-      "twitter": "",
+      "twitter": "https://x.com/origamitech_",
       "logo": "/logos/origami-tech_logo.svg",
       "categories": [
         "Terminal"
@@ -1736,21 +1910,32 @@
       "status": "Live",
       "createdAt": "2026-06-05",
       "official": false,
-      "integrator_account_index": "720463"
+      "integrator_account_index": 720463,
+      "discord": "https://discord.gg/origamitech",
+      "telegram": "https://t.me/origami_tech",
+      "instances": [
+        "Lighter Core"
+      ]
     },
     {
       "slug": "otomato",
       "name": "Otomato",
       "description": "Real-time Onchain alerts for your positions. Health factor, rate spikes, depegs, governance. Monitors Aave, Morpho…",
       "url": "https://otomato.xyz",
-      "twitter": "",
+      "twitter": "https://x.com/otomato_xyz",
       "logo": "/logos/otomato_logo.png",
       "categories": [
         "Data"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "Otomato watches on-chain positions around the clock and sends real-time alerts for liquidation risk, health-factor drops, yield changes and depegs across Aave, Morpho, Pendle, Hyperliquid and 20+ other protocols."
     },
     {
       "slug": "pear-protocol",
@@ -1947,14 +2132,19 @@
       "name": "PulseTrader",
       "description": "Trade crypto with instant execution and advanced strategies.",
       "url": "https://pulsetrader.xyz/",
-      "twitter": "",
+      "twitter": "https://x.com/pulsetrader_",
       "logo": "/logos/pulsetrader_logo.png",
       "categories": [
         "Apps"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "https://t.me/+FRCWexG3vTkwMzll",
+      "instances": [
+        "Lighter Core"
+      ]
     },
     {
       "slug": "quant-fun",
@@ -2047,14 +2237,20 @@
       "name": "Rabby",
       "description": "The game-changing wallet for Ethereum and all EVM chains",
       "url": "https://rabby.io/",
-      "twitter": "",
+      "twitter": "https://x.com/Rabby_io",
       "logo": "/logos/rabby_logo.png",
       "categories": [
         "Data"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "longDescription": "Rabby is a browser extension and mobile wallet for Ethereum and EVM chains, with pre-transaction risk checks and automatic network switching."
     },
     {
       "slug": "ritmex-orderbook",
@@ -2115,7 +2311,20 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "team": [
+        {
+          "name": "Karthik",
+          "role": "Developer",
+          "avatar": "",
+          "twitter": "@smartcrypto0"
+        }
+      ]
     },
     {
       "slug": "rust-sdk-by-will-lily",
@@ -2130,7 +2339,19 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "team": [
+        {
+          "name": "Lily",
+          "role": "Developer",
+          "avatar": "",
+          "twitter": "@lobstermindset"
+        }
+      ]
     },
     {
       "slug": "rust-sdk-by-yeule0",
@@ -2146,7 +2367,18 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "instances": [
+        "Lighter Core"
+      ],
+      "team": [
+        {
+          "name": "yeule",
+          "role": "Developer",
+          "avatar": "",
+          "twitter": "@yeule0"
+        }
+      ]
     },
     {
       "slug": "saffron",
@@ -2383,14 +2615,19 @@
       "name": "Tokenomics",
       "description": "Lighter tokenomics breakdown: LIT token allocation, vesting schedules, supply, emissions, unlocks, utility, and…",
       "url": "https://app.tokenomics.com/tokenomics/lighter",
-      "twitter": "",
+      "twitter": "https://x.com/TokenomicsCOM",
       "logo": "/logos/tokenomics_logo.ico",
       "categories": [
         "Data"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ]
     },
     {
       "slug": "top-traders-desk",
@@ -2501,7 +2738,20 @@
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "team": [
+        {
+          "name": "Karthik",
+          "role": "Developer",
+          "avatar": "",
+          "twitter": "@smartcrypto0"
+        }
+      ]
     },
     {
       "slug": "velocity",
@@ -2660,5 +2910,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-23T14:46:43.886Z"
+  "generatedAt": "2026-10-23T23:06:28.269Z"
 }

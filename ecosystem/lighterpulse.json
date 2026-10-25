@@ -9,5 +9,19 @@
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "LighterPulse is an analytics site for the Lighter DEX: live markets, cross-venue funding rates, liquidations, trader leaderboards, open interest, LIT buybacks and a block explorer in one place.",
+  "team": [
+    {
+      "name": "singh",
+      "role": "Builder",
+      "avatar": "",
+      "twitter": "@singhxbt"
+    }
+  ]
 }

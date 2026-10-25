@@ -2,7 +2,7 @@
   "name": "Liquid",
   "description": "Your trading super app. Trade from anywhere and multiply your returns by up to 200x.",
   "url": "https://www.liquid.trade/",
-  "twitter": "",
+  "twitter": "https://x.com/liquidtrading",
   "logo": "/logos/liquid_logo.ico",
   "categories": [
     "Apps"
@@ -10,5 +10,10 @@
   "status": "Live",
   "createdAt": "2026-06-05",
   "official": false,
-  "integrator_account_index": "735594"
+  "integrator_account_index": 735594,
+  "discord": "https://discord.gg/liquidtrading",
+  "telegram": "https://t.me/liquid_perps",
+  "instances": [
+    "Lighter Core"
+  ]
 }

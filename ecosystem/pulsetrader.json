@@ -2,12 +2,17 @@
   "name": "PulseTrader",
   "description": "Trade crypto with instant execution and advanced strategies.",
   "url": "https://pulsetrader.xyz/",
-  "twitter": "",
+  "twitter": "https://x.com/pulsetrader_",
   "logo": "/logos/pulsetrader_logo.png",
   "categories": [
     "Apps"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "https://t.me/+FRCWexG3vTkwMzll",
+  "instances": [
+    "Lighter Core"
+  ]
 }

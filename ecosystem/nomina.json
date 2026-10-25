@@ -2,12 +2,18 @@
   "name": "Nomina",
   "description": "Nomina is the first unified trading platform for perpetual futures DEXs. Automate strategies, scale volume, and go all…",
   "url": "https://www.nomina.io/",
-  "twitter": "",
+  "twitter": "https://x.com/Nomina",
   "logo": "/logos/nomina_logo.png",
   "categories": [
     "Apps"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "https://t.me/nominaannouncements",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "Nomina is a unified trading terminal with power tools for onchain markets."
 }

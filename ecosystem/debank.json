@@ -2,12 +2,18 @@
   "name": "DeBank",
   "description": "Your go-to portfolio tracker for Ethereum and EVM",
   "url": "https://debank.com/",
-  "twitter": "",
+  "twitter": "https://x.com/DeBankDeFi",
   "logo": "/logos/debank_logo.png",
   "categories": [
     "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "DeBank is a portfolio tracker for Ethereum and EVM chains that shows wallet balances, DeFi positions and transaction history in one view."
 }

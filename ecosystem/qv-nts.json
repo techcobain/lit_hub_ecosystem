@@ -15,5 +15,9 @@
   "official": false,
   "builderDiscords": [
     "quantsfi"
-  ]
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 734052
 }

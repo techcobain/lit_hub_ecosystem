@@ -2,12 +2,18 @@
   "name": "Otomato",
   "description": "Real-time Onchain alerts for your positions. Health factor, rate spikes, depegs, governance. Monitors Aave, Morpho…",
   "url": "https://otomato.xyz",
-  "twitter": "",
+  "twitter": "https://x.com/otomato_xyz",
   "logo": "/logos/otomato_logo.png",
   "categories": [
     "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "Otomato watches on-chain positions around the clock and sends real-time alerts for liquidation risk, health-factor drops, yield changes and depegs across Aave, Morpho, Pendle, Hyperliquid and 20+ other protocols."
 }

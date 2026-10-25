@@ -9,5 +9,18 @@
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ],
+  "team": [
+    {
+      "name": "Karthik",
+      "role": "Developer",
+      "avatar": "",
+      "twitter": "@smartcrypto0"
+    }
+  ]
 }

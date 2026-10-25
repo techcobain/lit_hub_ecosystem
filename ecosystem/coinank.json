@@ -2,12 +2,18 @@
   "name": "CoinAnk",
   "description": "CoinAnk is a cryptocurrency futures trading & information platform,where you can find the BTC Liquidations…",
   "url": "https://coinank.com/",
-  "twitter": "",
+  "twitter": "https://x.com/CoinAnk",
   "logo": "/logos/coinank_logo.ico",
   "categories": [
     "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "https://discord.gg/coinank",
+  "telegram": "https://t.me/coinankchannel",
+  "instances": [
+    "Lighter Core"
+  ],
+  "longDescription": "CoinAnk is a crypto derivatives data platform with liquidation heatmaps, open interest, funding rates, long/short ratios and order-flow charts for BTC, ETH and altcoins."
 }

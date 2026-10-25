@@ -15,6 +15,6 @@
   "status": "Not Live",
   "createdAt": "2026-10-24",
   "official": false,
-  "longDescription": "Litto is a social token launchpad on LighterEVM. Create, discover and trade community coins in one workspace.\n\nThe app combines token creation, bonding-curve trading, charts, holder data and wallet positions. Trade-linked notes, profiles and following add trader context to each market. Coins that reach the graduation threshold move into Litto's own AMM.\n\nA working devnet application is publicly available at https://dev-test.litto.fun. Visitors can explore markets and charts without connecting a wallet. Transactions use LighterEVM devnet assets, and the pilot has completed end-to-end tests covering coin creation, curve trading, graduation, AMM trading and fee claims.\n\nLitto is currently in devnet testing, with production launch upcoming.",
+  "longDescription": "Litto is a social token launchpad on LighterEVM. Create, discover and trade community coins in one workspace.\n\nThe app combines token creation, bonding-curve trading, charts, holder data and wallet positions. Trade-linked notes, profiles and following add trader context to each market. Coins that reach the graduation threshold move into Litto's own AMM.\n\nA working devnet application is publicly available at https://dev-test.litto.fun. Visitors can explore markets and charts without connecting a wallet. Transactions use LighterEVM devnet assets.\n\nLitto is currently in devnet testing, with production launch upcoming.",
   "demoUrl": "https://dev-test.litto.fun"
 }

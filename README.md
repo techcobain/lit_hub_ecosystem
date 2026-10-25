@@ -136,7 +136,7 @@ When replacing a logo, keep the same filename if possible so existing references
 
 ## Categories
 
-Use one or two categories.
+Use one to three distinct categories. More than three, duplicate and unknown categories are rejected.
 
 Current categories:
 
@@ -144,16 +144,27 @@ Current categories:
 Agents
 Apps
 Bots
+Bridge
 Copytrade
 Data
 Developers
 Lending
+NFT
 Taxes
 Terminal
 Yield
 ```
 
-The first category is treated as the primary category on the ecosystem map.
+Order matters: the first category is the primary one, which places the project on the ecosystem map and comes first on its card. Put the category that best describes the project first.
+Filters use every category. Cards show the first two with a `+N` count, and the project page shows all of them.
+
+## Validate Changes
+
+Install dependencies with `npm ci`, then run `npm run validate:ecosystem`. This checks every source project and the current generated index against `schemas/project.schema.json`, including category names, required fields, URLs and field lengths. The index builder runs the same source checks and leaves the existing index in place if any project is invalid.
+
+Every PR runs the `Validate ecosystem data` check. Repository maintainers must select this check as required in the rules for `main` to block merging failures; adding a workflow alone doesn't enable branch protection.
+
+The schema comes from `techcobain/builders-hub` via `pnpm export:project-schema`. When the website's public project contract changes, copy its regenerated `schemas/project.schema.json` here in a coordinated PR. Deploy website support for newly allowed values before publishing data that uses them.
 
 ## Generated Index
 
@@ -169,6 +180,7 @@ Those files are generated from all project and protocol request JSON files.
 After changes are merged into `main`, the GitHub Action in `.github/workflows/build-ecosystem.yml` runs:
 
 ```bash
+npm ci
 node scripts/build-ecosystem.mjs
 node scripts/build-request-a-protocol.mjs
 ```

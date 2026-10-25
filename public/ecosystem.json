@@ -21,14 +21,21 @@
       "name": "Lighter's Agent Kit",
       "description": "Agent Skill to let AI Agents trade on Lighter. Contribute to elliottech/lighter-agent-kit development by creating an…",
       "url": "https://github.com/elliottech/lighter-agent-kit",
-      "twitter": "",
+      "twitter": "https://x.com/Lighter_xyz",
       "logo": "/logos/gh_white.webp",
       "categories": [
         "Developers"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": true
+      "official": true,
+      "discord": "",
+      "telegram": "",
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "longDescription": "Lighter's official agent skill that lets AI coding agents such as Claude Code, Cursor, Codex and Devin trade on Lighter, including its Robinhood Chain deployment, through natural language, with paper trading available before going live."
     },
     {
       "slug": "alpha-journey",
@@ -671,6 +678,30 @@
       "builderDiscords": [
         "@yyvvoo"
       ]
+    },
+    {
+      "slug": "dextrabot",
+      "name": "Dextrabot",
+      "description": "Copy-trade top Lighter and Hyperliquid wallets, plus grid and DCA bots.",
+      "url": "https://dextrabot.com",
+      "twitter": "https://x.com/dextrabot",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/dextrabot_logo.jpg",
+      "categories": [
+        "Copytrade",
+        "Bots"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "integrator_account_index": 724236,
+      "robinhood_integrator_account_index": 4079,
+      "status": "Live",
+      "createdAt": "2026-10-23",
+      "official": false,
+      "longDescription": "Dextrabot is a trading automation app for perp DEXs. Users can find and copy-trade wallets on Lighter and Hyperliquid, or run grid and DCA bots on their own account.\n\nLighter Core and Robinhood Lighter are supported venues: you connect your Lighter account and approve Dextrabot as an integrator, after which the bots place orders on Lighter for you."
     },
     {
       "slug": "f-xyz",
@@ -1574,6 +1605,27 @@
       ]
     },
     {
+      "slug": "litto",
+      "name": "Litto",
+      "description": "Social token launchpad on LighterEVM. Create, discover and trade community coins. Devnet available.",
+      "url": "https://litto.fun",
+      "twitter": "",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/litto_logo.svg",
+      "categories": [
+        "Apps"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-10-24",
+      "official": false,
+      "longDescription": "Litto is a social token launchpad on LighterEVM. Create, discover and trade community coins in one workspace.\n\nThe app combines token creation, bonding-curve trading, charts, holder data and wallet positions. Trade-linked notes, profiles and following add trader context to each market. Coins that reach the graduation threshold move into Litto's own AMM.\n\nA working devnet application is publicly available at https://dev-test.litto.fun. Visitors can explore markets and charts without connecting a wallet. Transactions use LighterEVM devnet assets.\n\nLitto is currently in devnet testing, with production launch upcoming.",
+      "demoUrl": "https://dev-test.litto.fun"
+    },
+    {
       "slug": "lobster-agent-trader",
       "name": "Lobster Agent Trader",
       "description": "Turn the AI tokens you never spend intopositions that actually run. One loop that puts an idle monthly budget to work on",
@@ -1741,14 +1793,22 @@
       "name": "Mozi Finance",
       "description": "Trade on Hyperliquid, Aster and Lighter from one dashboard - unified balance.",
       "url": "https://mozi.finance/",
-      "twitter": "",
+      "twitter": "https://x.com/mozifinance",
       "logo": "/logos/mozi-finance_logo.ico",
       "categories": [
         "Apps"
       ],
       "status": "Live",
       "createdAt": "2026-06-05",
-      "official": false
+      "official": false,
+      "discord": "https://discord.gg/SuzfbnRh66",
+      "telegram": "",
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 720269,
+      "longDescription": "**Mozi** is a non-custodial perp DEX aggregator that puts Hyperliquid, Lighter and Aster behind one account, one balance and one trading dashboard.\n\n**Features**\n- **Unified terminal:** compare live prices and order books across venues, place orders on whichever venue you pick, and manage every open position from one panel. Mozi never acts as the counterparty.\n- **Unified portfolio:** see total equity, how margin is split across venues and unrealized PnL per venue. Move USDC between your Mozi main wallet and each venue.\n- **Strategies:** a funding-rate dashboard for cross-venue funding arbitrage, plus pair trading with preset or custom long/short pairs.\n- **Markets:** 500+ symbols with up to 200x leverage (depends on the venue), plus HIP-3 RWA perps such as gold, oil, forex and stocks. Charts use TradingView.\n- **One-Ref:** a single referral link that covers every connected venue.\n\n**On Lighter**\nLighter is a built-in venue. Mozi routes orders to Lighter Core as a Lighter integrator and charges a flat 1.45 bps fee on top of the venue fees.",
+      "demoUrl": "https://app.mozi.finance"
     },
     {
       "slug": "myliquidbot",
@@ -1768,6 +1828,36 @@
       "official": false,
       "integrator_account_index": "722954",
       "robinhood_integrator_account_index": "27109"
+    },
+    {
+      "slug": "nautilustrader",
+      "name": "NautilusTrader",
+      "description": "Open-source Rust/Python trading engine with a native Lighter adapter for market data and execution.",
+      "url": "https://nautilustrader.io",
+      "twitter": "https://x.com/NautilusTrader",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/nautilustrader_logo.png",
+      "categories": [
+        "Developers"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "integrator_account_index": 723813,
+      "status": "Live",
+      "createdAt": "2026-10-23",
+      "official": false,
+      "longDescription": "NautilusTrader is an open-source, high-performance algorithmic trading platform written in Rust with a Python API, used for backtesting and live trading with the same strategy code.\n\nIt ships a native Lighter adapter covering market data and order execution on Lighter Core and the Robinhood Chain deployment. Docs: https://nautilustrader.io/docs/latest/integrations/lighter/",
+      "team": [
+        {
+          "name": "Chris Sellers",
+          "role": "Creator",
+          "avatar": "",
+          "twitter": "@cjdsellers"
+        }
+      ]
     },
     {
       "slug": "nocturn",
@@ -1846,6 +1936,28 @@
       "createdAt": "2026-09-17",
       "official": false,
       "longDescription": "oka is the onchain RWA layer. Buy tokenized stocks with stablecoins, at the best all-in price, in a wallet you actually own.\n\nThe same stock exists as a dozen different tokens. xStocks, Ondo, Coinbase, Robinhood and Backpack each mint their own version, across Base, Solana, Arbitrum, BSC, Ethereum and Robinhood Chain. Each one trades in its own pool, at its own price. Buy the wrong one, and you've already lost money before the stock even moves.\n\noka scans every open listing, over 700 stocks and ETFs, nearly 3,000 listings, and fills the one that nets you the most stock once bridging, spread and gas are counted. Everything shows up as one portfolio, one balance.\n\nSigning in creates your wallet: email, Google, X or a passkey. No seed phrase, no extension. Keys stay exportable, so it's yours.\n\nThat covers the stock itself: no leverage, no way to short it. For that, there's a second layer of 98 real-world markets: equities, ETFs, indices, commodities, FX, pre-IPO, bonds, compute. Long or short, market or limit, cross or isolated, 1x to 50x."
+    },
+    {
+      "slug": "openmarket",
+      "name": "OpenMarket",
+      "description": "Free charting terminal with order-book heatmaps, footprints and full order flow for Lighter perps and 16,000+ markets.",
+      "url": "https://openmarket.xyz",
+      "twitter": "https://x.com/openmarket_xyz",
+      "discord": "https://discord.gg/openmarket",
+      "telegram": "",
+      "logo": "/logos/openmarket_logo.png",
+      "categories": [
+        "Terminal",
+        "Data"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "status": "Live",
+      "createdAt": "2026-10-24",
+      "official": false,
+      "longDescription": "OpenMarket (formerly Kiyotaka) is a browser and desktop charting platform that puts stocks, crypto, futures, options, forex and prediction markets on one live canvas. It streams trade-by-trade data from 29 crypto venues and offers order-book heatmaps, footprints, CVD and liquidation maps, 80+ built-in indicators, the wrun scripting language compiled to WebAssembly, and alerts to Telegram, Discord, email or webhook.\n\nLighter is supported with 208 markets, including stocks, FX and commodities, and each one gets full order flow data.",
+      "demoUrl": "https://openmarket.xyz/chart"
     },
     {
       "slug": "orderx",
@@ -2230,7 +2342,11 @@
       "official": false,
       "builderDiscords": [
         "quantsfi"
-      ]
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 734052
     },
     {
       "slug": "rabby",
@@ -2578,6 +2694,27 @@
       "official": false
     },
     {
+      "slug": "tardis-dev",
+      "name": "Tardis.dev",
+      "description": "Tick-level historical Lighter market data: order books, trades and tickers via API and CSV.",
+      "url": "https://tardis.dev",
+      "twitter": "https://x.com/tardis_dev",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/tardis-dev_logo.png",
+      "categories": [
+        "Data"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "status": "Live",
+      "createdAt": "2026-10-23",
+      "official": false,
+      "longDescription": "Tardis.dev provides tick-level historical market data for crypto exchanges, including full order book snapshots and updates, trades, tickers and other market stats, available through an API and downloadable CSV files.\n\nLighter is supported as an exchange: data for Lighter Core is available from April 2026 and for the Robinhood Chain deployment (lighter-rh) from September 2026. Details: https://docs.tardis.dev/historical-data-details/lighter"
+    },
+    {
       "slug": "tealstreet-io",
       "name": "Tealstreet.io",
       "description": "All-in-one trading terminal for crypto.",
@@ -2609,6 +2746,28 @@
       "createdAt": "2026-06-05",
       "official": false,
       "integrator_account_index": "281474976617487"
+    },
+    {
+      "slug": "tiger-com",
+      "name": "Tiger.com",
+      "description": "Desktop and web trading terminal connecting to crypto exchanges, Lighter included, with bots and charting.",
+      "url": "https://tiger.com",
+      "twitter": "https://x.com/tigercom",
+      "discord": "https://discord.gg/qQupZgxGtv",
+      "telegram": "https://t.me/tigertrade",
+      "logo": "/logos/tiger-com_logo.png",
+      "categories": [
+        "Apps",
+        "Terminal"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 724250,
+      "status": "Live",
+      "createdAt": "2026-10-23",
+      "official": false,
+      "longDescription": "Tiger.com is a multi-exchange trading terminal (desktop app plus web) for crypto and other markets. Traders connect their exchange accounts and manage orders, positions and charts from one interface, with trading bots and analytics tools on top.\n\nLighter is supported as a connected exchange: you link your Lighter account in the terminal's connection settings and approve Tiger.com as an integrator, after which orders placed in Tiger.com are routed to Lighter."
     },
     {
       "slug": "tokenomics",
@@ -2910,5 +3069,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-23T23:06:28.269Z"
+  "generatedAt": "2026-10-25T22:24:13.464Z"
 }

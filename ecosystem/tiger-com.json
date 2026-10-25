@@ -1,0 +1,21 @@
+{
+  "name": "Tiger.com",
+  "description": "Desktop and web trading terminal connecting to crypto exchanges, Lighter included, with bots and charting.",
+  "url": "https://tiger.com",
+  "twitter": "https://x.com/tigercom",
+  "discord": "https://discord.gg/qQupZgxGtv",
+  "telegram": "https://t.me/tigertrade",
+  "logo": "/logos/tiger-com_logo.png",
+  "categories": [
+    "Apps",
+    "Terminal"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 724250,
+  "status": "Live",
+  "createdAt": "2026-10-23",
+  "official": false,
+  "longDescription": "Tiger.com is a multi-exchange trading terminal (desktop app plus web) for crypto and other markets. Traders connect their exchange accounts and manage orders, positions and charts from one interface, with trading bots and analytics tools on top.\n\nLighter is supported as a connected exchange: you link your Lighter account in the terminal's connection settings and approve Tiger.com as an integrator, after which orders placed in Tiger.com are routed to Lighter."
+}

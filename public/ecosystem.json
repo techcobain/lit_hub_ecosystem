@@ -1144,6 +1144,7 @@
       "official": false,
       "longDescription": "Jumper Perps gives users a unified interface to discover and trade perpetual markets across venues, including Lighter. It helps Lighter reach more traders by surfacing its markets, liquidity and execution alongside other venues, while making it easier for users to compare and route their trades there when it offers the best experience.",
       "demoUrl": "https://perps.jumper.xyz/",
+      "demoImage": "https://raw.githubusercontent.com/techcobain/lit_hub_ecosystem/main/public/previews/jumper-perps-2026-10-26.jpg",
       "team": [
         {
           "name": "Marko",
@@ -3069,5 +3070,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-25T22:24:13.464Z"
+  "generatedAt": "2026-10-26T20:46:25.198Z"
 }

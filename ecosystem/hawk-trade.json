@@ -2,12 +2,17 @@
   "name": "Hawk Trade",
   "description": "Unmatched execution speeds—trade crypto, forex, and commodities with up to 150x leverage. No KYC, instant access for…",
   "url": "https://hawk.trade/",
-  "twitter": "",
+  "twitter": "https://x.com/hawktradeX",
   "logo": "/logos/hawk-trade_logo.png",
   "categories": [
     "Bots"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "https://t.me/Hawk_trading_bot",
+  "instances": [
+    "Lighter Core"
+  ]
 }

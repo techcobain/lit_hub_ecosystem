@@ -11,5 +11,16 @@
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "instances": [
+    "Lighter Core"
+  ],
+  "team": [
+    {
+      "name": "yeule",
+      "role": "Developer",
+      "avatar": "",
+      "twitter": "@yeule0"
+    }
+  ]
 }

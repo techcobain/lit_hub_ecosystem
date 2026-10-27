@@ -1,0 +1,20 @@
+{
+  "name": "Tardis.dev",
+  "description": "Tick-level historical Lighter market data: order books, trades and tickers via API and CSV.",
+  "url": "https://tardis.dev",
+  "twitter": "https://x.com/tardis_dev",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/tardis-dev_logo.png",
+  "categories": [
+    "Data"
+  ],
+  "instances": [
+    "Lighter Core",
+    "Lighter Robinhood"
+  ],
+  "status": "Live",
+  "createdAt": "2026-10-23",
+  "official": false,
+  "longDescription": "Tardis.dev provides tick-level historical market data for crypto exchanges, including full order book snapshots and updates, trades, tickers and other market stats, available through an API and downloadable CSV files.\n\nLighter is supported as an exchange: data for Lighter Core is available from April 2026 and for the Robinhood Chain deployment (lighter-rh) from September 2026. Details: https://docs.tardis.dev/historical-data-details/lighter"
+}

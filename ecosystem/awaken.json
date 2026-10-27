@@ -2,7 +2,7 @@
   "name": "Awaken",
   "description": "Crypto Tax Software for Crypto Natives",
   "url": "https://awaken.tax/",
-  "twitter": "",
+  "twitter": "https://x.com/AwakenTax",
   "logo": "/logos/awaken_logo.ico",
   "categories": [
     "Taxes"
@@ -15,6 +15,7 @@
   "instances": [
     "Lighter Core"
   ],
+  "longDescription": "Awaken is crypto tax software built for people who actually use DeFi. It imports activity from wallets, DeFi protocols, NFT marketplaces and centralized exchanges, classifies it automatically, and produces tax reports without spreadsheets.",
   "team": [
     {
       "name": "Andrew Duca",

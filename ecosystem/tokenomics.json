@@ -2,12 +2,17 @@
   "name": "Tokenomics",
   "description": "Lighter tokenomics breakdown: LIT token allocation, vesting schedules, supply, emissions, unlocks, utility, and…",
   "url": "https://app.tokenomics.com/tokenomics/lighter",
-  "twitter": "",
+  "twitter": "https://x.com/TokenomicsCOM",
   "logo": "/logos/tokenomics_logo.ico",
   "categories": [
     "Data"
   ],
   "status": "Live",
   "createdAt": "2026-06-05",
-  "official": false
+  "official": false,
+  "discord": "",
+  "telegram": "",
+  "instances": [
+    "Lighter Core"
+  ]
 }

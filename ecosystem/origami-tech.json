@@ -2,7 +2,7 @@
   "name": "Origami.tech",
   "description": "Build and run automated crypto trading strategies across CEXes and DEXes with a low-code, non-custodial platform…",
   "url": "https://origami.tech/",
-  "twitter": "",
+  "twitter": "https://x.com/origamitech_",
   "logo": "/logos/origami-tech_logo.svg",
   "categories": [
     "Terminal"
@@ -10,5 +10,10 @@
   "status": "Live",
   "createdAt": "2026-06-05",
   "official": false,
-  "integrator_account_index": "720463"
+  "integrator_account_index": 720463,
+  "discord": "https://discord.gg/origamitech",
+  "telegram": "https://t.me/origami_tech",
+  "instances": [
+    "Lighter Core"
+  ]
 }

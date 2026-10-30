@@ -1847,6 +1847,7 @@
         "Lighter Robinhood"
       ],
       "integrator_account_index": 723813,
+      "robinhood_integrator_account_index": 17725,
       "status": "Live",
       "createdAt": "2026-10-23",
       "official": false,
@@ -2066,7 +2067,10 @@
       "status": "Live",
       "createdAt": "2026-08-25",
       "official": false,
-      "integrator_account_index": "728059"
+      "integrator_account_index": [
+        "728059",
+        "763088"
+      ]
     },
     {
       "slug": "perpetuals-wtf",
@@ -3070,5 +3074,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-26T20:46:25.198Z"
+  "generatedAt": "2026-10-30T15:50:50.955Z"
 }

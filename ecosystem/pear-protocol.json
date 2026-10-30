@@ -13,5 +13,8 @@
   "status": "Live",
   "createdAt": "2026-08-25",
   "official": false,
-  "integrator_account_index": "728059"
+  "integrator_account_index": [
+    "728059",
+    "763088"
+  ]
 }

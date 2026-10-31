@@ -1,0 +1,33 @@
+{
+  "name": "Lightka",
+  "description": "First NFT Collection on Lighter. Entirely hand-drawn, moe anime artstyle. LWO. ",
+  "url": "https://opensea.io/collection/lightka",
+  "twitter": "https://x.com/LightkaNFT",
+  "discord": "discord.com/invite/ECKZVC52hv",
+  "telegram": "",
+  "logo": "/logos/lightka_logo.png",
+  "categories": [
+    "NFT"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Live",
+  "createdAt": "2026-10-31",
+  "official": false,
+  "longDescription": "First NFT Collection on Lighter. Entirely hand-drawn, moe anime artstyle. LWO. ",
+  "team": [
+    {
+      "name": "Merukuro",
+      "role": "Founder",
+      "avatar": "",
+      "twitter": "@meiroru"
+    },
+    {
+      "name": "Xinxin",
+      "role": "Co-Founder",
+      "avatar": "",
+      "twitter": "@xinxin444_"
+    }
+  ]
+}

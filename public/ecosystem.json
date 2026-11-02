@@ -1824,6 +1824,40 @@
       ]
     },
     {
+      "slug": "mirrorlane",
+      "name": "Mirrorlane",
+      "description": "Pro trading terminal with a dockable workspace, advanced orders, hotkeys, trader focused analytics and much more.",
+      "url": "https://mirrorlane.io/",
+      "twitter": "@mirrorlaneHQ",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/mirrorlane_logo.png",
+      "categories": [
+        "Terminal",
+        "Apps"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 35559,
+      "status": "Live",
+      "createdAt": "2026-11-02",
+      "official": false,
+      "builderDiscords": [
+        "titanjp"
+      ],
+      "longDescription": "Mirrorlane is a pro trading terminal for Lighter. Trade every market on Lighter, 200+ perps and spot markets from Bitcoin to Nvidia, gold, FX and ETFs, around the clock.\n\nIt's for active traders who want a screen arranged their way, orders sent from the keyboard or the chart, and an exact read on what their trading earns after costs.\n\n## What you get\n\n- **A workspace you arrange.** Keep layouts in tabs, start from eight templates, dock any widget anywhere, link panes by colour so they follow one market, pop a widget out into its own window and share a layout by link. Six themes.\n- **Orders for every size.** Market, limit, stop, TP / SL, Scale, TWAP, Advanced TWAP, Chase limit, Iceberg, and baskets on several markets at once.\n- **Speed.** Set your own order hotkeys, trade with a click on the chart, drag limit and stop lines on the chart, size each trade from the loss you accept, and search or run commands from your keyboard.\n- **Deep analytics.** See what every trade really made after fees and funding: results in R, risk at entry, winners against losers, how far each trade ran, what costs took and a year of daily PnL. It also shows which markets, sessions and habits make you money, and shows a pattern only when it holds up at 95% confidence.\n- **Market tools.** A page for every market, up to four markets compared on one chart, every order at a price level in queue order, a heatmap, a watchlist, and alerts on price, funding and liquidation distance while the terminal is open.\n- **Traders.** A leaderboard by PnL, ROI, volume or account value, trader profiles, and View as, which shows the trade screen as another trader sees it.\n- **Sharing and exports.** PnL cards for a position, a closed trade or your whole portfolio, and exports of your trades or funding for any range.\n\nWorks on your phone, tablet and desktop.\n\n## Why it's useful on Lighter\n\n- **The same account.** Already on Lighter? Skip the deposit: connect your wallet, enable trading and your past trades load. Lighter's app shows the same balances, positions and orders, and Mirrorlane never holds your funds.\n- **New to Lighter?** Deposit from any of 14 networks. A first trade usually takes a few minutes.\n- **Low fees.** On a Plus account, perps cost 0.025% of each trade, maker or taker, which is $2.50 on $10,000, and spot costs 0.045%. No subscription. Premium has its own rates, listed in the docs. Mirrorlane trades on Plus or Premium, and the account type you pick applies in Lighter's app too.\n\nTerminal: https://app.mirrorlane.io/trade\n\nDocs: https://docs.mirrorlane.io\n",
+      "demoUrl": "https://app.mirrorlane.io/trade",
+      "team": [
+        {
+          "name": "Singh",
+          "role": "Founder",
+          "avatar": "",
+          "twitter": "@singhxbt"
+        }
+      ]
+    },
+    {
       "slug": "mozi-finance",
       "name": "Mozi Finance",
       "description": "Trade on Hyperliquid, Aster and Lighter from one dashboard - unified balance.",
@@ -3108,5 +3142,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-02T12:09:22.557Z"
+  "generatedAt": "2026-11-02T16:40:58.791Z"
 }

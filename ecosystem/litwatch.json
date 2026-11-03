@@ -1,0 +1,29 @@
+{
+  "name": "LitWatch",
+  "description": "LitWatch watches your Lighter accounts around the clock and alerts you on Telegram the moment something drift.",
+  "url": "https://litwatch.aeradix.com/?ref=lithub",
+  "twitter": "",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/litwatch_logo.svg",
+  "categories": [
+    "Bots",
+    "Data"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-11-03",
+  "official": false,
+  "longDescription": "An operations monitor for Lighter traders and their bots.\nConnect a Lighter read-only token—it cannot trade or withdraw, and we never hold trading keys. Get Telegram or webhook alerts when margin or liquidation distance becomes dangerous, orders are rejected or appear stuck, a bot goes quiet, rate limits are hit, or Lighter itself has an outage.",
+  "demoUrl": "https://litwatch.aeradix.com/",
+  "team": [
+    {
+      "name": "Leong Sum Hoy",
+      "role": "Developer",
+      "avatar": "",
+      "twitter": "@sumhoy"
+    }
+  ]
+}

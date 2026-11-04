@@ -600,6 +600,89 @@
       ]
     },
     {
+      "slug": "dega",
+      "name": "DEGA",
+      "description": "Proprietary trading platform on Robinhood Chain",
+      "url": "https://dega.trade",
+      "twitter": "https://x.com/DegaTrading",
+      "discord": "https://discord.gg/CC44yYcPeh",
+      "telegram": "https://t.me/degatrade",
+      "logo": "/logos/dega_logo.svg",
+      "categories": [
+        "Terminal",
+        "Apps"
+      ],
+      "instances": [
+        "Lighter Robinhood"
+      ],
+      "robinhood_integrator_account_index": 51452,
+      "status": "Not Live",
+      "createdAt": "2026-11-02",
+      "official": false,
+      "builderDiscords": [
+        "wasp.gg",
+        "boog1311",
+        "rektangles",
+        "kamiwar",
+        "avc2",
+        "leifu",
+        "aana4785",
+        "insuline.eth"
+      ],
+      "longDescription": "DEGA is a proprietary trading platform on Robinhood Chain that rewards users who prove their edge with performance-based payouts. Users take directional exposure through simulated positions in derivatives markets sourced from Lighter.xyz’s deployment on Robinhood Chain, with up to $1M of notional exposure achievable on the largest prop accounts currently offered. Offchain trade execution brings additional advantages for users, whose orders stay private and fill at or near the quoted price the moment they are placed, and whose accounts carry more leveraged exposure and withstand more adverse price movement than the same outlay would support in a self-funded position. Everything a payout depends on stays onchain, where DEGA enforces defined risk limits and eligibility rules, secures asset custody and payout claims, and publishes attestations of trader activity and performance.",
+      "demoUrl": "https://app.dega.trade",
+      "team": [
+        {
+          "name": "Jared",
+          "role": "Founder",
+          "avatar": "",
+          "twitter": "@jaredborders"
+        },
+        {
+          "name": "Hunter",
+          "role": "Product",
+          "avatar": "",
+          "twitter": "@HunterG_1114"
+        },
+        {
+          "name": "Adam",
+          "role": "Engineer",
+          "avatar": "",
+          "twitter": ""
+        },
+        {
+          "name": "Mike",
+          "role": "Engineer",
+          "avatar": "",
+          "twitter": "@KamiWar1"
+        },
+        {
+          "name": "Marko",
+          "role": "Product",
+          "avatar": "",
+          "twitter": ""
+        },
+        {
+          "name": "Ana",
+          "role": "Operations",
+          "avatar": "",
+          "twitter": "@0xAnaking"
+        },
+        {
+          "name": "Alex",
+          "role": "Engineer",
+          "avatar": "",
+          "twitter": ""
+        },
+        {
+          "name": "Leifu",
+          "role": "Engineer",
+          "avatar": "",
+          "twitter": "@leifuchen"
+        }
+      ]
+    },
+    {
       "slug": "degenai",
       "name": "DegenAI",
       "description": "An AI trading terminal where you describe a strategy in plain English and it runs, watches, and executes it for you.",
@@ -3142,5 +3225,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-02T16:40:58.791Z"
+  "generatedAt": "2026-11-04T12:20:22.016Z"
 }

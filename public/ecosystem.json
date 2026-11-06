@@ -2091,6 +2091,33 @@
       "longDescription": "oka is the onchain RWA layer. Buy tokenized stocks with stablecoins, at the best all-in price, in a wallet you actually own.\n\nThe same stock exists as a dozen different tokens. xStocks, Ondo, Coinbase, Robinhood and Backpack each mint their own version, across Base, Solana, Arbitrum, BSC, Ethereum and Robinhood Chain. Each one trades in its own pool, at its own price. Buy the wrong one, and you've already lost money before the stock even moves.\n\noka scans every open listing, over 700 stocks and ETFs, nearly 3,000 listings, and fills the one that nets you the most stock once bridging, spread and gas are counted. Everything shows up as one portfolio, one balance.\n\nSigning in creates your wallet: email, Google, X or a passkey. No seed phrase, no extension. Keys stay exportable, so it's yours.\n\nThat covers the stock itself: no leverage, no way to short it. For that, there's a second layer of 98 real-world markets: equities, ETFs, indices, commodities, FX, pre-IPO, bonds, compute. Long or short, market or limit, cross or isolated, 1x to 50x."
     },
     {
+      "slug": "onagi",
+      "name": "Onagi",
+      "description": "Social trading app with an AI agent on web and Telegram: Lighter perps, tokens and predictions on Robinhood Chain.",
+      "url": "https://onagi.si",
+      "twitter": "@tryonagi",
+      "discord": "",
+      "telegram": "t.me/OnagiAgentBot",
+      "logo": "/logos/onagi_logo.png",
+      "categories": [
+        "Apps",
+        "Terminal",
+        "Agents"
+      ],
+      "instances": [
+        "Lighter Robinhood"
+      ],
+      "robinhood_integrator_account_index": 22388,
+      "status": "Live",
+      "createdAt": "2026-11-05",
+      "official": false,
+      "builderDiscords": [
+        "cihan0979"
+      ],
+      "longDescription": "Onagi is a social trading app with an AI agent, on the web and in Telegram (@OnagiAgentBot). Tokens, perps and predictions live in one place, and perps run on Lighter Robinhood.\n\n### Traction\n\nLaunched on October 22, 2026. Numbers as of November 5, 2026:\n\n- **Lighter Robinhood:** $404.7K perps volume, 846 trades and 22 traders through our integrator account 22388 (Lighter partner stats).\n- **Users:** 286 signed up, 132 have traded, 100 came back and traded again.\n- **Tokens:** $257.9K swap volume across 3,731 trades.\n- **Holder rewards:** $9.8K paid out in USDG so far, every transfer public at onagi.si/payouts.\n\n### Perps on Lighter\n\n- Go long or short on Lighter Robinhood markets in an account opened in your own wallet's name. Orders are routed through Onagi's integrator account (22388).\n- Trade yourself, or tell the agent what you want, for example \"long ETH 5x with $50\". It prepares the order and shows it as a card, and nothing happens until you confirm.\n- Open positions show size, leverage, margin, entry price and liquidation price, on web and mobile.\n- Onagi's share is 0.10% per order, on top of Lighter's own fee.\n\n### Who it's for\n\nTraders who want new tokens, perps and prediction markets in one app, and who like trading by chatting with an agent. The agent reads charts, explains tokens and sets price alerts in 22 languages.\n\n### Why it's useful\n\n- **Self-custodial:** sign-in creates an embedded wallet. Onagi never holds user funds and has only a limited trading permission that you can revoke.\n- **No ETH needed for gas:** Onagi covers gas and collects it in USDG.\n- **Social:** a feed of trades and posts, public profiles and a leaderboard, so you can see what other traders are doing.\n- **More than perps:** tokens on Robinhood Chain (Pons, Uniswap) and Solana, plus prediction markets sourced from Polymarket.\n\n### Links\n\n- App: https://app.onagi.si\n- Docs: https://onagi.si/docs\n- X: https://x.com/tryonagi\n- Telegram agent: https://t.me/OnagiAgentBot",
+      "demoUrl": "https://app.onagi.si"
+    },
+    {
       "slug": "openmarket",
       "name": "OpenMarket",
       "description": "Free charting terminal with order-book heatmaps, footprints and full order flow for Lighter perps and 16,000+ markets.",
@@ -3225,5 +3252,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-04T12:20:22.016Z"
+  "generatedAt": "2026-11-06T12:46:24.514Z"
 }

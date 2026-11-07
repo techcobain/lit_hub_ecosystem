@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#071a24"/><stop offset="1" stop-color="#155e75"/></linearGradient>
+<linearGradient id="fl" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#0891b2"/><stop offset="0.55" stop-color="#22d3ee"/><stop offset="1" stop-color="#ecfeff"/></linearGradient>
+<linearGradient id="core" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#cffafe"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.62" r="0.5"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="512" height="512" rx="112" fill="url(#bg)"/>
+<circle cx="256" cy="300" r="200" fill="url(#glow)"/>
+<path d="M256 72 C318 140 360 206 352 284 C346 350 304 404 256 404 C208 404 166 350 160 284 C155 236 172 196 204 160 C208 204 224 230 246 240 C234 186 232 128 256 72Z" fill="url(#fl)"/>
+<path d="M258 222 C286 258 298 290 290 320 C284 344 270 358 256 358 C242 358 228 344 222 320 C218 300 226 280 240 266 C244 286 252 294 260 296 C254 272 250 246 258 222Z" fill="url(#core)" opacity="0.85"/>
+<polyline points="64,326 168,326 204,262 248,392 296,206 330,326 448,326" fill="none" stroke="#071a24" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="64,326 168,326 204,262 248,392 296,206 330,326 448,326" fill="none" stroke="#fb7185" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

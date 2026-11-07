@@ -1,0 +1,24 @@
+{
+  "name": "LighterStatsX",
+  "description": "trading high-leverage, tournaments, props",
+  "url": "https://abc.xyz",
+  "twitter": "LighterLiq",
+  "discord": "max2235385",
+  "telegram": "maksym213423",
+  "logo": "/logos/lighterstatsx-3da0_logo.jpg",
+  "categories": [
+    "Apps",
+    "Yield",
+    "Data"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Not Live",
+  "createdAt": "2026-11-07",
+  "official": false,
+  "builderDiscords": [
+    "max2235385"
+  ],
+  "longDescription": "An on-chain trading platform built on Lighter EVM, starting with high-leverage trading against a liquidity pool. The project uses smart contracts as independent resolvers to manage trading logic and settlement transparently.\n\nThe long-term vision is to expand into customizable on-chain trading tournaments (1v1, Team vs. Team) and a prop trading model, creating a new layer of trading competition and engagement within the Lighter ecosystem.\n\nThe first MVP is already deployed on Lighter EVM Devnet."
+}

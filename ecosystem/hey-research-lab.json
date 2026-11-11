@@ -1,0 +1,22 @@
+{
+  "name": "HEY Research Lab",
+  "description": "The public record of building on Robinhood Chain: who is shipping, what they shipped, and the source for every ship.",
+  "url": "https://heyresearch.xyz",
+  "twitter": "@HeyResearch",
+  "discord": "",
+  "telegram": "t.me/HeyResearchLab",
+  "logo": "/logos/hey-research-lab_logo.png",
+  "categories": [
+    "Data",
+    "Developers",
+    "Agents"
+  ],
+  "instances": [
+    "Lighter Robinhood"
+  ],
+  "status": "Live",
+  "createdAt": "2026-11-11",
+  "official": false,
+  "longDescription": "## What HEY does\n\nHEY Research Lab keeps the public record of building on Robinhood Chain. Every day it reads what projects actually ship (GitHub releases and code, contract deployments, changelogs) and records each ship with a link to its source. For any project or token you get one answer: is the team still shipping, what did they ship last, and when.\n\n## Who it's for\n\n- **Traders on Lighter Robinhood and Robinhood Chain** who want to check the team behind a token before they trade it. Builders around Lighter Robinhood, like Mancer, have their own pages with every ship and its source.\n- **Apps and agents.** Trnch shows HEY's builder record on every token page, and Quotum's rh-preflight plugin makes a Hermes agent check HEY's record before it acts on a Robinhood Chain address.\n- **Builders**, whose shipping becomes visible and verifiable from day one, with a live badge they can embed.\n\n## For developers and agents\n\n- Free public API, no key: one call returns a token's builder record (`/api/v1/scan?chain=4663&token=<address>`)\n- Hosted MCP server: `https://heyresearch.xyz/mcp` (read-only, no auth)\n- An ERC-8004 validator on Robinhood Chain that answers onchain whether a project shipped in a given window\n\n## What it never does\n\nNo price calls, no buy or sell signals, no safety scores. Unknown stays unknown: a project HEY can't read says so, never a zero. HEY Research Lab is independent and not affiliated with Robinhood or Lighter.",
+  "demoUrl": "https://heyresearch.xyz/project/mancer"
+}

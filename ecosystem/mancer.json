@@ -1,0 +1,24 @@
+{
+  "name": "Mancer",
+  "description": "The dex aggregator and order layer of Robinhood Chain, with a perps terminal on Lighter Robinhood.",
+  "url": "https://mancer.xyz",
+  "twitter": "@mancerxyz",
+  "discord": "https://discord.gg/mancer",
+  "telegram": "",
+  "logo": "/logos/mancer_logo.png",
+  "categories": [
+    "Terminal",
+    "Apps"
+  ],
+  "instances": [
+    "Lighter Robinhood"
+  ],
+  "status": "Live",
+  "createdAt": "2026-11-11",
+  "official": false,
+  "builderDiscords": [
+    "hirsch"
+  ],
+  "longDescription": "Mancer is the dex aggregator and order layer of Robinhood Chain.\nIts perps terminal trades on Lighter Robinhood, beside swaps, tokenized stocks and signed orders in the same wallet.\n\n## Perps on Lighter Robinhood\n\n- The terminal lists Lighter Robinhood's perp markets: stocks, ETFs, metals, crypto and pre-IPO names.\n- Each market has its chart, its order book and its live trades.\n- Orders are market or limit, with reduce-only, post-only, take profit and stop loss.\n- Collateral is USDG, deposited from your wallet on Robinhood Chain and withdrawn back to it.\n- Trading is open where Lighter allows it.\n\n## One wallet for spot and perps\n\n- A wallet's portfolio counts its Lighter account beside its tokens, on the site and in the phone app.\n- The same wallet swaps at Mancer's routed price and places limit, stop and recurring orders.\n\n## Books\n\n- A Book is a trader's fund with an end date.\n- A Book's vault can trade Lighter Robinhood perps.\n\n## For builders\n\n- The public API reads Lighter Robinhood's markets and candles, and any wallet's Lighter accounts and open positions.\n- The docs are at https://docs.mancer.xyz.",
+  "demoUrl": "https://mancer.xyz/perps"
+}

@@ -910,6 +910,29 @@
       ]
     },
     {
+      "slug": "glint",
+      "name": "Glint",
+      "description": "\tBuild a spot trading agent for Lighter on Robinhood Chain and set how much it can buy, sell, or hold.",
+      "url": "https://tradeglint.xyz/",
+      "twitter": "https://x.com/Glint_Trade",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/glint_logo.jpg",
+      "categories": [
+        "Agents",
+        "Bots"
+      ],
+      "instances": [
+        "Lighter Robinhood",
+        "Lighter Core"
+      ],
+      "status": "Not Live",
+      "createdAt": "2026-11-12",
+      "official": false,
+      "longDescription": "We’re building Glint for traders who want to run their own spot strategies on Lighter’s Robinhood Chain exchange. You describe a strategy, choose the markets it can trade, and set a budget in USDG. An agent can watch ETH, tokenized stocks, or ETFs, depending on the markets you select.\n\nThe model proposes trades. Before Glint signs an order, a separate risk engine checks the order size, the position it would leave you with, and your daily limits. After a fill, Glint records a trade receipt on Robinhood Chain so you can follow what the agent actually did.\n\nDevelopers can build the same strategy through the web app, REST API, or MCP server. Glint is currently in development.",
+      "demoUrl": "https://tradeglint.xyz/"
+    },
+    {
       "slug": "go-perps",
       "name": "Go Perps",
       "description": "Trade upto 40x on stocks & crypto, access to whale alerts, top PnL traders, 1000+ markets. On-chain & self-custodial.",
@@ -3277,5 +3300,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-11T19:09:23.758Z"
+  "generatedAt": "2026-11-12T11:55:25.235Z"
 }

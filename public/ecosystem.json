@@ -3247,6 +3247,28 @@
       ]
     },
     {
+      "slug": "wardx",
+      "name": "Wardx",
+      "description": "Wallet-native perpetuals trading terminal on Lighter.",
+      "url": "https://wardx.xyz",
+      "twitter": "",
+      "discord": "",
+      "telegram": "",
+      "logo": "/logos/wardx_logo.png",
+      "categories": [
+        "Terminal",
+        "Apps"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": 737590,
+      "status": "Live",
+      "createdAt": "2026-11-10",
+      "official": false,
+      "longDescription": "Wardx is a wallet-native perpetuals trading terminal built on Lighter. The trading view combines a TradingView chart, a live order book, and an order form with market and limit orders, take-profit and stop-loss triggers, all on one screen. A bottom panel shows positions, assets, open orders, order history, trade history, and funding history. Users connect a wallet and open a session, then deposit, trade, and withdraw from their own account; Wardx is self-custodial and never takes custody of funds. Portfolio, orders, wallet, and referrals pages cover account management, with a market picker, settings drawer, light and dark themes, and live market data. Trades are attributed to Wardx's Lighter integrator account (737590)."
+    },
+    {
       "slug": "wick",
       "name": "Wick",
       "description": "The home of real world finance.",

@@ -1,0 +1,25 @@
+{
+  "name": "Wicklen",
+  "description": "Robust workspace: charts, bots, AI workflows, machine learning,   research, no-code strategies, backtests and analytics.",
+  "url": "https://wicklen.trade",
+  "twitter": "@Wicklentrade",
+  "discord": "https://discord.gg/6BtzVDv7a",
+  "telegram": "@Wicklen",
+  "logo": "/logos/wicklen_logo.png",
+  "categories": [
+    "Agents",
+    "Bots",
+    "Terminal"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 281474976511159,
+  "status": "Live",
+  "createdAt": "2026-11-17",
+  "official": false,
+  "builderDiscords": [
+    "wicklendev"
+  ],
+  "longDescription": "Wicklen connects market research, strategy design, execution, automation, and performance analysis in one trading workspace built for Lighter. Wicklen charges 0% trading-volume fees; exchange fees and funding remain separate.\n\nDiscover a market, study its chart, build and backtest a strategy, then trade manually or run a bot. Your research, trading tools, and account results stay connected, with an AI Agent available throughout the workflow.\n\n- AI Agent across the app: Ask Agent to analyze markets, explain why a bot is waiting, build strategies, run backtests, manage bots, prepare trades and protection, or configure price alerts. Connect steps into workflows, such as preparing a bot only when a backtest meets your criteria. You choose the Agent's account access and level of control, with reviews and confirmations where required.\n\n- Advanced charts and execution: Use independent multi-chart layouts, fast market and order-ticket switching, more than 40 customizable indicator families, drawing tools, bar replay, and price or indicator alerts. Trade with market, limit, TWAP, Iceberg, Pilot, and other order types. Manage orders directly on the chart, including staged take-profit and stop-loss exits, trailing controls, and Liquidation Guard.\n\n- No-code strategies and native backtesting: Build visual entry, filter, and exit rules using configurable indicators, confirmation checks, and multiple timeframes. Test supported strategies and bots with real Lighter candles and historical funding, while adjusting sizing, leverage, fees, and slippage. Review detailed analytics and select simulated trade records to inspect exact fills on the chart. Prepare a bot directly from the strategy version you tested.\n\n- Twelve bot approaches with detailed controls: Choose from Grid, DCA, Market Making, Pairs, Signal, Strategy Bot, and trend, breakout, and other strategy templates. Configure entries, execution, sizing, exits, and risk controls. Dedicated bot pages combine current conditions, orders, protection, official trades, and performance. Running bots continue operating after you close the app.\n\n- Radar and machine learning: Scan market Bias and Activity, investigate price, volume, open interest, funding, liquidity, and positioning, and follow markets with watchlists and alerts. Compare machine-learning outlooks across time horizons, including probabilities, estimated price ranges, and freshness information where available. Carry that context into Terminal and Agent.\n\n- Performance across wallets and accounts: Switch between trading accounts and review results for one account, a full wallet, or all connected wallets. Analyze realized and live PnL, drawdown, win rates, fees, and bot-level results alongside Lighter-confirmed trade records.\n\n- Monitoring and full mobile workflows: Guardian monitors exposure, protection, and risk with configurable warnings and responses. Push and email notifications keep you informed. Chart, trade, build strategies, manage bots, and work with Agent from desktop, tablet, or phone.\n\nYour trading funds remain on Lighter. Explore Wicklen without signing up or connecting a wallet."
+}

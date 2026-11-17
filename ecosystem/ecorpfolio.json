@@ -1,0 +1,25 @@
+{
+  "name": "eCorpFolio",
+  "description": "A trading journal and analytics platform built to help traders track risk, analyze trades, and improve their edge!",
+  "url": "https://ecorpfolio.com/",
+  "twitter": "@eCorpFolio",
+  "discord": "discord.gg/a7EhRb2DtC",
+  "telegram": "",
+  "logo": "/logos/ecorpfolio_logo.png",
+  "categories": [
+    "Apps",
+    "Data"
+  ],
+  "instances": [
+    "Lighter Core",
+    "Lighter Robinhood"
+  ],
+  "status": "Live",
+  "createdAt": "2026-11-17",
+  "official": false,
+  "builderDiscords": [
+    "chefchaouen"
+  ],
+  "longDescription": "**eCorpFolio is a trading journal and performance analytics platform built for traders.**\n\nConnect your Lighter account and automatically sync your trading history into a structured journal, without manually recording every trade.\n\neCorpFolio brings together entries, exits, individual fills, partial closes, position sizes, leverage, fees, funding, and available stop-loss and take-profit information.\n\nBeyond traditional PnL tracking, eCorpFolio focuses on risk-based performance metrics, including Risk $, Risk R, Target R, and Net R. Traders can review individual trades, track multiple take-profit levels, add notes and tags, and analyze their performance through dashboards and equity charts.\n\nThe goal is simple: help traders understand not just how much they made or lost, but how effectively they managed risk and executed their trades.\n\neCorpFolio is a journaling and analytics platform, not a trading terminal. It does not place or route trades on Lighter.\n\n**Currently live in a free, limited private beta, with WAY more features planned.**",
+  "demoUrl": "https://ecorpfolio.com/"
+}

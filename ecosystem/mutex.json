@@ -1,0 +1,26 @@
+{
+  "name": "MUTEX",
+  "description": "Head-to-head trading tables for a USDC pot, plus perps, options, AI agents, a bot-friendly prop trading desk & more.",
+  "url": "https://mutex.trade/?ref=mutex",
+  "twitter": "https://x.com/mutexDNA",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/mutex_logo.svg",
+  "categories": [
+    "Terminal",
+    "Apps"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "integrator_account_index": 281474976497408,
+  "status": "Live",
+  "createdAt": "2026-10-21",
+  "official": false,
+  "builderDiscords": [
+    "..ellipsis..",
+    "crazywall"
+  ],
+  "longDescription": "For serious traders: \nA trading terminal on Lighter, built around the Arena: traders compete head to head on a clock, for a USDC pot, on real orders.\n\nAround it sit perps and spot, options, a prop desk, AI agents, strategy bots, vaults, index funds and a funding-rate farm. One account, one balance, one interface.",
+  "demoUrl": "https://app.mutex.trade/?ref=mutex"
+}

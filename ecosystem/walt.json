@@ -1,0 +1,15 @@
+{
+  "name": "Walt",
+  "description": "Crypto wallet (ex. Wallet): trade crypto, perpetuals and tokenized stocks",
+  "url": "https://t.me/walt",
+  "twitter": "@walt_io",
+  "discord": "",
+  "logo": "/logos/walt_logo.png",
+  "categories": [
+    "Bots"
+  ],
+  "status": "Live",
+  "createdAt": "2026-06-05",
+  "official": false,
+  "integrator_account_index": "281474976617487"
+}

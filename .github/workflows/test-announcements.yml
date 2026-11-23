@@ -29,7 +29,7 @@ jobs:
         run: node scripts/notify-telegram.mjs
         env:
           DRY_RUN: "true"
-          SLUG: telegram-wallet,vooi,insilico-terminal
+          SLUG: walt,vooi,insilico-terminal
       - uses: actions/upload-artifact@v4
         with:
           name: announcement-previews

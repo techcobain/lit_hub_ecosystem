@@ -1269,7 +1269,10 @@
         "Lighter Core",
         "Lighter Robinhood"
       ],
-      "integrator_account_index": 735353,
+      "integrator_account_index": [
+        "735353",
+        "760982"
+      ],
       "robinhood_integrator_account_index": 37499,
       "status": "Live",
       "createdAt": "2026-09-30",
@@ -3401,5 +3404,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-19T22:12:47.362Z"
+  "generatedAt": "2026-11-23T13:17:53.004Z"
 }

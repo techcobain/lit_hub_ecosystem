@@ -2401,6 +2401,31 @@
       "demoUrl": "https://hub.perppilot.app/"
     },
     {
+      "slug": "perpscope",
+      "name": "Perpscope",
+      "description": "Measured liquidation maps, positioning and funding data for Lighter and Robinhood Chain, checked daily.",
+      "url": "https://perpscope.app",
+      "twitter": "@perpscopeapp",
+      "discord": "",
+      "telegram": "t.me/perpscopeapp",
+      "logo": "/logos/perpscope_logo.png",
+      "categories": [
+        "Data",
+        "Developers"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "status": "Live",
+      "createdAt": "2026-11-19",
+      "official": false,
+      "builderDiscords": [
+        "perpscope"
+      ],
+      "longDescription": "**Perpscope** is an analytics site for perpetual futures traders on Lighter (Lighter Core) and Robinhood Chain (Lighter Robinhood).\n\n### What it does\n- **Liquidation Map, measured**: built from open positions read account by account, with the liquidation price that Lighter publishes for each position, instead of being estimated from open interest and assumed leverage. Each map shows how much of the open interest it covers.\n- **Track record**: every day, a public page compares what the map showed beforehand with the liquidations that really happened.\n- **Positioning and flows**: long and short positioning, funding and who collects it, open interest, order flow, order book depth, live liquidations.\n- **All DEX view**: Lighter and Robinhood Chain added together.\n- **Alerts, an API and an MCP server** for AI agents, in 10 languages.\n\n### Who it is for\nTraders on Lighter who want factual data on where positions and liquidation levels sit, and builders who want the same data through an API.\n\n### Principles\nNo address or account number is ever published, and group details are shown only from 3 accounts. Every user gets the same factual data. Perpscope is not investment advice and gives no trading signals.\n\n### Plans\nA free plan is available. Paid plans: https://perpscope.app/pricing"
+    },
+    {
       "slug": "pilled",
       "name": "Pilled",
       "description": "Social investing",
@@ -3404,5 +3429,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-23T13:17:53.004Z"
+  "generatedAt": "2026-11-23T15:37:32.108Z"
 }

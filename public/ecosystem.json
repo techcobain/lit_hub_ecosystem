@@ -3045,12 +3045,12 @@
     },
     {
       "slug": "telegram-wallet",
-      "name": "Telegram Wallet",
-      "description": "Official self-custodial crypto wallet integrated directly into Telegram",
-      "url": "https://t.me/wallet",
-      "twitter": "@wallet_tg",
+      "name": "Walt",
+      "description": "Crypto wallet (ex. Wallet): trade crypto, perpetuals and tokenized stocks",
+      "url": "https://t.me/walt",
+      "twitter": "@walt_io",
       "discord": "",
-      "logo": "/logos/telegram-wallet_logo.png",
+      "logo": "/logos/walt_logo.png",
       "categories": [
         "Bots"
       ],
@@ -3429,5 +3429,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-23T15:37:32.108Z"
+  "generatedAt": "2026-11-24T15:35:17.116Z"
 }

@@ -21,13 +21,13 @@ after(async () => {
   if (temp) await rm(temp, { recursive: true, force: true });
 });
 
-test("JSON project name and original PNG produce a 1600x900 two-line card", () => {
+test("JSON project name and original PNG produce a 1600x900 single-line card", () => {
   assert.equal(example.png.readUInt32BE(16), 1600);
   assert.equal(example.png.readUInt32BE(20), 900);
-  assert.equal(example.layout.name, "Telegram Wallet");
+  assert.equal(example.layout.name, "Walt");
   assert.equal(example.layout.fontSize, "144px");
-  assert.deepEqual(example.layout.lines, ["Telegram", "Wallet"]);
-  assert.ok(example.layout.title.height > 250);
+  assert.deepEqual(example.layout.lines, ["Walt"]);
+  assert.ok(example.layout.title.height < parseFloat(example.layout.fontSize) * 1.1);
   assert.ok(example.layout.title.y + example.layout.title.height < example.layout.tagline.y);
   assert.equal(example.fallbackLogo, false);
 });
@@ -152,8 +152,13 @@ test("full notifier dry run renders JSON-based cards and text without contacting
   });
   assert.equal(code, 0);
   const png = await readFile(path.join(outputDir, "telegram-wallet.png"));
-  assert.deepEqual(png, example.png);
   const project = await readProject("telegram-wallet");
+  const rebrandCard = await renderer.render(project, path.join(temp, "rebrand.png"), { previousName: "Telegram Wallet" });
+  assert.deepEqual(png, rebrandCard.png);
+  assert.notDeepEqual(png, example.png);
+  assert.equal(buildPost("telegram-wallet", project), "Telegram Wallet is now Walt (@walt_io).\n\nhttps://lit-hub.org/ecosystem/walt");
+  assert.match(buildMessage("telegram-wallet", project), /Telegram Wallet is now <b>Walt<\/b>/);
+  assert.match(buildMessage("telegram-wallet", project), /ecosystem\/walt"/);
   assert.equal(await readFile(path.join(outputDir, "telegram-wallet.txt"), "utf8"), buildPost("telegram-wallet", project) + "\n");
   assert.equal(await readFile(path.join(outputDir, "telegram-wallet.telegram.txt"), "utf8"),
     buildMessage("telegram-wallet", project) + "\n");
@@ -181,7 +186,7 @@ test("Telegram uploads the same card as X, with the existing HTML caption", asyn
   const outputDir = path.join(temp, "both-channels");
   const code = await runAnnouncements({
     slugs: ["telegram-wallet"], dryRun: false, xEnabled: true, telegramEnabled: true,
-    credentials, outputDir, waitForPage: pageLive, fetchImpl: recordingFetch(calls),
+    credentials, outputDir, waitForPage: async (slug) => { assert.equal(slug, "walt"); return true; }, fetchImpl: recordingFetch(calls),
   });
   assert.equal(code, 0);
   assert.deepEqual(calls.map((c) => c.method ?? c.channel), ["sendPhoto", "x", "x"]);

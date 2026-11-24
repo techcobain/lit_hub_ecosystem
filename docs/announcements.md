@@ -91,6 +91,13 @@ Sources: [X upload reference](https://docs.x.com/x-api/media/upload-media.md)
 [X create-post reference](https://docs.x.com/x-api/posts/create-post).
 Real account permissions and end-to-end publication have not been tested.
 
+### Walt rebrand
+
+The Walt listing keeps the file key `telegram-wallet`. Merging its edits
+does not announce a new project. After the updated page is live, use the
+manual workflow with `slug=telegram-wallet` to preview or publish the
+rebrand card and captions linking to `/ecosystem/walt`.
+
 ## Examples
 
 These PNGs were rendered from the catalog with the bundled fonts.

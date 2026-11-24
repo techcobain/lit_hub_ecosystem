@@ -87,7 +87,7 @@ export async function createCardRenderer() {
   try {
     const html = await template();
     return {
-      async render(project, output, { root = ROOT } = {}) {
+      async render(project, output, { root = ROOT, previousName } = {}) {
         const name = String(project.name ?? "").replace(/\s+/gu, " ").trim();
         if (!name || name.length > 240) throw new Error("Project name must contain 1–240 characters");
         const logo = await logoData(project, root);
@@ -96,7 +96,13 @@ export async function createCardRenderer() {
           // No external assets, scripts or font requests during rendering.
           await page.route("**/*", (route) => route.abort());
           await page.setContent(html);
-          await page.evaluate(async ({ name, logo }) => {
+          await page.evaluate(async ({ name, logo, previousName }) => {
+            if (previousName) {
+              document.querySelector(".eyebrow").textContent = "REBRAND";
+              const tagline = document.querySelector("#tagline");
+              tagline.textContent = `formerly ${previousName}`;
+              tagline.style.fontSize = "68px";
+            }
             const title = document.querySelector("#name");
             // Keep every word intact (including hyphenated names). Wrapping
             // happens only at the spaces between these spans.
@@ -130,7 +136,7 @@ export async function createCardRenderer() {
             if (title.getBoundingClientRect().height > size * 1.04 * 2 + 2 || title.scrollWidth > width) {
               throw new Error("Project name does not fit the card");
             }
-          }, { name, logo });
+          }, { name, logo, previousName });
           const layout = await page.evaluate(() => {
             const box = (selector) => {
               const { x, y, width, height } = document.querySelector(selector).getBoundingClientRect();

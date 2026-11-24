@@ -57,6 +57,15 @@ export function addedSlugs() {
     .map((f) => path.basename(f, ".json"));
 }
 
+// The project file keeps its original key. A manual announcement for this
+// rebrand links to the public URL; ordinary edits still never trigger a post.
+function rebrandFor(slug, project) {
+  if (slug === "telegram-wallet" && project.name === "Walt") {
+    return { previousName: "Telegram Wallet", publicSlug: "walt" };
+  }
+  return null;
+}
+
 function esc(s) {
   return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
@@ -72,6 +81,15 @@ function socialUrl(kind, value) {
 }
 
 export function buildMessage(slug, p) {
+  const rebrand = rebrandFor(slug, p);
+  if (rebrand) {
+    const pageUrl = `${SITE_URL}/ecosystem/${rebrand.publicSlug}`;
+    return [
+      `${esc(rebrand.previousName)} is now <b>${esc(p.name)}</b>.`,
+      "",
+      `<a href="${esc(p.url)}">Open Walt in Telegram</a> · <a href="${pageUrl}">View on Lit Hub</a>`,
+    ].join("\n");
+  }
   const pageUrl = `${SITE_URL}/ecosystem/${encodeURIComponent(slug)}`;
   const links = [
     p.url && `<a href="${esc(p.url)}">Website</a>`,
@@ -145,6 +163,11 @@ function xLength(text) {
 export function buildPost(slug, p) {
   const handle = xHandle(p.twitter);
   const pageUrl = `${SITE_URL}/ecosystem/${encodeURIComponent(slug)}`;
+  const rebrand = rebrandFor(slug, p);
+  if (rebrand) {
+    const mention = handle ? ` (${handle})` : "";
+    return `${rebrand.previousName} is now ${p.name}${mention}.\n\n${SITE_URL}/ecosystem/${rebrand.publicSlug}`;
+  }
   const head = `🆕 ${p.name}${handle ? ` (${handle})` : ""} just joined @lighter_hub`;
   const compose = (description) =>
     [head, description ? `\n${description}` : null, `\n${pageUrl}`].filter(Boolean).join("\n");
@@ -226,6 +249,8 @@ export async function runAnnouncements({
         continue;
       }
       const project = JSON.parse(readFileSync(file, "utf8"));
+      const rebrand = rebrandFor(slug, project);
+      const publicSlug = rebrand?.publicSlug ?? slug;
       const telegramText = buildMessage(slug, project);
       const xText = buildPost(slug, project);
       await writeFile(path.join(outputDir, `${slug}.telegram.txt`), telegramText + "\n");
@@ -234,7 +259,7 @@ export async function runAnnouncements({
       let png = null;
       try {
         renderer ??= await rendererFactory();
-        const card = await renderer.render(project, path.join(outputDir, `${slug}.png`));
+        const card = await renderer.render(project, path.join(outputDir, `${slug}.png`), { previousName: rebrand?.previousName });
         if (card.fallbackLogo) console.warn(`${slug}: no logo configured; card uses initials`);
         png = card.png;
       } catch (err) {
@@ -245,10 +270,10 @@ export async function runAnnouncements({
         console.log(`preview ${slug} in ${outputDir} (nothing sent)`);
         continue;
       }
-      if (!(await waitForPage(slug))) {
+      if (!(await waitForPage(publicSlug))) {
         failed++;
         console.error(
-          `skip ${slug}: ${SITE_URL}/ecosystem/${slug} never loaded, so nothing was posted. ` +
+          `skip ${slug}: ${SITE_URL}/ecosystem/${publicSlug} never loaded, so nothing was posted. ` +
             `Once it does, run the "Announce new projects" workflow manually with slug=${slug} and dry_run off.`,
         );
         continue;

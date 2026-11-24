@@ -14,7 +14,7 @@ let renderer, temp, example;
 before(async () => {
   temp = await mkdtemp(path.join(tmpdir(), "lit-hub-card-test-"));
   renderer = await createCardRenderer();
-  example = await renderer.render(await readProject("walt"), path.join(temp, "telegram.png"));
+  example = await renderer.render(await readProject("telegram-wallet"), path.join(temp, "telegram.png"));
 });
 after(async () => {
   await renderer?.close();
@@ -57,7 +57,7 @@ test("an unbroken name that cannot fit fails rather than splitting or clipping",
 });
 
 test("same inputs render identical PNGs", async () => {
-  const again = await renderer.render(await readProject("walt"), path.join(temp, "again.png"));
+  const again = await renderer.render(await readProject("telegram-wallet"), path.join(temp, "again.png"));
   assert.deepEqual(again.png, example.png);
 });
 
@@ -147,16 +147,16 @@ test("missing credentials or invalid PNG cannot make a request", async () => {
 test("full notifier dry run renders JSON-based cards and text without contacting either channel", async () => {
   const outputDir = path.join(temp, "dry-run");
   const code = await runAnnouncements({
-    slugs: ["walt"], dryRun: true, xEnabled: true, telegramEnabled: true,
+    slugs: ["telegram-wallet"], dryRun: true, xEnabled: true, telegramEnabled: true,
     credentials, outputDir, fetchImpl: async () => assert.fail("dry run must not contact X or Telegram"),
   });
   assert.equal(code, 0);
-  const png = await readFile(path.join(outputDir, "walt.png"));
+  const png = await readFile(path.join(outputDir, "telegram-wallet.png"));
   assert.deepEqual(png, example.png);
-  const project = await readProject("walt");
-  assert.equal(await readFile(path.join(outputDir, "walt.txt"), "utf8"), buildPost("walt", project) + "\n");
-  assert.equal(await readFile(path.join(outputDir, "walt.telegram.txt"), "utf8"),
-    buildMessage("walt", project) + "\n");
+  const project = await readProject("telegram-wallet");
+  assert.equal(await readFile(path.join(outputDir, "telegram-wallet.txt"), "utf8"), buildPost("telegram-wallet", project) + "\n");
+  assert.equal(await readFile(path.join(outputDir, "telegram-wallet.telegram.txt"), "utf8"),
+    buildMessage("telegram-wallet", project) + "\n");
 });
 
 // Serializes each request the way fetch would, so multipart bodies are checked as sent.
@@ -180,20 +180,20 @@ test("Telegram uploads the same card as X, with the existing HTML caption", asyn
   const calls = [];
   const outputDir = path.join(temp, "both-channels");
   const code = await runAnnouncements({
-    slugs: ["walt"], dryRun: false, xEnabled: true, telegramEnabled: true,
+    slugs: ["telegram-wallet"], dryRun: false, xEnabled: true, telegramEnabled: true,
     credentials, outputDir, waitForPage: pageLive, fetchImpl: recordingFetch(calls),
   });
   assert.equal(code, 0);
   assert.deepEqual(calls.map((c) => c.method ?? c.channel), ["sendPhoto", "x", "x"]);
-  const card = await readFile(path.join(outputDir, "walt.png"));
+  const card = await readFile(path.join(outputDir, "telegram-wallet.png"));
   assert.deepEqual([...calls[0].form.keys()], ["photo"]);
   const photo = calls[0].form.get("photo");
   assert.equal(photo.type, "image/png");
-  assert.equal(photo.name, "walt.png");
+  assert.equal(photo.name, "telegram-wallet.png");
   assert.deepEqual(Buffer.from(await photo.arrayBuffer()), card);
   assert.deepEqual(Buffer.from(calls[1].body.media, "base64"), card);
   // Exact caption, \n line breaks intact.
-  assert.equal(calls[0].query.get("caption"), buildMessage("walt", await readProject("walt")));
+  assert.equal(calls[0].query.get("caption"), buildMessage("telegram-wallet", await readProject("telegram-wallet")));
   assert.equal(calls[0].query.get("parse_mode"), "HTML");
 });
 
@@ -213,7 +213,7 @@ test("a rejected Telegram photo still sends the text announcement", async () => 
 test("when the card can't be rendered, Telegram sends text and X sends nothing", async () => {
   const calls = [];
   const code = await runAnnouncements({
-    slugs: ["walt"], dryRun: false, xEnabled: true, telegramEnabled: true,
+    slugs: ["telegram-wallet"], dryRun: false, xEnabled: true, telegramEnabled: true,
     credentials, outputDir: path.join(temp, "no-card"), waitForPage: pageLive,
     rendererFactory: async () => ({
       render: async () => { throw new Error("Corrupt logo"); },
@@ -230,7 +230,7 @@ test("full notifier renders each project and attaches its own media ID, using on
   let created = 0, closed = 0;
   const outputDir = path.join(temp, "notifier");
   const code = await runAnnouncements({
-    slugs: ["walt", "vooi", "walt"], dryRun: false,
+    slugs: ["telegram-wallet", "vooi", "telegram-wallet"], dryRun: false,
     xEnabled: true, telegramEnabled: false, credentials, outputDir, waitForPage: pageLive,
     rendererFactory: async () => {
       created++;
@@ -246,7 +246,7 @@ test("full notifier renders each project and attaches its own media ID, using on
   assert.equal(created, 1);
   assert.equal(closed, 1);
   assert.equal(calls.length, 4);
-  for (const [index, slug] of ["walt", "vooi"].entries()) {
+  for (const [index, slug] of ["telegram-wallet", "vooi"].entries()) {
     const upload = calls[index * 2];
     assert.deepEqual(Buffer.from(upload.body.media, "base64"), await readFile(path.join(outputDir, `${slug}.png`)));
     assert.deepEqual(calls[index * 2 + 1].body, {
@@ -259,7 +259,7 @@ test("full notifier renders each project and attaches its own media ID, using on
 test("full notifier fails without posting when rendering fails and still closes the browser", async () => {
   let closed = false;
   const code = await runAnnouncements({
-    slugs: ["walt"], dryRun: false, xEnabled: true, telegramEnabled: false,
+    slugs: ["telegram-wallet"], dryRun: false, xEnabled: true, telegramEnabled: false,
     credentials, outputDir: path.join(temp, "failure"), waitForPage: pageLive,
     rendererFactory: async () => ({
       render: async () => { throw new Error("Corrupt logo"); },
@@ -277,7 +277,7 @@ test("unconfigured channels and empty batches do not launch a browser or publish
     rendererFactory: async () => assert.fail("no browser needed"),
     fetchImpl: async () => assert.fail("no network needed"),
   };
-  assert.equal(await runAnnouncements({ ...options, slugs: ["walt"] }), 0);
+  assert.equal(await runAnnouncements({ ...options, slugs: ["telegram-wallet"] }), 0);
   assert.equal(await runAnnouncements({ ...options, slugs: [] }), 0);
 });
 

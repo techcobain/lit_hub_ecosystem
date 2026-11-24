@@ -14,7 +14,7 @@ while X sends nothing.
 ```sh
 npm ci
 npx playwright install chromium
-npm run preview:announcement -- walt vooi insilico-terminal
+npm run preview:announcement -- telegram-wallet vooi insilico-terminal
 ```
 
 Each argument is a filename stem in `ecosystem/`. The renderer reads `name`
@@ -60,7 +60,7 @@ is needed. Rendering is deterministic with bundled fonts and local logos.
 For an end-to-end preview without publishing to **either** channel:
 
 ```sh
-DRY_RUN=true SLUG=walt,vooi node scripts/notify-telegram.mjs
+DRY_RUN=true SLUG=telegram-wallet,vooi node scripts/notify-telegram.mjs
 ```
 
 This writes, for each slug, the card (`<slug>.png`), the X post text

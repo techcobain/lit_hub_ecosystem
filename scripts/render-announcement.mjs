@@ -165,7 +165,7 @@ export async function createCardRenderer() {
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const slugs = process.argv.slice(2);
-  if (!slugs.length) throw new Error("Usage: npm run preview:announcement -- walt [other-slug]");
+  if (!slugs.length) throw new Error("Usage: npm run preview:announcement -- telegram-wallet [other-slug]");
   const renderer = await createCardRenderer();
   try {
     for (const slug of slugs) {

@@ -1296,6 +1296,32 @@
       ]
     },
     {
+      "slug": "keeper",
+      "name": "Keeper ",
+      "description": "Self-custodial multichain wallet with 77M downloads. Swap, stake and trade perpetuals in one app, no KYC.",
+      "url": "https://keeperwallet.com",
+      "twitter": "@keeper_wallet",
+      "discord": "https://discord.gg/DyQERhN7qV",
+      "telegram": "t.me/keeper_en",
+      "logo": "/logos/keeper_logo.png",
+      "categories": [
+        "Apps"
+      ],
+      "instances": [
+        "Lighter Core"
+      ],
+      "integrator_account_index": [
+        281474976487769,
+        281474976487764,
+        281474976487770
+      ],
+      "status": "Live",
+      "createdAt": "2026-11-25",
+      "official": false,
+      "longDescription": "Keeper (formerly Tonkeeper) is a self-custodial multichain wallet where users swap, stake and trade perpetuals straight from the app: 100+ markets, up to 50x leverage, no KYC and full control of their funds.",
+      "demoUrl": "https://keeperwallet.com"
+    },
+    {
       "slug": "kombat",
       "name": "Kombat",
       "description": "Kombat is a non-custodial, multi-DEX execution terminal for onchain equities and crypto: perps, pairs, routing…",
@@ -3429,5 +3455,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-24T15:35:17.116Z"
+  "generatedAt": "2026-11-25T22:45:11.317Z"
 }

@@ -1,0 +1,25 @@
+{
+  "name": "Cove",
+  "description": "Buy and sell tokens across networks, automate your orders, and manage multiple wallets. All from one Telegram bot.",
+  "url": "https://www.cove.trade/",
+  "twitter": "https://x.com/covetrade",
+  "discord": "",
+  "telegram": "@cove_trading_bot",
+  "logo": "/logos/cove_logo.webp",
+  "categories": [
+    "Apps",
+    "Agents"
+  ],
+  "instances": [
+    "Lighter Robinhood"
+  ],
+  "robinhood_integrator_account_index": 56443,
+  "status": "Not Live",
+  "createdAt": "2026-11-26",
+  "official": false,
+  "builderDiscords": [
+    "77slice"
+  ],
+  "longDescription": "Cove is a Telegram-native trading platform bringing Lighter perpetual futures directly into Telegram.\n\nWe’re integrating Lighter so traders can open and manage perpetual positions through Cove’s bot, without leaving the app where they follow markets and connect with their communities.\n\nBuilt for active crypto traders, the integration brings spot and perpetual trading into one familiar workflow. For Lighter, Cove provides a distribution channel through our existing traders, affiliates and Telegram communities—making its perpetual markets accessible to users who prefer trading through a bot.",
+  "demoUrl": "https://t.me/cove_trading_bot"
+}

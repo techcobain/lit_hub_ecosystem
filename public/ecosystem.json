@@ -1296,6 +1296,34 @@
       ]
     },
     {
+      "slug": "kbot",
+      "name": "KBot",
+      "description": "Automated trading bots for Lighter and LighterRH: quant strategies, grid bots and funding farming.",
+      "url": "https://kbot-trading.xyz",
+      "twitter": "@KBot_Trading",
+      "discord": "",
+      "telegram": "t.me/kbot_trading",
+      "logo": "/logos/kbot_logo.png",
+      "categories": [
+        "Bots",
+        "Data"
+      ],
+      "instances": [
+        "Lighter Core",
+        "Lighter Robinhood"
+      ],
+      "integrator_account_index": 281474976398993,
+      "robinhood_integrator_account_index": 281474976708187,
+      "status": "Live",
+      "createdAt": "2026-11-27",
+      "official": false,
+      "builderDiscords": [
+        "kb7loso"
+      ],
+      "longDescription": "KBot runs automated trading bots on perp DEXs, now including Lighter and LighterRH (Lighter on Robinhood Chain). Connect a wallet once and run three kinds of bots:\n\n**Quant**: rule-based strategies from a strategy library or your own builder, with the stop-loss and take-profit sent together with the entry in one grouped transaction.\n\n**Grid**: a ladder of buy and sell orders across a price range, on any Lighter or LighterRH market, crypto, stocks, indexes, FX and commodities included.\n\n**Funding Farm**: a hedged pair, long on one exchange and short on another, that collects the funding spread between them. Lighter and LighterRH can be paired with each other or with 12 other supported exchanges, one asset at a time or as a basket.\n\n**Funding Radar**: a free public tool that ranks funding spreads across every supported exchange, Lighter and LighterRH included, using hourly history.\n\n**Who it's for:** traders who want rules-based, automated execution without running their own infrastructure, and farmers who want hedged volume and open interest.\n\n**How it works on Lighter:** KBot trades on Lighter's Plus tier with a KBot integrator fee of 0.01% per trade. The tier applies to the whole wallet, so we recommend a wallet used only for KBot.\n",
+      "demoUrl": "https://kbot-trading.xyz"
+    },
+    {
       "slug": "keeper",
       "name": "Keeper ",
       "description": "Self-custodial multichain wallet with 77M downloads. Swap, stake and trade perpetuals in one app, no KYC.",
@@ -3455,5 +3483,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-11-25T22:45:11.317Z"
+  "generatedAt": "2026-11-27T15:53:51.676Z"
 }

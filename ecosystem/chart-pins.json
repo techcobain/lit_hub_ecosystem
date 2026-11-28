@@ -1,0 +1,28 @@
+{
+  "name": "Chart Pins",
+  "description": "Display and track Lighter and Hyperliquid wallet trades directly on TradingView charts.",
+  "url": "https://chartpins.app",
+  "twitter": "",
+  "discord": "",
+  "telegram": "",
+  "logo": "/logos/chart-pins_logo.png",
+  "categories": [
+    "Apps",
+    "Data"
+  ],
+  "instances": [
+    "Lighter Core"
+  ],
+  "status": "Live",
+  "createdAt": "2026-11-28",
+  "official": false,
+  "longDescription": "Chart Pins is a browser extension that brings external market data directly onto TradingView charts.\n\n**Key features:**\n\n- Follow individual Lighter and Hyperliquid traders.\n- Visualize their trades directly on the chart.\n- Monitor recent trading activity through a dedicated side panel.\n- Display US macroeconomic events alongside price action.\n- Customize chart overlays and trade filters.\n\nChart Pins helps traders understand the context behind individual trades without constantly switching between platforms.\n\nThe project is actively being developed, with new integrations and features planned.",
+  "team": [
+    {
+      "name": "Kryštof Krčmarský",
+      "role": "Founder",
+      "avatar": "",
+      "twitter": "https://x.com/_Fernan__do"
+    }
+  ]
+}
